@@ -7,32 +7,42 @@ USE hanzi_db;
 -- Create the word_tab table
 CREATE TABLE IF NOT EXISTS word_tab (
     word_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,                       
-    word_hanzi NVARCHAR(20) NOT NULL,
+    hanzi NVARCHAR(20) NOT NULL, -- Analysed the hanzi and found the longest hanzi is 20 characters
     pinyin NVARCHAR(21) NOT NULL, -- Analysed the pin yin and found the longest pinyin is 21 characters
     meaning TEXT NOT NULL,
-    hsk_level INT UNSIGNED NOT NULL
+    hsk_level INT UNSIGNED NOT NULL,
+    is_compound BOOLEAN NOT NULL -- low parity column
 ); -- word_tab
 
-CREATE INDEX idx_word_hanzi ON word_tab(word_hanzi);
+CREATE INDEX idx_word_hanzi ON word_tab(hanzi);
 CREATE INDEX idx_pinyin ON word_tab(pinyin);
+CREATE INDEX idx_hsk_level ON word_tab(hsk_level);
 
--- Create the char_tab table
-CREATE TABLE IF NOT EXISTS char_tab (
-    char_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,                       
-    char_hanzi NCHAR(1) NOT NULL, -- NCHAR(1) is a single unicode character
-    pinyin NVARCHAR(6) NOT NULL, -- Analysed the pin yin and found the longest pinyin is 6 characters
-    meaning TEXT NOT NULL,
-    hsk_level INT UNSIGNED NOT NULL
-); -- char_tab
-
-CREATE INDEX idx_char_hanzi ON char_tab(char_hanzi);
-CREATE INDEX idx_pinyin ON char_tab(pinyin);
-
--- Create the word_char_map_tab table
-CREATE TABLE IF NOT EXISTS word_char_map_tab (
-    word_id INT UNSIGNED NOT NULL,
-    char_id INT UNSIGNED NOT NULL,
-    PRIMARY KEY (word_id, char_id),
-    FOREIGN KEY (word_id) REFERENCES word_tab(word_id) ON DELETE CASCADE,
-    FOREIGN KEY (char_id) REFERENCES char_tab(char_id) ON DELETE CASCADE
+-- Create the word_map_tab table
+CREATE TABLE IF NOT EXISTS word_map_tab (
+    parent_id INT UNSIGNED NOT NULL,
+    child_id INT UNSIGNED NOT NULL,
+    PRIMARY KEY (parent_id, child_id),
+    FOREIGN KEY (parent_id) REFERENCES word_tab(word_id) ON DELETE CASCADE,
+    FOREIGN KEY (child_id) REFERENCES word_tab(word_id) ON DELETE CASCADE
 ); -- word_char_map_tab
+
+
+-- Create card_tab table
+CREATE TABLE IF NOT EXISTS card_tab (
+    card_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    word_id INT UNSIGNED NOT NULL,
+    due_dt_unix BIGINT,
+    stability INT UNSIGNED NOT NULL, -- use 7 dp for the stability. [0, 100]
+    difficulty INT UNSIGNED NOT NULL, -- use 7 dp for the difficulty. [0, 1]
+    elapsed_days INT UNSIGNED NOT NULL,
+    scheduled_days INT UNSIGNED NOT NULL,
+    reps INT UNSIGNED NOT NULL,
+    lapses INT UNSIGNED NOT NULL,
+    card_state INT UNSIGNED NOT NULL, -- 0: new, 1: learning, 2: reviewing, 3: relearning
+    last_review_dt_unix BIGINT ,
+    FOREIGN KEY (word_id) REFERENCES word_tab(word_id) ON DELETE CASCADE
+); -- card_tab
+
+CREATE INDEX idx_word_id ON card_tab(word_id);
+CREATE INDEX idx_due_dt_unix ON card_tab(due_dt_unix);

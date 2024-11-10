@@ -1,0 +1,4308 @@
+word_id,compound_hanzi,pinyin,meaning,hsk_level
+1,爱好,ài hào,hobby,1
+2,爸爸,bàba,dad,1
+3,白天,bái tiān,day,1
+4,半年,bàn nián,half a year,1
+5,半天,bàn tiān,half day,1
+6,帮忙,bāng máng,help,1
+7,包子,bāo zi,bun,1
+8,杯子,bēi zi,cup,1
+9,北边,běi biān,North side,1
+10,北京,běi jīng,Beijing,1
+11,本子,běn zi,book,1
+12,别的,bié de,other,1
+13,别人,bié·rén,other people,1
+14,病人,bìng rén,patient,1
+15,不大,bú dà,not big,1
+16,不对,bú duì,wrong,1
+17,不客气,bú kè qì,You’re welcome,1
+18,不用,bú yòng,No need to,1
+19,常常,cháng cháng,often,1
+20,唱歌,chàng gē,sing,1
+21,车票,chē piào,ticket,1
+22,车上,chē shàng,in the car,1
+23,车站,chē zhàn,station,1
+24,吃饭,chī fàn,have meal,1
+25,出来,chū lái,come,1
+26,出去,chū qù,go out,1
+27,打车,dǎ chē,take a taxi,1
+28,打电话,dǎ diàn huà,make a phonecall,1
+29,打开,dǎ kāi,turn on,1
+30,打球,dǎ qiú,play ball,1
+31,大学,dà xué,university,1
+32,大学生,dà xué shēng,university student,1
+33,得到,dé dào,get,1
+34,地点,dìdiǎn,location,1
+35,地方,dìfang,local,1
+36,地上,dì shàng,on the ground,1
+37,地图,dìtú,Map,1
+38,弟弟,dì di,younger brother,1
+39,电话,diàn huà,phone,1
+40,电脑,diànnǎo,Computer,1
+41,电视,diànshì,television,1
+42,电视机,diàn shì jī,television,1
+43,电影,diànyǐng,Film,1
+44,电影院,diàn yǐng yuàn,cinema; movie theater,1
+45,东边,dōng biān,east side,1
+46,东西,dōngxi,thing,1
+47,动作,dòngzuò,action,1
+48,读书,dú shū,reading; study,1
+49,对不起,duìbuqǐ,I’m sorry.,1
+50,多少,duōshao,how much,1
+51,儿子,érzi,Son,1
+52,饭店,fàndiàn,restaurant,1
+53,房间,fángjiān,Room,1
+54,房子,fáng zi,house; building,1
+55,放假,fàng jià,holiday; have a holiday,1
+56,放学,fàng xué,off school,1
+57,飞机,fēijī,aircraft,1
+58,非常,fēicháng,very,1
+59,干净,gānjìng,clean,1
+60,干什么,gàn shén me,What to do,1
+61,高兴,gāoxìng,happy,1
+62,告诉,gàosu,tell,1
+63,哥哥,gē ge,elder brother,1
+64,工人,gōngrén,Worker,1
+65,工作,gōngzuò,work,1
+66,关上,guān shàng,close;shut to; turn off,1
+67,国家,guójiā,Country,1
+68,国外,guó wài,foreign; oversea; abroad,1
+69,还是,háishi,still,1
+70,还有,hái yǒu,also; in addition; besides,1
+71,孩子,háizi,Children,1
+72,汉语,hànyǔ,Chinese,1
+73,汉字,hàn zì,Chinese character,1
+74,好吃,hǎochī,Yummy,1
+75,好看,hǎo kàn,good looking,1
+76,好听,hǎo tīng,pleasant to hear,1
+77,好玩儿,hǎo wánr,fun; interesting,1
+78,后边,hòu biān,behind; back,1
+79,后天,hòu tiān,day after tomorrow,1
+80,回答,huídá,Answer,1
+81,回到,huí dào,back to,1
+82,回家,huí jiā,go home; return home,1
+83,回来,huí lái,come back; return,1
+84,回去,huí qù,go back,1
+85,火车,huǒ chē,train,1
+86,机场,jīchǎng,Airport,1
+87,机票,jī piào,air ticket,1
+88,鸡蛋,jīdàn,Egg,1
+89,记得,jìdé,remember,1
+90,记住,jì zhù,remember; keep in mind,1
+91,家里,jiā lǐ,In the home,1
+92,家人,jiā rén,family,1
+93,见面,jiànmiàn,meet,1
+94,教学楼,jiào xué lóu,teaching building,1
+95,姐姐,jiě jie,elder sister,1
+96,介绍,jièshào,introduce,1
+97,今年,jīn nián,this year,1
+98,今天,jīntiān,Today,1
+99,进来,jìn lái,come in,1
+100,进去,jìn qù,go in,1
+101,觉得,juéde,Think,1
+102,开车,kāi chē,drive; drive a car,1
+103,开会,kāi huì,have a meeting,1
+104,开玩笑,kāiwánxiào,Make fun of,1
+105,看病,kàn bìng,see a doctor,1
+106,看到,kàn dào,see,1
+107,看见,kànjiàn,seeing,1
+108,考试,kǎoshì,Examination,1
+109,课本,kè běn,textbook,1
+110,课文,kè wén,text,1
+111,来到,lái dào,come; arrive,1
+112,老人,lǎo rén,old people; the aged,1
+113,老师,lǎoshī,Teacher,1
+114,里边,lǐ biān,inside,1
+115,楼上,lóu shàng,upstairs,1
+116,楼下,lóu xià,downstairs,1
+117,路口,lù kǒu,intersection; crossing,1
+118,路上,lù shàng,on the road,1
+119,妈妈,mā ma,mom; mother,1
+120,马路,mǎ lù,road; street,1
+121,马上,mǎshàng,Right off,1
+122,没关系,méiguānxi,No problem,1
+123,没什么,méi shén me,It’s nothing,1
+124,没事儿,méi shìr,It’s okay,1
+125,没有,méi yǒu,have not; no,1
+126,妹妹,mèi mei,younger sister,1
+127,门口,mén kǒu,doorway,1
+128,门票,mén piào,tickets,1
+129,米饭,mǐfàn,Steamed Rice,1
+130,面包,miànbāo,Bread,1
+131,面条儿,miàn tiáor,noodles,1
+132,名字,míngzi,Name,1
+133,明白,míngbai,clear,1
+134,明年,míng nián,next year,1
+135,明天,míngtiān,Tomorrow,1
+136,哪里,nǎ lǐ,where,1
+137,哪儿,nǎr,where,1
+138,哪些,nǎ xiē,which,1
+139,那边,nà biān,there,1
+140,那里,nà lǐ,there,1
+141,那儿,nàr,there,1
+142,那些,nà xiē,those,1
+143,奶奶,nǎinai,grandma,1
+144,男孩儿,nán háir,boy,1
+145,男朋友,nán péng yǒu,boyfriend,1
+146,男人,nán ren,man,1
+147,男生,nán shēng,boy,1
+148,南边,nán biān,south; south side,1
+149,你们,nǐ men,you,1
+150,牛奶,niúnǎi,milk,1
+151,女儿,nǚ’ér,daughter,1
+152,女孩儿,nǚ háir,girl,1
+153,女朋友,nǚ péng yǒu,girlfriend,1
+154,女人,nǚ ren,woman,1
+155,女生,nǚ shēng,girl,1
+156,旁边,pángbiān,Side,1
+157,朋友,péngyou,Friend,1
+158,起床,qǐchuáng,Get up,1
+159,起来,qǐlái,get up,1
+160,汽车,qì chē,car,1
+161,前边,qián biān,in front,1
+162,前天,qián tiān,the day before yesterday,1
+163,钱包,qián bāo,wallet,1
+164,请假,qǐngjià,ask for leave,1
+165,请进,qǐng jìn,please come in,1
+166,请问,qǐng wèn,excuse me,1
+167,请坐,qǐng zuò,please have a seat,1
+168,去年,qùnián,Last year,1
+169,认识,rènshi,know,1
+170,认真,rènzhēn,earnest,1
+171,日期,rìqī,Date,1
+172,商场,shāng chǎng,mall; shopping mall,1
+173,商店,shāngdiàn,Shop,1
+174,上班,shàngbān,go to work,1
+175,上边,shàng biān,above; on,1
+176,上车,shàng chē,get on,1
+177,上次,shàng cì,last time,1
+178,上课,shàng kè,attend class; have a class,1
+179,上网,shàngwǎng,Surf the Internet,1
+180,上午,shàngwǔ,morning,1
+181,上学,shàng xué,go to school,1
+182,身上,shēn shàng,body; on one’s body,1
+183,身体,shēntǐ,body,1
+184,什么,shénme,What,1
+185,生病,shēngbìng,Fall ill,1
+186,生气,shēngqì,get angry,1
+187,生日,shēngrì,Birthday,1
+188,时候,shíhou,time,1
+189,时间,shíjiān,time,1
+190,是不是,shì bú shì,isn’t it?,1
+191,手机,shǒujī,Mobile phone,1
+192,书包,shū bāo,school bag,1
+193,书店,shū diàn,bookstore,1
+194,水果,shuǐguǒ,Fruits,1
+195,睡觉,shuìjiào,sleep,1
+196,说话,shuōhuà,talk,1
+197,他们,tā men,they,1
+198,她们,tā men,they,1
+199,天气,tiānqì,weather,1
+200,听到,tīng dào,hear,1
+201,听见,tīng jiàn,hear,1
+202,听写,tīng xiě,dictation; dictate,1
+203,同学,tóngxué,Classmate,1
+204,图书馆,túshūguǎn,Library,1
+205,外边,wài biān,outside,1
+206,外国,wài guó,foreign country,1
+207,外语,wài yǔ,foreign language,1
+208,玩儿,wánr,play,1
+209,晚饭,wǎn fàn,dinner,1
+210,晚上,wǎnshang,Night,1
+211,网上,wǎng shàng,online,1
+212,网友,wǎng yǒu,net friend,1
+213,忘记,wàngjì,forget,1
+214,我们,wǒmen,We,1
+215,午饭,wǔ fàn,lunch,1
+216,西边,xī biān,west; west side,1
+217,洗手间,xǐshǒujiān,Restroom,1
+218,喜欢,xǐhuan,like,1
+219,下班,xià bān,get off work,1
+220,下边,xià biān,below; under,1
+221,下车,xià chē,get off,1
+222,下次,xià cì,next time,1
+223,下课,xià kè,finish class,1
+224,下午,xiàwǔ,Afternoon,1
+225,下雨,xiàyǔ,rain,1
+226,先生,xiānsheng,Sir,1
+227,现在,xiànzài,Now,1
+228,小孩儿,xiǎo háir,child; kid,1
+229,小姐,xiǎojiě,Miss,1
+230,小朋友,xiǎo péng yǒu,child; kid,1
+231,小时,xiǎoshí,hour,1
+232,小学,xiǎo xué,primary school; elementary schoo,1
+233,小学生,xiǎo xué shēng,elementary school student,1
+234,谢谢,xièxie,Thank you,1
+235,新年,xīn nián,New Year,1
+236,星期,xīngqī,week,1
+237,星期日,xīng qī rì,Sunday,1
+238,星期天,xīng qī tiān,Sunday,1
+239,休息,xiūxi,Rest,1
+240,学生,xuésheng,Student,1
+241,学习,xuéxí,Study,1
+242,学校,xuéxiào,School,1
+243,学院,xué yuàn,college; academy,1
+244,爷爷,yéye,grandpa,1
+245,衣服,yīfu,clothes,1
+246,医生,yīshēng,Doctor,1
+247,医院,yīyuàn,Hospital,1
+248,一半,yí bàn,half,1
+249,一会儿,yíhuìr,A little while,1
+250,一块儿,yí kuàir,together,1
+251,一下儿,yí xiàr,a little bit,1
+252,一样,yíyàng,equally,1
+253,一边,yìbiān,One side,1
+254,一点儿,yīdiǎnr,a little bit,1
+255,一起,yìqǐ,together,1
+256,一些,yì xiē,some,1
+257,有的,yǒu de,some,1
+258,有名,yǒumíng,Famous,1
+259,有时候,yǒu shí hòu,sometimes,1
+260,有些,yǒuxiē,some,1
+261,有用,yǒu yòng,useful,1
+262,右边,yòubian,Right,1
+263,再见,zàijiàn,Bye,1
+264,在家,zài jiā,at home,1
+265,早饭,zǎo fàn,breakfast,1
+266,早上,zǎoshang,Morning,1
+267,怎么,zěnme,How,1
+268,找到,zhǎo dào,find,1
+269,这边,zhè biān,here,1
+270,这里,zhè lǐ,here,1
+271,这儿,zhèr,here,1
+272,这些,zhè xiē,these,1
+273,真的,zhēn de,really,1
+274,正在,zhèngzài,in process of,1
+275,知道,zhīdào,know,1
+276,知识,zhīshi,knowledge,1
+277,中国,zhōngguó,China,1
+278,中间,zhōngjiān,Middle,1
+279,中文,zhōngwén,Chinese,1
+280,中午,zhōngwǔ,Noon,1
+281,中学,zhōng xué,middle school,1
+282,中学生,zhōng xué shēng,middle School student,1
+283,重要,zhòngyào,important,1
+284,准备,zhǔnbèi,Get ready,1
+285,桌子,zhuōzi,Table,1
+286,走路,zǒu lù,walk,1
+287,最好,zuìhǎo,Best,1
+288,最后,zuìhòu,Last,1
+289,昨天,zuótiān,Yesterday,1
+290,左边,zuǒbian,left,1
+291,坐下,zuò xià,sit down,1
+292,爱情,àiqíng,Love,2
+293,爱人,ài rén,lover,2
+294,安静,ānjìng,Be quiet,2
+295,安全,ānquán,security,2
+296,白色,bái sè,white,2
+297,班长,bān zhǎng,monitor; squad leader,2
+298,办法,bànfǎ,Way,2
+299,办公室,bàngōngshì,Office,2
+300,半夜,bàn yè,midnight,2
+301,帮助,bāngzhù,Help,2
+302,报名,bàomíng,sign up,2
+303,报纸,bàozhǐ,Newspaper,2
+304,北方,běifāng,north,2
+305,比如,bǐrú,such as,2
+306,比如说,bǐ rú shuō,for example,2
+307,笔记,bǐ jì,note; notes,2
+308,笔记本,bǐjìběn,Notebook,2
+309,必须,bìxū,Must,2
+310,变成,biàn chéng,become; change into,2
+311,表示,biǎoshì,Express,2
+312,不错,bú cuò,not bad; pretty good,2
+313,不但,bú dàn,not only,2
+314,不够,bú gòu,not enough,2
+315,不过,búguò,However,2
+316,不太,bú tài,not too; not very much,2
+317,不要,bú yào,don’t,2
+318,不好意思,bù hǎo yì sī,sorry; feel embarrassed,2
+319,不久,bù jiǔ,soon,2
+320,不满,bù mǎn,dissatisfied,2
+321,不如,bùrú,not as good as,2
+322,不少,bù shǎo,not a few; a lot,2
+323,不同,bù tóng,different,2
+324,不行,bù xíng,no way; be out of the question,2
+325,不一定,bù yī dìng,not necessarily; uncertain,2
+326,不一会儿,bù yī huìr,in a moment; in a little while; soon,2
+327,部分,bùfen,Part,2
+328,菜单,càidān,menu,2
+329,参观,cānguān,visit,2
+330,参加,cānjiā,participate in,2
+331,草地,cǎo dì,grass; lawn,2
+332,差不多,chàbuduō,Almost,2
+333,常见,cháng jiàn,common,2
+334,常用,cháng yòng,in common use,2
+335,超过,chāoguò,Exceed,2
+336,超市,chāoshì,Supermarket,2
+337,车辆,chē liàng,car; vehicle,2
+338,成绩,chéngjì,achievement,2
+339,成为,chéngwéi,Become,2
+340,重复,chóngfù,repeat,2
+341,重新,chóngxīn,again,2
+342,出发,chūfā,Set out,2
+343,出国,chū guó,go abroad,2
+344,出口,chū kǒu,export,2
+345,出门,chū mén,go out,2
+346,出生,chūshēng,Birth,2
+347,出现,chūxiàn,Appear,2
+348,出院,chū yuàn,discharged; leave hospital,2
+349,出租,chū zū,rent,2
+350,出租车,chūzūchē,Taxi,2
+351,春节,chūn jié,Spring Festival; Chinese New Year,2
+352,春天,chūn tiān,spring,2
+353,词典,cídiǎn,Dictionary,2
+354,词语,cíyǔ,terms,2
+355,从小,cóng xiǎo,from childhood,2
+356,答应,dāying,promise,2
+357,打工,dǎgōng,Work,2
+358,打算,dǎsuàn,Plan,2
+359,打印,dǎyìn,Print,2
+360,大部分,dà bù fèn,most,2
+361,大大,dà dà,greatly; enormously,2
+362,大多数,dà duō shù,most; great majority,2
+363,大海,dà hǎi,sea,2
+364,大家,dàjiā,everybody,2
+365,大量,dà liàng,a lot of; lots of,2
+366,大门,dà mén,door; gate,2
+367,大人,dà rén,adult,2
+368,大声,dà shēng,loud,2
+369,大小,dà xiǎo,size,2
+370,大衣,dà yī,overcoat,2
+371,大自然,dà zì rán,nature,2
+372,带来,dài lái,bring,2
+373,单位,dānwèi,Company,2
+374,但是,dàn shì,but; however,2
+375,当时,dāngshí,at that time,2
+376,到处,dàochù,everywhere,2
+377,道理,dàolǐ,truth,2
+378,道路,dào lù,road; way; path,2
+379,得出,dé chū,obtain results; reach conclusion,2
+380,的话,de huà,if,2
+381,等到,děng dào,wait until; by the time,2
+382,等于,děngyú,Be equal to,2
+383,地球,dìqiú,earth,2
+384,地铁,dìtiě,metro,2
+385,地铁站,dì tiě zhàn,subway station,2
+386,点头,diǎn tóu,nod,2
+387,东北,dōng běi,northeast,2
+388,东方,dōng fāng,east,2
+389,东南,dōng nán,southeast,2
+390,冬天,dōng tiān,winter,2
+391,懂得,dǒng de,know; understand; comprehend,2
+392,动物,dòngwù,Animal,2
+393,动物园,dòng wù yuán,zoo,2
+394,读音,dú yīn,pronunciation,2
+395,短信,duǎnxìn,message,2
+396,队长,duì zhǎng,team leader; captain,2
+397,对话,duìhuà,dialogue,2
+398,对面,duìmiàn,Opposite side,2
+399,多久,duō jiǔ,how long,2
+400,多么,duōme,what,2
+401,多数,duō shù,most; majority,2
+402,多云,duō yún,cloudy,2
+403,而且,ér qiě,and,2
+404,发现,fāxiàn,find,2
+405,饭馆,fàn guǎn,restaurant,2
+406,方便,fāngbiàn,convenient,2
+407,方便面,fāng biàn miàn,Instant noodles,2
+408,方法,fāngfǎ,Method,2
+409,方面,fāngmiàn,Aspect,2
+410,方向,fāngxiàng,direction,2
+411,放下,fàng xià,put down; lay down; drop,2
+412,放心,fàngxīn,Don’t worry,2
+413,分开,fēn kāi,separate; part,2
+414,分数,fēn shù,score; mark; fraction,2
+415,分钟,fēnzhōng,Minute,2
+416,服务,fú wù,service,2
+417,复习,fùxí,Review,2
+418,改变,gǎibiàn,change,2
+419,干杯,gānbēi,Cheers!,2
+420,感到,gǎn dào,feel; sense,2
+421,感动,gǎndòng,Be moved,2
+422,感觉,gǎnjué,feel,2
+423,感谢,gǎnxiè,Thank,2
+424,干活儿,gànhuór,work on a job,2
+425,刚才,gāngcái,just,2
+426,刚刚,gāng gāng,just; only; just a moment ago,2
+427,高级,gāojí,senior,2
+428,高中,gāo zhōng,senior high school,2
+429,个子,gèzi,Height,2
+430,公共汽车,gōnggòngqìchē,Bus,2
+431,公交车,gōng jiāo chē,bus,2
+432,公斤,gōngjīn,Kg.,2
+433,公里,gōnglǐ,kilometre,2
+434,公路,gōng lù,highway; highroad,2
+435,公平,gōngpíng,fair,2
+436,公司,gōngsī,company,2
+437,公园,gōngyuán,Park,2
+438,故事,gùshi,Story,2
+439,故意,gùyì,deliberately,2
+440,顾客,gùkè,customer,2
+441,关机,guān jī,shutdown,2
+442,关心,guānxīn,Care for,2
+443,观点,guāndiǎn,viewpoint,2
+444,广场,guǎngchǎng,square,2
+445,广告,guǎnggào,Advertisement,2
+446,国际,guójì,international,2
+447,过来,guò lái,come; come over,2
+448,过年,guò nián,celebrate the New Year,2
+449,过去,guò qù,go over; pass by,2
+450,海边,hǎi biān,seaside,2
+451,好处,hǎochu,benefit,2
+452,好多,hǎo duō,many; a lot of,2
+453,好久,hǎo jiǔ,for a long time; long,2
+454,好人,hǎo rén,good person,2
+455,好事,hǎo shì,good deed; good thing,2
+456,好像,hǎoxiàng,Be like,2
+457,合适,héshì,appropriate,2
+458,黑板,hēibǎn,blackboard,2
+459,黑色,hēi sè,black,2
+460,红色,hóng sè,red,2
+461,后来,hòulái,later,2
+462,忽然,hūrán,suddenly,2
+463,护照,hùzhào,passport,2
+464,花园,huā yuán,garden,2
+465,画家,huà jiā,painter; artist,2
+466,画儿,huàr,painting; drawing,2
+467,坏处,huài chù,disadvantage; harm,2
+468,坏人,huài rén,bad person,2
+469,欢迎,huānyíng,Welcome,2
+470,黄色,huáng sè,yellow,2
+471,回国,huí guó,return home from abroad,2
+472,活动,huódòng,activity,2
+473,或者,huòzhě,perhaps,2
+474,机会,jīhuì,Opportunity,2
+475,计划,jìhuà,plan,2
+476,计算机,jì suàn jī,computer,2
+477,加油,jiā yóu,oil; refuel; make an all-out effort,2
+478,家庭,jiātíng,Family,2
+479,家长,jiā zhǎng,parent; the head of the family,2
+480,假期,jià qī,holiday; vacation,2
+481,检查,jiǎnchá,inspect; check,2
+482,见到,jiàn dào,see,2
+483,见过,jiàn guò,seen; have seen,2
+484,健康,jiànkāng,Healthy,2
+485,讲话,jiǎng huà,speak; talk,2
+486,交给,jiāo gěi,hand over,2
+487,交朋友,jiāo péng yǒu,make friends,2
+488,交通,jiāotōng,traffic,2
+489,角度,jiǎodù,angle,2
+490,饺子,jiǎozi,Dumplings,2
+491,叫作,jiào zuò,be called; be known as,2
+492,教师,jiào shī,teacher,2
+493,教室,jiàoshì,Classroom,2
+494,教学,jiào xué,teach,2
+495,教育,jiàoyù,education,2
+496,接到,jiē dào,receive,2
+497,接受,jiēshòu,accept,2
+498,接下来,jiē xià lái,next,2
+499,接着,jiēzhe,Next,2
+500,节目,jiémù,program,2
+501,节日,jiérì,festival,2
+502,结果,jiéguǒ,Result,2
+503,今后,jīn hòu,from now on; in the future,2
+504,进入,jìn rù,enter; go in; join,2
+505,进行,jìnxíng,Conduct,2
+506,经常,jīngcháng,Often,2
+507,经过,jīngguò,"after, through",2
+508,经理,jīnglǐ,manager,2
+509,酒店,jiǔ diàn,hotel,2
+510,就要,jiù yào,be going to; be about to,2
+511,举手,jǔ shǒu,raise one’s hand or hands,2
+512,举行,jǔxíng,hold,2
+513,句子,jùzi,sentence,2
+514,开机,kāi jī,starting up,2
+515,开心,kāixīn,Happy,2
+516,开学,kāi xué,school opens; term begins,2
+517,看法,kànfǎ,view,2
+518,考生,kǎo shēng,examinee,2
+519,科学,kēxué,science,2
+520,可爱,kě’ài,Lovely,2
+521,可能,kěnéng,Probably,2
+522,可怕,kěpà,dreadful,2
+523,可是,kěshì,however,2
+524,可以,kěyǐ,Sure,2
+525,客人,kèrén,Guest,2
+526,课堂,kè táng,classroom,2
+527,空气,kōngqì,atmosphere,2
+528,快餐,kuài cān,fast food,2
+529,快点儿,kuài diǎnr,hurry up,2
+530,快乐,kuàilè,happy,2
+531,快要,kuài yào,be about to; be going to,2
+532,筷子,kuàizi,chopsticks,2
+533,来自,láizì,Come from,2
+534,蓝色,lán sè,blue,2
+535,篮球,lán qiú,basketball,2
+536,老年,lǎo nián,elderly,2
+537,老朋友,lǎo péng yǒu,old friend,2
+538,老是,lǎo shì,always; all times,2
+539,离开,líkāi,leave,2
+540,礼物,lǐwù,gift,2
+541,里头,lǐ tou,inside,2
+542,理想,lǐxiǎng,ideal,2
+543,例如,lìrú,for example,2
+544,例子,lì zi,example,2
+545,练习,liànxí,Practice,2
+546,凉快,liángkuai,Pleasantly cool,2
+547,零下,líng xià,below zero,2
+548,留下,liú xià,stay; remain,2
+549,留学生,liú xué shēng,student studying abroad; returned student,2
+550,流利,liúlì,fluent,2
+551,流行,liúxíng,Popular,2
+552,路边,lù biān,roadside; wayside,2
+553,旅客,lǚ kè,passenger; traveler,2
+554,旅行,lǚxíng,travel,2
+555,旅游,lǚyóu,Tourism,2
+556,绿色,lǜ sè,green,2
+557,满意,mǎnyì,Satisfied,2
+558,面前,miàn qián,in front of; before,2
+559,名称,míng chēng,name; designation,2
+560,名单,míng dān,list,2
+561,明星,míngxīng,Star,2
+562,目的,mùdì,objective,2
+563,拿出,ná chū,take out,2
+564,拿到,ná dào,get,2
+565,那会儿,nà huìr,at that time; then,2
+566,那么,nà me,like that; in that way,2
+567,那时候,nà shí hou,at that time,2
+568,那样,nà yàng,that kind; like that; such,2
+569,南方,nán fāng,south,2
+570,难过,nánguò,Sorry,2
+571,难看,nán kàn,ugly,2
+572,难受,nánshòu,Uncomfortable,2
+573,难题,nán tí,problem; difficult problem; puzzle,2
+574,难听,nán tīng,unpleasant to hear,2
+575,能够,néng gòu,be able to; can,2
+576,年级,niánjí,grade,2
+577,年轻,niánqīng,Young,2
+578,努力,nǔlì,Strive,2
+579,爬山,páshān,Mountain climbing,2
+580,排队,páiduì,queue; stand in a line,2
+581,排球,pái qiú,volleyball,2
+582,碰到,pèng dào,meet; run into; bump into,2
+583,碰见,pèng jiàn,meet; run into; bump into,2
+584,便宜,piányi,Cheap,2
+585,漂亮,piàoliang,Well done!； beautiful,2
+586,平安,píng’ān,sound and safe,2
+587,平常,píngcháng,Usual,2
+588,平等,píngděng,equality,2
+589,平时,píngshí,peacetime,2
+590,瓶子,píngzi,Bottle,2
+591,普通,pǔ tōng,ordinary; general; average; common,2
+592,普通话,pǔtōnghuà,Mandarin,2
+593,其他,qítā,Other,2
+594,其中,qízhōng,among,2
+595,骑车,qí chē,cycle,2
+596,起飞,qǐfēi,take off,2
+597,气温,qì wēn,air temperature,2
+598,千克,qiān kè,kilogram,2
+599,前年,qián nián,the year before last,2
+600,青年,qīng nián,youth; young,2
+601,青少年,qīngshàonián,Teenagers,2
+602,清楚,qīngchu,clear,2
+603,晴天,qíng tiān,sunny day,2
+604,请客,qǐng kè,stand treat; entertain,2
+605,请求,qǐngqiú,request,2
+606,秋天,qiū tiān,fall; autumn,2
+607,球场,qiú chǎng,court; field,2
+608,球队,qiú duì,team,2
+609,球鞋,qiú xié,sneakers; gym shoes,2
+610,取得,qǔ dé,acquire; gain; obtain,2
+611,全部,quánbù,whole,2
+612,全国,quán guó,nationwide; entire country,2
+613,全家,quán jiā,whole family,2
+614,全年,quán nián,annual; yearly,2
+615,全身,quán shēn,whole body,2
+616,全体,quán tǐ,all; entire; whole,2
+617,然后,ránhòu,Then,2
+618,热情,rèqíng,Enthusiasm,2
+619,人口,rénkǒu,population,2
+620,人们,rén men,people,2
+621,人数,rén shù,number of people,2
+622,认为,rènwéi,think,2
+623,日报,rì bào,"daily, journal",2
+624,日子,rìzi,"life, days",2
+625,如果,rúguǒ,If,2
+626,入口,rùkǒu,Entrance,2
+627,商量,shāngliang,discuss,2
+628,商人,shāng rén,businessman,2
+629,上周,shàng zhōu,last week,2
+630,少数,shǎo shù,small number; few; minority,2
+631,少年,shào nián,juvenile; young person,2
+632,身边,shēn biān,at [by] one’s side,2
+633,什么样,shén me yàng,what kind,2
+634,生词,shēng cí,new word,2
+635,生活,shēnghuó,Life,2
+636,声音,shēngyīn,voice,2
+637,十分,shífēn,very,2
+638,实际,shíjì,Actual,2
+639,实习,shíxí,Internship,2
+640,实现,shíxiàn,Realization,2
+641,实在,shízài,real; indeeed,2
+642,食物,shíwù,food,2
+643,使用,shǐyòng,Use,2
+644,市长,shì zhǎng,mayor,2
+645,事情,shìqing,Thing,2
+646,收到,shōu dào,receive; obtain,2
+647,收入,shōurù,income,2
+648,手表,shǒubiǎo,Wrist Watch,2
+649,受到,shòudào,Suffer,2
+650,舒服,shūfu,comfortable,2
+651,数字,shùzì,number,2
+652,水平,shuǐpíng,level,2
+653,顺利,shùnlì,smoothly,2
+654,说明,shuōmíng,Explain,2
+655,司机,sījī,Driver,2
+656,送到,sòng dào,sent to (place),2
+657,送给,sòng gěi,give to (somebody or organization),2
+658,虽然,suī rán,although; though,2
+659,随便,suíbiàn,casual,2
+660,随时,suíshí,at any time,2
+661,所以,suǒ yǐ,so,2
+662,所有,suǒyǒu,All,2
+663,它们,tā men,they,2
+664,太太,tàitai,Ma’am,2
+665,太阳,tàiyáng,sun,2
+666,态度,tàidu,attitude,2
+667,讨论,tǎolùn,discuss,2
+668,特别,tèbié,Especially,2
+669,特点,tèdiǎn,Characteristic,2
+670,提出,tí chū,put forward; propose; raise,2
+671,提到,tí dào,mention; refer to,2
+672,提高,tígāo,"increase, promote",2
+673,体育,tǐyù,Sports,2
+674,体育场,tǐ yù chǎng,stadium,2
+675,体育馆,tǐ yù guǎn,stadium; gymnasium; gym,2
+676,天上,tiān shàng,the sky; heaven,2
+677,条件,tiáojiàn,condition,2
+678,听讲,tīng jiǎng,attend a lecture; listen to a talk,2
+679,听说,tīng shuō,be told; hear of,2
+680,停车,tíng chē,park,2
+681,停车场,tíng chē chǎng,parking lot,2
+682,挺好,tǐng hǎo,very good; not half bad,2
+683,通过,tōngguò,adopt,2
+684,通知,tōngzhī,notice,2
+685,同时,tóngshí,meanwhile,2
+686,同事,tóngshì,Colleague,2
+687,同样,tóng yàng,same,2
+688,头发,tóufa,Hair,2
+689,图片,tú piàn,picture; photograph,2
+690,外地,wài dì,other places; nonlocal,2
+691,外卖,wài mài,takeaway; take out,2
+692,完成,wánchéng,complete,2
+693,完全,wánquán,completely,2
+694,晚安,wǎn ān,good night,2
+695,晚报,wǎn bào,evening paper; evening news,2
+696,晚餐,wǎn cān,dinner; supper,2
+697,晚会,wǎn huì,evening party,2
+698,网球,wǎngqiú,Tennis,2
+699,网站,wǎngzhàn,website,2
+700,为什么,wèishénme,Why,2
+701,味道,wèidào,taste,2
+702,温度,wēndù,temperature,2
+703,问路,wèn lù,ask for directions,2
+704,问题,wèntí,problem,2
+705,午餐,wǔ cān,lunch,2
+706,午睡,wǔ shuì,nap,2
+707,西北,xī běi,northwest,2
+708,西餐,xī cān,western food,2
+709,西方,xī fāng,west,2
+710,西南,xī nán,southwest,2
+711,西医,xī yī,western medicine,2
+712,习惯,xíguàn,Habit,2
+713,洗衣机,xǐ yī jī,washing machine,2
+714,洗澡,xǐzǎo,Take a shower,2
+715,下雪,xià xuě,snow; snowing,2
+716,下周,xià zhōu,next week,2
+717,夏天,xià tiān,summer,2
+718,相同,xiāngtóng,identical,2
+719,相信,xiāngxìn,believe,2
+720,想到,xiǎng dào,think of; call to mind; have at heart,2
+721,想法,xiǎng fǎ,idea; opinion;thought,2
+722,想起,xiǎng qǐ,remember; recall; think of; call to mind,2
+723,相机,xiàng jī,camera,2
+724,小声,xiǎo shēng,in a low voice; in whispers,2
+725,小时候,xiǎo shí hou,in one’s childhood; when one was young,2
+726,小说,xiǎoshuō,Novel,2
+727,小心,xiǎoxīn,Look out,2
+728,小组,xiǎo zǔ,group,2
+729,校园,xiào yuán,campus; schoolyard,2
+730,校长,xiàozhǎng,Principal,2
+731,笑话,xiàohua,joke,2
+732,笑话儿,xiào huàr,joke,2
+733,心里,xīn lǐ,in the heart; at heart,2
+734,心情,xīnqíng,mood,2
+735,心中,xīn zhōng,in the heart; at heart; in mind,2
+736,新闻,xīnwén,news,2
+737,信号,xìnhào,signal,2
+738,信息,xìnxī,information,2
+739,信心,xìnxīn,confidence,2
+740,信用卡,xìnyòngkǎ,Credit card,2
+741,星星,xīng xing,star,2
+742,行动,xíngdòng,Get some action,2
+743,行人,xíngrén,pedestrian,2
+744,行为,xíngwéi,behavior,2
+745,姓名,xìng míng,full name,2
+746,休假,xiū jià,have a holiday; take a vacation; be on furlough,2
+747,许多,xǔduō,many,2
+748,学期,xuéqī,Semester,2
+749,颜色,yánsè,colour,2
+750,眼睛,yǎnjing,Eye,2
+751,样子,yàngzi,A look,2
+752,要求,yāoqiú,Requirement,2
+753,药店,yào diàn,pharmacy,2
+754,药片,yào piàn,pill,2
+755,药水,yào shuǐ,liquid medicine; potion,2
+756,也许,yěxǔ,perhaps,2
+757,夜里,yè lǐ,at night,2
+758,一部分,yí bù fèn,a part; a portion,2
+759,一定,yídìng,Certain,2
+760,一共,yígòng,Altogether,2
+761,一会儿（副）,yí huìr,awhile; in a moment; presently,2
+762,一路平安,yí lù píng ān,safe journey; have a pleasant journey,2
+763,一路顺风,yí lù shùn fēng,Bon voyage,2
+764,已经,yǐjīng,Already,2
+765,以后,yǐ hòu,after; later on; afterwards; later,2
+766,以前,yǐqián,before,2
+767,以上,yǐ shàng,above; over,2
+768,以外,yǐ wài,beyond; outside; other than; except,2
+769,以为,yǐwéi,Think,2
+770,以下,yǐ xià,below; under,2
+771,椅子,yǐzi,Chair,2
+772,一般,yìbān,commonly,2
+773,一点点,yì diǎn diǎn,a little bit,2
+774,一生,yì shēng,lifetime; all one’s life,2
+775,一直,yìzhí,always,2
+776,意见,yìjiàn,Opinion,2
+777,意思,yìsi,Meaning,2
+778,因为,yīn wèi,because,2
+779,阴天,yīn tiān,cloudy day; overcast sky,2
+780,音节,yīn jié,syllable,2
+781,音乐,yīnyuè,Music,2
+782,音乐会,yīn yuè huì,concert,2
+783,银行,yínháng,Bank,2
+784,银行卡,yín háng kǎ,bank card,2
+785,应该,yīnggāi,Should,2
+786,英文,yīng wén,English,2
+787,英语,yīng yǔ,English,2
+788,影片,yǐng piàn,film; movie,2
+789,影响,yǐngxiǎng,Influence,2
+790,永远,yǒngyuǎn,forever,2
+791,游客,yóu kè,tourist; visitor,2
+792,友好,yǒuhǎo,friendly,2
+793,有空儿,yǒu kòngr,be free; at leisure,2
+794,有人,yǒu rén,someone; there’s someone,2
+795,有一点儿,yǒu （ yì ） diǎnr,a little bit,2
+796,有意思,yǒu yì si,interesting; significant,2
+797,语言,yǔyán,language,2
+798,原来,yuánlái,Original; formerly,2
+799,原因,yuányīn,Reason,2
+800,院长,yuàn zhǎng,dean,2
+801,院子,yuàn zi,courtyard; yard,2
+802,愿意,yuànyì,Be willing,2
+803,月份,yuè fèn,month,2
+804,月亮,yuèliang,Moon,2
+805,越来越,yuè lái yuè,more and more,2
+806,运动,yùndòng,motion,2
+807,咱们,zánmen,We,2
+808,早餐,zǎo cān,breakfast,2
+809,早晨,zǎo chén,morning,2
+810,早就,zǎo jiù,long since,2
+811,怎么办,zěn me bàn,how to; what to do,2
+812,怎么样,zěnmeyàng,How about,2
+813,怎样,zěn yàng,how,2
+814,站住,zhàn zhù,stop; halt,2
+815,长大,zhǎng dà,grow up,2
+816,找出,zhǎo chū,find out,2
+817,照顾,zhàogù,look after,2
+818,照片,zhàopiàn,Photo,2
+819,照相,zhào xiàng,take a picture; take a photograph,2
+820,这么,zhè me,so; such; this way; like this,2
+821,这时候,zhè shí hou,at this moment; at this time,2
+822,这样,zhè yàng,so; such; like this; this way,2
+823,真正,zhēnzhèng,real,2
+824,正常,zhèngcháng,normal,2
+825,正好,zhènghǎo,Just right,2
+826,正确,zhèngquè,Correct,2
+827,正是,zhèng shì,exactly,2
+828,直接,zhíjiē,direct,2
+829,只能,zhǐ néng,can only,2
+830,只要,zhǐyào,as long as,2
+831,中餐,zhōng cān,Chinese food,2
+832,中级,zhōng jí,intermediate; middle-level,2
+833,中年,zhōng nián,middle age; middle-aged,2
+834,中小学,zhōng xiǎo xué,elementary and middle school,2
+835,中心,zhōngxīn,core,2
+836,中医,zhōng yī,Chinese Medicine,2
+837,重点,zhòngdiǎn,A key,2
+838,重视,zhòngshì,attach importance to,2
+839,周末,zhōumò,Weekend,2
+840,周年,zhōunián,anniversary,2
+841,主人,zhǔrén,master,2
+842,主要,zhǔyào,main,2
+843,住房,zhù fáng,housing; lodging,2
+844,住院,zhù yuàn,be in hospital; be hospitalized,2
+845,准确,zhǔnquè,accuracy,2
+846,自己,zìjǐ,"Own, self",2
+847,自行车,zìxíngchē,Bicycle,2
+848,自由,zìyóu,free,2
+849,字典,zì diǎn,dictionary,2
+850,走过,zǒu guò,walk through; pass by,2
+851,走进,zǒu jìn,walk in,2
+852,走开,zǒu kāi,go away,2
+853,组成,zǔchéng,Form,2
+854,组长,zǔ zhǎng,group leader,2
+855,最近,zuìjìn,Lately,2
+856,作家,zuòjiā,writer,2
+857,作文,zuòwén,composition,2
+858,作业,zuòyè,"task, homework",2
+859,作用,zuòyòng,Effect,2
+860,座位,zuòwèi,seat,2
+861,做到,zuò dào,accomplish; achieve,2
+862,做法,zuò fǎ,practice; behavior; way of doing a thing,2
+863,做饭,zuò fàn,cook,2
+864,爱心,àixīn,love,3
+865,安排,ānpái,arrange,3
+866,安装,ānzhuāng,install,3
+867,按照,ànzhào,according to,3
+868,把握,bǎwò,grasp,3
+869,白菜,bái cài,Chinese cabbage,3
+870,班级,bān jí,class,3
+871,搬家,bān jiā,move; move house,3
+872,办理,bànlǐ,handle,3
+873,保安,bǎo ān,security guard; public security; ensure safety,3
+874,保持,bǎochí,keep,3
+875,保存,bǎocún,Preservation,3
+876,保护,bǎohù,protect,3
+877,保留,bǎoliú,Retain,3
+878,保险,bǎoxiǎn,Insurance,3
+879,保证,bǎozhèng,ensure,3
+880,报到,bàodào,"register,check in",3
+881,报道,bàodào,report,3
+882,报告,bàogào,Presentation,3
+883,北部,běi bù,north,3
+884,背后,bèi hòu,behind; at the back; in the rear,3
+885,被子,bèizi,quilt,3
+886,本来,běnlái,originally,3
+887,本领,běnlǐng,ability,3
+888,本事,běnshi,Skill,3
+889,比较,bǐjiào,compare,3
+890,比例,bǐlì,Proportion,3
+891,比赛,bǐsài,Match,3
+892,必然,bìrán,Inevitable,3
+893,必要,bìyào,necessary,3
+894,变化,biànhuà,change,3
+895,变为,biàn wéi,become; turn into; change into,3
+896,标题,biāotí,title; heading,3
+897,标准,biāozhǔn,standard,3
+898,表达,biǎodá,Expression,3
+899,表格,biǎogé,form,3
+900,表面,biǎomiàn,surface,3
+901,表明,biǎomíng,Indicate,3
+902,表现,biǎoxiàn,performance,3
+903,表演,biǎoyǎn,perform,3
+904,并且,bìngqiě,also,3
+905,播出,bō chū,broadcast; on the air,3
+906,播放,bōfàng,play,3
+907,不必,bú bì,need not; not have to,3
+908,不断,búduàn,Constantly,3
+909,不论,bú lùn,whether; no matter; whether … or,3
+910,补充,bǔchōng,supplement,3
+911,不安,bù’ān,Uneasy,3
+912,不得不,bùdébù,Cannot but,3
+913,不光,bù guāng,not only,3
+914,不仅,bùjǐn,not only,3
+915,部门,bùmén,department,3
+916,部长,bù zhǎng,minister; head of a department,3
+917,才能,cái néng,talent; ability; gift,3
+918,采取,cǎiqǔ,"take, adpopt",3
+919,采用,cǎi yòng,put to use; adopt; use; employ,3
+920,彩色,cǎi sè,multicolour; colour,3
+921,曾经,céngjīng,once,3
+922,产生,chǎnshēng,produce,3
+923,长城,Chángchéng,The Great Wall,3
+924,长处,cháng chù,strength; forte; strong point,3
+925,长期,cháng qī,over a long period of time; long-term,3
+926,场合,chǎnghé,occasion,3
+927,场所,chǎngsuǒ,place,3
+928,超级,chāojí,super,3
+929,吵架,chǎojià,quarrel,3
+930,衬衫,chènshān,shirt,3
+931,衬衣,chèn yī,shirt,3
+932,称为,chēng wéi,call; be called; be known as,3
+933,成功,chénggōng,Success,3
+934,成果,chéngguǒ,Achievements,3
+935,成就,chéngjiù,achievement,3
+936,成立,chénglì,establish,3
+937,成熟,chéngshú,mature,3
+938,成员,chéngyuán,member,3
+939,成长,chéngzhǎng,Grow up,3
+940,城市,chéngshì,City,3
+941,程度,chéngdù,degree,3
+942,持续,chíxù,Continued,3
+943,充满,chōngmǎn,full of,3
+944,初步,chūbù,preliminary,3
+945,初级,chūjí,primary,3
+946,初中,chū zhōng,junior high school,3
+947,除了,chúle,except,3
+948,处理,chǔlǐ,Handle,3
+949,传播,chuánbō,spread,3
+950,传来,chuán lái,came; come through,3
+951,传说,chuánshuō,Legend,3
+952,创新,chuàngxīn,innovate,3
+953,创业,chuàngyè,carve out,3
+954,创造,chuàngzào,create,3
+955,创作,chuàngzuò,A literary creation,3
+956,从来,cónglái,Always,3
+957,从前,cóngqián,before,3
+958,从事,cóngshì,Be engaged in,3
+959,存在,cúnzài,existence,3
+960,错误,cuòwù,error,3
+961,达到,dádào,Achieve,3
+962,打破,dǎ pò,break; smash,3
+963,打听,dǎting,Inquire,3
+964,大概,dàgài,Probably,3
+965,大使馆,dàshǐguǎn,Embassy,3
+966,大约,dàyuē,about,3
+967,大夫,dàifu,Doctor,3
+968,代表,dàibiǎo,representative,3
+969,代表团,dài biǎo tuán,delegation; mission; deputation,3
+970,带动,dài dòng,drive; spur,3
+971,带领,dàilǐng,lead,3
+972,单元,dānyuán,unit,3
+973,当初,dāngchū,Original,3
+974,当地,dāngdì,Local,3
+975,当然,dāngrán,Of course,3
+976,当中,dāng zhōng,among; in the middle; in the centre,3
+977,导演,dǎoyǎn,director,3
+978,到达,dàodá,Arrive,3
+979,到底,dàodǐ,To the end,3
+980,得分,dé fēn,score,3
+981,等待,děngdài,wait for,3
+982,底下,dǐ xià,under; below; beneath,3
+983,地区,dìqū,region,3
+984,电视剧,diàn shì jù,TV series; television drama,3
+985,电视台,diàn shì tái,TV station,3
+986,电台,diàntái,radio station,3
+987,电子邮件,diànzǐyóujiàn,E-mail,3
+988,调查,diàochá,investigation,3
+989,定期,dìngqī,regular,3
+990,东部,dōng bù,east,3
+991,动力,dònglì,"power, motivation",3
+992,动人,dòng rén,moving; touching,3
+993,读者,dú zhě,reader,3
+994,短处,duǎn chù,shortcoming; demerit,3
+995,短裤,duǎn kù,shorts,3
+996,短期,duǎn qī,short term,3
+997,队员,duì yuán,team member,3
+998,对待,duìdài,treat,3
+999,对方,duìfāng,Other party,3
+1000,对手,duìshǒu,Opponent,3
+1001,对象,duìxiàng,object,3
+1002,发表,fābiǎo,Publish,3
+1003,发出,fā chū,issue; send out; give off; emit,3
+1004,发达,fādá,developed,3
+1005,发动,fādòng,Launch,3
+1006,发明,fāmíng,Invention,3
+1007,发生,fāshēng,Happen,3
+1008,发送,fā sòng,send; transmit; dispatch; ship; forward,3
+1009,发言,fāyán,speak,3
+1010,发展,fāzhǎn,Development,3
+1011,反对,fǎnduì,Opposition,3
+1012,反复,fǎnfù,Repeatedly,3
+1013,反应,fǎnyìng,reaction,3
+1014,反正,fǎnzhèng,anyway,3
+1015,范围,fànwéi,Range,3
+1016,方式,fāngshì,mode,3
+1017,防止,fángzhǐ,Prevent,3
+1018,房东,fángdōng,landlord,3
+1019,房屋,fáng wū,houses; buildings; tenement,3
+1020,房租,fáng zū,rent,3
+1021,访问,fǎngwèn,Visit,3
+1022,放到,fàng dào,put to; put into,3
+1023,飞行,fēi xíng,flight; flying,3
+1024,费用,fèi yòng,cost; expenses; outlay,3
+1025,分别,fēnbié,part,3
+1026,分配,fēnpèi,distribution,3
+1027,分组,fēn zǔ,grouping,3
+1028,丰富,fēngfù,rich,3
+1029,风险,fēngxiǎn,risk,3
+1030,否定,fǒudìng,negative,3
+1031,否认,fǒurèn,deny,3
+1032,服装,fúzhuāng,costume; dress,3
+1033,父母,fù mǔ,father and mother; parents,3
+1034,父亲,fùqīn,father,3
+1035,负责,fùzé,Be responsible for,3
+1036,复印,fùyìn,To copy,3
+1037,复杂,fùzá,complex,3
+1038,改进,gǎijìn,Improvement,3
+1039,改造,gǎi zào,transform; reform,3
+1040,概念,gàiniàn,concept,3
+1041,赶到,gǎn dào,arrived; get to,3
+1042,赶紧,gǎnjǐn,Quickly,3
+1043,赶快,gǎnkuài,Come on,3
+1044,感冒,gǎnmào,Cold,3
+1045,感情,gǎnqíng,feeling,3
+1046,感受,gǎnshòu,feel,3
+1047,干吗,gàn má,Why,3
+1048,高速,gāo sù,high speed,3
+1049,高速公路,gāosùgōnglù,Expressway,3
+1050,告别,gàobié,farewell,3
+1051,歌迷,gē mí,fan,3
+1052,歌声,gē shēng,singing,3
+1053,歌手,gē shǒu,singer; vocalist,3
+1054,个人,gèrén,personal,3
+1055,个性,gèxìng,personality,3
+1056,各地,gè dì,various regions; everywhere,3
+1057,各位,gè wèi,everybody,3
+1058,各种,gè zhǒng,all kinds; various; every kind,3
+1059,各自,gèzì,Each,3
+1060,根本,gēnběn,at all,3
+1061,更加,gèng jiā,more; even more,3
+1062,工厂,gōngchǎng,factory,3
+1063,工程师,gōngchéngshī,Engineer,3
+1064,工夫,gōng fu,time,3
+1065,工具,gōngjù,tool,3
+1066,工业,gōngyè,Industry,3
+1067,工资,gōngzī,wages,3
+1068,公布,gōngbù,Publish,3
+1069,公共,gōng gòng,public; common; community,3
+1070,公开,gōngkāi,open,3
+1071,公民,gōngmín,citizen,3
+1072,公务员,gōng wù yuán,civil servant; public functionary,3
+1073,功夫,gōngfu,Kungfu,3
+1074,功课,gōng kè,homework; schoolwork; classwork,3
+1075,功能,gōngnéng,function,3
+1076,共同,gòngtóng,common,3
+1077,共有,gòng yǒu,have altogether; share; owned by all,3
+1078,姑娘,gūniang,girl,3
+1079,古代,gǔdài,Ancient,3
+1080,故乡,gùxiāng,Hometown,3
+1081,关系,guānxì,relationship,3
+1082,关注,guān zhù,attention; follow with interest; pay close attention; show solicitude for,3
+1083,观察,guānchá,observation,3
+1084,观看,guān kàn,watch; view,3
+1085,观念,guānniàn,concept,3
+1086,观众,guānzhòng,Audience,3
+1087,管理,guǎnlǐ,Administration,3
+1088,光明,guāngmíng,light,3
+1089,广播,guǎngbō,Radio broadcast,3
+1090,广大,guǎngdà,Vast,3
+1091,规定,guīdìng,Regulations,3
+1092,规范,guīfàn,criterion; rule,3
+1093,国内,guó nèi,domestic; internal,3
+1094,国庆,guó qìng,National Day,3
+1095,果然,guǒrán,Sure enough,3
+1096,果汁,guǒzhī,fruit juice,3
+1097,过程,guòchéng,process,3
+1098,哈哈,hā hā,ha-ha,3
+1099,海关,hǎiguān,Customs,3
+1100,害怕,hàipà,Fear,3
+1101,好好,hǎo hǎo,"really good, really nice",3
+1102,好奇,hàoqí,Be curious,3
+1103,合法,héfǎ,legitimate,3
+1104,合格,hégé,qualified,3
+1105,合理,hélǐ,reasonable,3
+1106,合作,hézuò,cooperation,3
+1107,和平,hépíng,peace,3
+1108,红茶,hóng chá,black tea,3
+1109,红酒,hóng jiǔ,red wine,3
+1110,后果,hòuguǒ,Consequence,3
+1111,后面,hòumiàn,behind,3
+1112,后年,hòu nián,the year after next,3
+1113,互联网,hùliánwǎng,Internet,3
+1114,互相,hùxiāng,each other,3
+1115,划船,huá chuán,row; paddle a boat; go boating,3
+1116,华人,huá rén,Chinese; ethnic Chinese,3
+1117,现代化,xiàn dài huà,suffix (modernize; modernization),3
+1118,话剧,huà jù,drama,3
+1119,话题,huàtí,Topic of conversation,3
+1120,欢乐,huānlè,Happy,3
+1121,环保,huán bǎo,environmental protection,3
+1122,环境,huánjìng,Environment,3
+1123,会议,huìyì,Meeting,3
+1124,会员,huì yuán,membership,3
+1125,机器,jīqì,machine,3
+1126,积极,jījí,positive,3
+1127,基本,jīběn,basic,3
+1128,基本上,jī běn shàng,basically,3
+1129,基础,jīchǔ,Basics,3
+1130,及时,jíshí,timely,3
+1131,极了,jí le,extremely; exceedingly,3
+1132,集体,jítǐ,collective,3
+1133,集中,jízhōng,focus,3
+1134,计算,jìsuàn,Calculation,3
+1135,记录,jìlù,Record,3
+1136,记者,jìzhě,Reporter,3
+1137,纪录,jìlù,Record,3
+1138,纪念,jìniàn,Anniversary,3
+1139,技术,jìshù,technology,3
+1140,继续,jìxù,Continue,3
+1141,加工,jiāgōng,machining,3
+1142,加快,jiā kuài,speed up; accelerate,3
+1143,加强,jiā qiáng,strengthen; reinforce,3
+1144,家具,jiājù,furniture,3
+1145,家属,jiāshǔ,family members,3
+1146,家乡,jiāxiāng,Hometown,3
+1147,价格,jiàgé,Price,3
+1148,价钱,jià qián,price,3
+1149,价值,jiàzhí,value,3
+1150,坚持,jiānchí,Insist,3
+1151,坚决,jiānjué,firm,3
+1152,坚强,jiānqiáng,Firm,3
+1153,简单,jiǎndān,simple,3
+1154,简直,jiǎnzhí,simply,3
+1155,建成,jiàn chéng,built up,3
+1156,建立,jiànlì,establish,3
+1157,建设,jiànshè,build,3
+1158,建议,jiànyì,proposal,3
+1159,将近,jiāngjìn,nearly,3
+1160,将来,jiānglái,future,3
+1161,交费,jiāo fèi,pay,3
+1162,交警,jiāo jǐng,traffic police,3
+1163,交流,jiāoliú,Communication,3
+1164,交往,jiāowǎng,affiliate with,3
+1165,交易,jiāoyì,transaction,3
+1166,教材,jiàocái,teaching material,3
+1167,教练,jiàoliàn,coach,3
+1168,结实,jiēshi,strong,3
+1169,接待,jiēdài,Reception,3
+1170,接近,jiējìn,near,3
+1171,节约,jiéyuē,save,3
+1172,结合,jiéhé,Combination,3
+1173,结婚,jiéhūn,marry,3
+1174,结束,jiéshù,End,3
+1175,解决,jiějué,Solve,3
+1176,解开,jiě kāi,undo; untie; unfasten; unbutton,3
+1177,金牌,jīn pái,gold medal,3
+1178,仅仅,jǐn jǐn,only; merely; barely,3
+1179,尽量,jǐnliàng,as far as possible,3
+1180,紧急,jǐnjí,urgent,3
+1181,紧张,jǐnzhāng,Nervous,3
+1182,进步,jìnbù,progress,3
+1183,进一步,jìn yí bù,go a step further; further,3
+1184,进展,jìnzhǎn,evolve; get along,3
+1185,近期,jìn qī,recent,3
+1186,京剧,jīngjù,Beijing opera,3
+1187,经济,jīngjì,Economics,3
+1188,经历,jīnglì,experience,3
+1189,经验,jīngyàn,experience,3
+1190,经营,jīngyíng,Management,3
+1191,精彩,jīngcǎi,Marvellous,3
+1192,精神,jīngshén,"spirit, mind",3
+1193,景色,jǐngsè,scenery,3
+1194,警察,jǐngchá,Police,3
+1195,就是,jiù shì,precisely; exactly; just like,3
+1196,就业,jiùyè,take up an occupation,3
+1197,举办,jǔbàn,hold,3
+1198,具体,jùtǐ,specific,3
+1199,具有,jù yǒu,possess; have; be provided with,3
+1200,剧场,jù chǎng,theater,3
+1201,据说,jùshuō,allegedly,3
+1202,决定,juédìng,Decision,3
+1203,决赛,juésài,Finals,3
+1204,决心,juéxīn,Determination,3
+1205,绝对,juéduì,Absolutely,3
+1206,咖啡,kāfēi,Coffee,3
+1207,开发,kāifā,Development,3
+1208,开放,kāifàng,To open up,3
+1209,开始,kāishǐ,start,3
+1210,开业,kāi yè,start business; open a private practice,3
+1211,开展,kāizhǎn,Develop,3
+1212,看起来,kàn qǐ lái,look like,3
+1213,看上去,kàn shàng qù,seem,3
+1214,考验,kǎoyàn,test,3
+1215,科技,kē jì,science and technology,3
+1216,可靠,kěkào,reliable,3
+1217,可乐,kě lè,coke; cola,3
+1218,克服,kèfú,Overcome,3
+1219,客观,kèguān,objective,3
+1220,课程,kèchéng,curriculum,3
+1221,空调,kōngtiáo,Air conditioner,3
+1222,恐怕,kǒngpà,I’m afraid,3
+1223,空儿,kòngr,free time,3
+1224,裤子,kùzi,trousers,3
+1225,快速,kuài sù,fast; high-speed,3
+1226,困难,kùnnán,difficulty,3
+1227,浪费,làngfèi,Waste,3
+1228,老百姓,lǎobǎixìng,Ordinary people,3
+1229,老板,lǎobǎn,Boss,3
+1230,老太太,lǎo tài tai,old lady,3
+1231,老头儿,lǎo tóur,old man,3
+1232,乐观,lèguān,optimistic,3
+1233,类似,lèisì,Similar,3
+1234,离婚,líhūn,divorce,3
+1235,里面,lǐ miàn,inside; interior,3
+1236,理发,lǐfà,Haircut,3
+1237,理解,lǐjiě,Understand,3
+1238,理论,lǐlùn,theory,3
+1239,理由,lǐyóu,Reason,3
+1240,力量,lìliàng,Power,3
+1241,立刻,lìkè,immediately,3
+1242,利用,lìyòng,utilize,3
+1243,连忙,liánmáng,Hurriedly,3
+1244,连续,liánxù,serial,3
+1245,连续剧,lián xù jù,series; soap opera,3
+1246,联合,liánhé,union,3
+1247,联合国,lián hé guó,United Nations,3
+1248,联系,liánxì,contact,3
+1249,凉水,liáng shuǐ,cold water; unboiled water,3
+1250,领导,lǐngdǎo,Leader,3
+1251,领先,lǐngxiān,keep ahead,3
+1252,另外,lìngwài,in addition,3
+1253,另一方面,lìng yì fāng miàn,on the other hand,3
+1254,留学,liúxué,Overseas Study,3
+1255,录音,lùyīn,Sound recording,3
+1256,路线,lù xiàn,path; route; way; line,3
+1257,旅馆,lǚ guǎn,hotel,3
+1258,旅行社,lǚ xíng shè,travel agency,3
+1259,绿茶,lǜ chá,green tea,3
+1260,落后,luòhòu,backward,3
+1261,麻烦,máfan,trouble,3
+1262,满足,mǎnzú,satisfy,3
+1263,慢慢,màn màn,slowly,3
+1264,毛病,máobìng,Trouble,3
+1265,没用,méi yòng,useless,3
+1266,媒体,méitǐ,media,3
+1267,美好,měi hǎo,fine; happy; glorious,3
+1268,美丽,měilì,beautiful,3
+1269,美食,měi shí,delicious food ; gourmet,3
+1270,美术,měishù,Fine Arts,3
+1271,美元,měi yuán,U.S. dollar,3
+1272,面对,miànduì,Face,3
+1273,面积,miànjī,The measure of area,3
+1274,民间,mínjiān,nongovernmental,3
+1275,民族,mínzú,Nation,3
+1276,明确,míngquè,To make clear,3
+1277,明显,míngxiǎn,obvious,3
+1278,命运,mìngyùn,fate,3
+1279,母亲,mǔqīn,mother,3
+1280,木头,mùtou,wood,3
+1281,目标,mùbiāo,target,3
+1282,目前,mùqián,at present,3
+1283,奶茶,nǎi chá,milk tea,3
+1284,男子,nán zǐ,man; male,3
+1285,南部,nán bù,south,3
+1286,难道,nándào,could it be said that …,3
+1287,难度,nán dù,difficulty,3
+1288,内容,nèiróng,content,3
+1289,内心,nèi xīn,heart; inner centre,3
+1290,能不能,néng bù néng,can or not,3
+1291,能力,nénglì,ability,3
+1292,年初,nián chū,beginning of the year,3
+1293,年代,niándài,years,3
+1294,年底,nián dǐ,end of the year,3
+1295,年纪,niánjì,Age,3
+1296,农村,nóngcūn,countryside,3
+1297,农民,nóngmín,farmer,3
+1298,农业,nóngyè,Agriculture,3
+1299,女子,nǚ zǐ,woman; female,3
+1300,暖和,nuǎnhuo,warm,3
+1301,排名,pái míng,rank,3
+1302,牌子,pái zi,brand; trademark; plate; sign,3
+1303,判断,pànduàn,judge,3
+1304,跑步,pǎobù,Run,3
+1305,配合,pèihé,Coordination,3
+1306,批评,pīpíng,criticism,3
+1307,批准,pīzhǔn,Approval,3
+1308,皮包,pí bāo,purse; briefcase; portfolio,3
+1309,啤酒,píjiǔ,Beer,3
+1310,票价,piào jià,ticket price; fare,3
+1311,评价,píngjià,evaluation,3
+1312,苹果,píngguǒ,Apple,3
+1313,破坏,pòhuài,Destruction,3
+1314,普遍,pǔbiàn,universal,3
+1315,普及,pǔjí,Universal,3
+1316,其次,qícì,Secondly,3
+1317,其实,qíshí,actually,3
+1318,奇怪,qíguài,strange,3
+1319,气候,qìhòu,climate,3
+1320,千万,qiānwàn,Must,3
+1321,前后,qián hòu,front and back; from start to finish; around,3
+1322,前进,qián jìn,advance; go forward; march,3
+1323,前面,qiánmiàn,Front,3
+1324,前往,qián wǎng,go to; leave for; proceed,3
+1325,强大,qiáng dà,powerful; formidable; strong,3
+1326,强调,qiángdiào,Emphasize,3
+1327,强烈,qiángliè,strong,3
+1328,亲切,qīnqiè,kind,3
+1329,亲人,qīn rén,relative,3
+1330,亲自,qīnzì,personally,3
+1331,情感,qíng gǎn,feeling; emotion,3
+1332,情况,qíngkuàng,Situation,3
+1333,请教,qǐngjiào,Consult,3
+1334,庆祝,qìngzhù,Celebrate,3
+1335,球迷,qiúmí,fans (ball game),3
+1336,区别,qūbié,Difference,3
+1337,取消,qǔxiāo,cancel,3
+1338,去世,qùshì,Death,3
+1339,全场,quán chǎng,the whole audience,3
+1340,全面,quánmiàn,comprehensive,3
+1341,全球,quán qiú,global; the whole world,3
+1342,缺点,quēdiǎn,shortcoming,3
+1343,缺少,quēshǎo,Lack,3
+1344,确保,quèbǎo,ensure,3
+1345,确定,quèdìng,Determine,3
+1346,确实,quèshí,Exactly,3
+1347,裙子,qúnzi,skirt,3
+1348,热爱,rè’ài,Ardently love,3
+1349,热烈,rèliè,warm,3
+1350,人才,réncái,talented person,3
+1351,人工,réngōng,artificial,3
+1352,人类,rénlèi,Human beings,3
+1353,人民,rén mín,people,3
+1354,人民币,rénmínbì,RMB,3
+1355,人群,rén qún,crowd; throng,3
+1356,人生,rénshēng,Life,3
+1357,人员,rényuán,personnel,3
+1358,认出,rèn chū,recognize; identify; make out,3
+1359,认得,rèn dé,know; recognize,3
+1360,认可,rènkě,certificate; ratify,3
+1361,任何,rènhé,"whatever, any",3
+1362,任务,rènwu,task,3
+1363,仍然,réngrán,still,3
+1364,日常,rìcháng,daily,3
+1365,容易,róngyì,easily,3
+1366,如何,rúhé,How,3
+1367,散步,sànbù,Take a walk,3
+1368,沙发,shāfā,Sofa,3
+1369,沙子,shā zi,sand; grit,3
+1370,伤心,shāngxīn,Sad,3
+1371,商品,shāngpǐn,commodity,3
+1372,商业,shāngyè,business,3
+1373,上来,shàng lái,come up,3
+1374,上面,shàng miàn,above; on top of,3
+1375,上去,shàng qù,go up,3
+1376,上升,shàng shēng,rise; go up,3
+1377,上衣,shàng yī,upper outer garment; jacket; coat,3
+1378,设备,shèbèi,equipment,3
+1379,设计,shèjì,Design,3
+1380,设立,shèlì,Establish,3
+1381,社会,shèhuì,Socioty,3
+1382,身份证,shēn fèn zhèng,ID card,3
+1383,深刻,shēnkè,profound,3
+1384,深入,shēn rù,go deep into; thorough,3
+1385,生产,shēngchǎn,production,3
+1386,生存,shēngcún,Existence,3
+1387,生动,shēngdòng,vivid,3
+1388,生命,shēngmìng,life,3
+1389,生意,shēngyi,business,3
+1390,生长,shēngzhǎng,grow,3
+1391,声明,shēngmíng,statement,3
+1392,胜利,shènglì,victory,3
+1393,失去,shīqù,Lose,3
+1394,石头,shítou,stone,3
+1395,石油,shíyóu,petroleum,3
+1396,时代,shídài,times,3
+1397,时刻,shíkè,time,3
+1398,实际上,shí jì shàng,actually,3
+1399,实力,shílì,Strength,3
+1400,实行,shíxíng,Implement,3
+1401,实验,shíyàn,Experiment,3
+1402,实验室,shí yàn shì,laboratory,3
+1403,食品,shí pǐn,food; foodstuff,3
+1404,始终,shǐzhōng,Throughout,3
+1405,世纪,shìjì,century,3
+1406,世界,shìjiè,world,3
+1407,世界杯,shì jiè bēi,World Cup,3
+1408,市场,shìchǎng,market,3
+1409,事故,shìgù,Accident,3
+1410,事件,shìjiàn,Event,3
+1411,事实,shìshí,Fact,3
+1412,事实上,shì shí shàng,in fact; actually,3
+1413,事业,shìyè,career,3
+1414,试题,shì tí,test questions,3
+1415,试验,shìyàn,test,3
+1416,适合,shìhé,Fit,3
+1417,适应,shìyìng,Adapt,3
+1418,适用,shì yòng,be applicable; be suitable,3
+1419,收费,shōu fèi,collect fees; charge,3
+1420,收看,shōu kàn,watch,3
+1421,收听,shōu tīng,listen to; listen in,3
+1422,收音机,shōuyīnjī,radio,3
+1423,手续,shǒuxù,procedures,3
+1424,手指,shǒuzhǐ,finger,3
+1425,首都,shǒudū,capital,3
+1426,首先,shǒuxiān,First,3
+1427,受伤,shòushāng,Injured,3
+1428,书架,shūjià,bookshelf,3
+1429,输入,shūrù,import; input,3
+1430,熟人,shú rén,acquaintance,3
+1431,属于,shǔyú,belong to,3
+1432,数量,shùliàng,quantity,3
+1433,双方,shuāngfāng,both sides,3
+1434,思想,sīxiǎng,thought,3
+1435,速度,sùdù,speed,3
+1436,所长,suǒ zhǎng,superintendent,3
+1437,谈话,tán huà,conversation; talk; chat,3
+1438,谈判,tánpàn,negotiation,3
+1439,特色,tèsè,characteristic,3
+1440,提前,tíqián,Advance,3
+1441,提问,tíwèn,Put questions to,3
+1442,题目,tímù,subject,3
+1443,体会,tǐhuì,Experience,3
+1444,体现,tǐxiàn,Reflect,3
+1445,体验,tǐyàn,experience; taste,3
+1446,天空,tiānkōng,sky,3
+1447,调整,tiáozhěng,adjustment,3
+1448,跳高,tiào gāo,high jump,3
+1449,跳舞,tiàowǔ,dance,3
+1450,跳远,tiào yuǎn,long jump; broad jump,3
+1451,铁路,tiě lù,railway; railroad,3
+1452,听力,tīng lì,hearing; aural comprehension,3
+1453,听众,tīng zhòng,audience; listeners,3
+1454,停止,tíng zhǐ,stop; cease; suspend; call off; halt,3
+1455,通常,tōngcháng,usually,3
+1456,通信,tōng xìn,communicate; correspond,3
+1457,同意,tóngyì,Agree,3
+1458,痛苦,tòngkǔ,Pain,3
+1459,头脑,tóu nǎo,mind; brain,3
+1460,突出,tūchū,prominent,3
+1461,突然,tūrán,suddenly,3
+1462,图画,tú huà,drawing; picture; painting,3
+1463,团结,tuánjié,Unite,3
+1464,团体,tuántǐ,group,3
+1465,推动,tuī dòng,promote; push forward; give impetus to,3
+1466,推广,tuīguǎng,Extension,3
+1467,推进,tuī jìn,advance; carry forward; push on; give impetus to,3
+1468,推开,tuī kāi,push away,3
+1469,退出,tuì chū,drop out; quit; withdraw,3
+1470,退休,tuìxiū,retire,3
+1471,外交,wàijiāo,diplomacy,3
+1472,外面,wài miàn,outside; outdoors; outward appearance,3
+1473,外文,wài wén,foreign language,3
+1474,完美,wánměi,perfect,3
+1475,完善,wánshàn,"perfect, consummate",3
+1476,完整,wánzhěng,complete,3
+1477,玩具,wánjù,Toys,3
+1478,往往,wǎngwǎng,Often,3
+1479,危害,wēihài,Harm,3
+1480,危险,wēixiǎn,danger,3
+1481,伟大,wěidà,great,3
+1482,卫生,wèi shēng,hygiene; health; sanitation,3
+1483,卫生间,wèishēngjiān,toilet,3
+1484,为了,wèile,in order to,3
+1485,温暖,wēnnuǎn,warm,3
+1486,文化,wénhuà,Culture,3
+1487,文件,wénjiàn,file,3
+1488,文明,wénmíng,civilization,3
+1489,文学,wénxué,literature,3
+1490,文章,wénzhāng,Article,3
+1491,文字,wénzì,"writing, character",3
+1492,握手,wòshǒu,Handshake,3
+1493,屋子,wūzi,House,3
+1494,武器,wǔqì,arms,3
+1495,武术,wǔshù,A martial art,3
+1496,舞台,wǔ tái,stage; arena,3
+1497,西部,xī bù,west,3
+1498,希望,xīwàng,hope,3
+1499,下来,xià lái,come down; get down,3
+1500,下面,xià miàn,below; under; next,3
+1501,下去,xià qù,go down; descend; go on; continue,3
+1502,先进,xiānjìn,advanced,3
+1503,显得,xiǎnde,Appear,3
+1504,显然,xiǎnrán,Obviously,3
+1505,显示,xiǎnshì,display,3
+1506,现场,xiànchǎng,scene,3
+1507,现代,xiàndài,modern,3
+1508,现金,xiànjīn,cash,3
+1509,现实,xiànshí,reality,3
+1510,现象,xiànxiàng,phenomenon,3
+1511,相比,xiāng bǐ,compare; compare to,3
+1512,相当,xiāngdāng,Quite,3
+1513,相关,xiāngguān,correlate,3
+1514,相互,xiāng hù,mutual; reciprocal; each other,3
+1515,相似,xiāngsì,Be similar,3
+1516,香蕉,xiāngjiāo,Banana,3
+1517,消费,xiāofèi,consumption,3
+1518,消失,xiāoshī,disappear,3
+1519,消息,xiāoxi,message,3
+1520,效果,xiàoguǒ,Effect,3
+1521,写作,xiězuò,writing,3
+1522,信封,xìnfēng,envelope,3
+1523,信任,xìnrèn,trust,3
+1524,行李,xíng lǐ,luggage; baggage,3
+1525,形成,xíngchéng,formation,3
+1526,形式,xíngshì,form,3
+1527,形象,xíngxiàng,image,3
+1528,形状,xíngzhuàng,shape,3
+1529,幸福,xìngfú,happiness,3
+1530,幸运,xìngyùn,Lucky,3
+1531,性别,xìngbié,Gender,3
+1532,性格,xìnggé,character,3
+1533,修改,xiūgǎi,modify,3
+1534,需求,xūqiú,demand,3
+1535,需要,xūyào,Need,3
+1536,宣布,xuānbù,Announce,3
+1537,宣传,xuānchuán,Propaganda,3
+1538,选手,xuǎnshǒu,Player,3
+1539,学费,xué fèi,tuition fee; tuition; school fee,3
+1540,训练,xùnliàn,train,3
+1541,压力,yālì,pressure,3
+1542,眼前,yǎn qián,now; at the moment; before one’s eyes,3
+1543,演唱,yǎn chàng,sing,3
+1544,演唱会,yǎn chàng huì,concert,3
+1545,演出,yǎnchū,show,3
+1546,演员,yǎnyuán,"performer, actor",3
+1547,阳光,yángguāng,Sunshine,3
+1548,要是,yàoshi,If,3
+1549,衣架,yī jià,hanger; clothes stand; clothes tree,3
+1550,一切,yíqiè,everything,3
+1551,以来,yǐlái,Since,3
+1552,一方面,yì fāng miàn,on the one hand,3
+1553,艺术,yìshù,Art,3
+1554,意外,yìwài,Accident,3
+1555,意义,yìyì,Significance,3
+1556,因此,yīncǐ,therefore,3
+1557,银牌,yín pái,silver medal,3
+1558,印象,yìnxiàng,impression,3
+1559,应当,yīng dāng,should; ought to,3
+1560,迎接,yíngjiē,"meet, pick, welcome",3
+1561,营养,yíngyǎng,Nutrition,3
+1562,影视,yǐng shì,film and television,3
+1563,应用,yìngyòng,application,3
+1564,优点,yōudiǎn,Advantage,3
+1565,优势,yōushì,advantage,3
+1566,由于,yóuyú,Because,3
+1567,邮件,yóu jiàn,mail; post; postal matter,3
+1568,邮票,yóu piào,postage stamp; stamp,3
+1569,邮箱,yóu xiāng,postbox; mailbox,3
+1570,游戏,yóuxì,Game,3
+1571,游泳,yóuyǒng,Swimming,3
+1572,有的是,yǒu de shì,have plenty of; there’s no lack of,3
+1573,有利,yǒulì,favourable; beneficial,3
+1574,有效,yǒu xiào,effective; valid,3
+1575,预报,yùbào,prediction,3
+1576,预防,yùfáng,Prevention,3
+1577,预计,yù jì,expected; estimate,3
+1578,预习,yùxí,Preview,3
+1579,服务员,fú wù yuán,a person engaged in some field of activity (waiter; waitress; server),3
+1580,员工,yuángōng,employee,3
+1581,愿望,yuànwàng,desire,3
+1582,乐队,yuè duì,orchestra; band,3
+1583,运输,yùnshū,transport,3
+1584,杂志,zázhì,Magazine,3
+1585,早已,zǎo yǐ,long ago; for a long time,3
+1586,造成,zàochéng,cause,3
+1587,责任,zérèn,responsibility,3
+1588,增加,zēngjiā,increase,3
+1589,增长,zēng zhǎng,increase; grow,3
+1590,展开,zhǎnkāi,Open,3
+1591,真实,zhēnshí,real,3
+1592,争取,zhēngqǔ,strive for,3
+1593,整个,zhěnggè,Whole,3
+1594,整理,zhěnglǐ,Arrangement,3
+1595,整齐,zhěngqí,neat,3
+1596,整体,zhěngtǐ,Whole,3
+1597,整天,zhěng tiān,all day long,3
+1598,整整,zhěng zhěng,whole; full,3
+1599,正式,zhèngshì,formal,3
+1600,证件,zhèngjiàn,Certificates,3
+1601,证据,zhèngjù,evidence,3
+1602,证明,zhèngmíng,Prove,3
+1603,支持,zhīchí,Support,3
+1604,支付,zhī fù,pay money; defray,3
+1605,直播,zhíbō,on live,3
+1606,直到,zhí dào,until,3
+1607,值得,zhíde,Worth,3
+1608,职工,zhí gōng,staff; worker,3
+1609,职业,zhíyè,Occupation,3
+1610,只好,zhǐhǎo,have to,3
+1611,只是,zhǐ shì,merely; only; just,3
+1612,只有,zhǐ yǒu,only,3
+1613,指出,zhǐ chū,point out; indicate,3
+1614,指导,zhǐdǎo,guidance,3
+1615,至今,zhìjīn,so far,3
+1616,至少,zhìshǎo,at least,3
+1617,志愿,zhì yuàn,volunteer; aspiration; wish,3
+1618,志愿者,zhìyuànzhě,Volunteer,3
+1619,制定,zhìdìng,Formulate,3
+1620,制度,zhìdù,system,3
+1621,制造,zhìzào,Manufacture,3
+1622,制作,zhìzuò,Make,3
+1623,中部,zhōng bù,central section; middle part,3
+1624,中华民族,zhōng huá mín zú,Chinese nation,3
+1625,终于,zhōngyú,finally,3
+1626,种子,zhǒngzi,seed,3
+1627,重大,zhòngdà,significant,3
+1628,周围,zhōuwéi,around,3
+1629,主持,zhǔchí,Host,3
+1630,主动,zhǔdòng,active,3
+1631,主任,zhǔrèn,Headmaster,3
+1632,主意,zhǔyi,idea,3
+1633,主张,zhǔzhāng,opinion,3
+1634,注意,zhùyì,Be careful,3
+1635,抓住,zhuā zhù,catch; catch hold of; grip; capture,3
+1636,专家,zhuānjiā,expert,3
+1637,专门,zhuānmén,specialized,3
+1638,专题,zhuāntí,special collection,3
+1639,专业,zhuānyè,major,3
+1640,转变,zhuǎnbiàn,change,3
+1641,状况,zhuàngkuàng,status,3
+1642,状态,zhuàngtài,state,3
+1643,资格,zīgé,Qualifications,3
+1644,资金,zījīn,capital,3
+1645,子女,zǐ nǚ,child; sons and daughters,3
+1646,自从,zìcóng,Since,3
+1647,自动,zìdòng,automatic,3
+1648,自觉,zìjué,Conscious,3
+1649,自然,zìrán,natural,3
+1650,自身,zì shēn,oneself; self,3
+1651,自主,zìzhǔ,Autonomy,3
+1652,总结,zǒngjié,summary,3
+1653,总是,zǒngshì,always,3
+1654,足够,zú gòu,enough; ample; sufficient,3
+1655,足球,zú qiú,soccer; football,3
+1656,组合,zǔhé,combination,3
+1657,左右,zuǒyòu,About,3
+1658,作品,zuòpǐn,works,3
+1659,作者,zuòzhě,author,3
+1660,做客,zuò kè,be a guest,3
+1661,阿姨,āyí,aunt,4
+1662,矮小,ǎi xiǎo,short and small; low and small; undersized,4
+1663,爱国,ài guó,love one’s country; be patriotic,4
+1664,爱护,àihù,Care,4
+1665,安置,ānzhì,put; arrange for,4
+1666,按时,ànshí,on time,4
+1667,暗示,ànshì,suggest secretly,4
+1668,巴士,bā shì,bus,4
+1669,百货,bǎi huò,department store; general merchandise,4
+1670,摆动,bǎi dòng,swing; sway; oscillate;vibrate,4
+1671,摆脱,bǎituō,cast off,4
+1672,办事,bàn shì,handle affairs; work,4
+1673,包裹,bāoguǒ,package,4
+1674,包含,bāohán,Contain,4
+1675,包括,bāokuò,Include,4
+1676,宝宝,bǎo bao,baby; darling,4
+1677,宝贝,bǎobèi,baby,4
+1678,宝贵,bǎoguì,valuable,4
+1679,宝石,bǎo shí,gemstone; gem; cameo; precious stone,4
+1680,保密,bǎomì,secrecy,4
+1681,保守,bǎoshǒu,Conservative,4
+1682,背景,bèijǐng,background,4
+1683,被迫,bèi pò,be compelled; be forced; be constrained,4
+1684,本科,běnkē,Undergraduate,4
+1685,比分,bǐ fēn,score,4
+1686,毕业,bìyè,graduation,4
+1687,毕业生,bì yè shēng,graduate,4
+1688,避免,bìmiǎn,avoid,4
+1689,辩论,biànlùn,Debate,4
+1690,标志,biāozhì,sign,4
+1691,表情,biǎoqíng,Expression,4
+1692,表扬,biǎoyáng,Praise,4
+1693,冰箱,bīngxiāng,Refrigerator,4
+1694,冰雪,bīng xuě,ice and snow,4
+1695,不要紧,búyàojǐn,Never mind,4
+1696,不在乎,bú zài hū,not mind; not care,4
+1697,不管,bùguǎn,no matter,4
+1698,不然,bùrán,otherwise,4
+1699,布置,bùzhì,Arrangement,4
+1700,步行,bù xíng,go on foot; walk,4
+1701,材料,cáiliào,Materials,4
+1702,财产,cáichǎn,property,4
+1703,财富,cáifù,wealth,4
+1704,采访,cǎifǎng,interview,4
+1705,参考,cānkǎo,Reference resources,4
+1706,参与,cānyù,participate in,4
+1707,操场,cāochǎng,Playground,4
+1708,操作,cāozuò,operation,4
+1709,测量,cèliáng,measure,4
+1710,测试,cè shì,test; examination,4
+1711,茶叶,chá yè,tea; tea-leaves,4
+1712,产品,chǎnpǐn,product,4
+1713,长途,chángtú,Long-distance,4
+1714,常识,chángshí,common sense,4
+1715,唱片,chàng piàn,record; disc; phonogram,4
+1716,抄写,chāo xiě,copy; transcribe,4
+1717,潮流,cháoliú,Trend,4
+1718,潮湿,cháoshī,damp,4
+1719,彻底,chèdǐ,thorough,4
+1720,沉默,chénmò,silent,4
+1721,沉重,chénzhòng,heavy,4
+1722,称赞,chēngzàn,Praise,4
+1723,成人,chéngrén,adult,4
+1724,诚实,chéngshí,honest,4
+1725,诚信,chéng xìn,honesty; integrity,4
+1726,承担,chéngdān,bear,4
+1727,承认,chéngrèn,Admit,4
+1728,承受,chéngshòu,bear,4
+1729,程序,chéngxù,program,4
+1730,吃惊,chījīng,Be amazed,4
+1731,迟到,chídào,Late,4
+1732,尺寸,chǐ cùn,size; measurement; dimension,4
+1733,尺子,chǐzi,Ruler,4
+1734,充电,chōng diàn,recharge; charge,4
+1735,充电器,chōngdiànqì,Charger,4
+1736,充分,chōngfèn,To the full,4
+1737,虫子,chóng zi,insect; worm; bug,4
+1738,抽奖,chōu jiǎng,lottery; lottery draw,4
+1739,抽烟,chōuyān,smoking,4
+1740,出色,chūsè,excellent; outstanding,4
+1741,出售,chū shòu,offer for sale; sell,4
+1742,出席,chūxí,Attend,4
+1743,处于,chǔ yú,be in; be (in a certain condition),4
+1744,穿上,chuān shàng,put on,4
+1745,传统,chuántǒng,tradition,4
+1746,窗户,chuānghu,Window,4
+1747,窗台,chuāng tái,windowsill; sill,4
+1748,窗子,chuāng zi,window,4
+1749,春季,chūn jì,spring; springtime,4
+1750,纯净水,chún jìng shuǐ,pure water,4
+1751,词汇,cíhuì,vocabulary,4
+1752,此外,cǐwài,in addition,4
+1753,刺激,cìjī,stimulate,4
+1754,从此,cóngcǐ,from then on,4
+1755,粗心,cūxīn,careless,4
+1756,促进,cùjìn,Promote,4
+1757,促使,cùshǐ,Urge,4
+1758,促销,cù xiāo,promotion,4
+1759,措施,cuòshī,Measures,4
+1760,答案,dá’àn,Answer,4
+1761,打败,dǎ bài,defeat; beat; be defeated,4
+1762,打雷,dǎ léi,thunder,4
+1763,打扫,dǎsǎo,Clean,4
+1764,打折,dǎzhé,Discount,4
+1765,打针,dǎzhēn,To make an injection,4
+1766,大巴,dà bā,bus,4
+1767,大多,dà duō,mostly; for the most part,4
+1768,大方,dàfang,generous,4
+1769,大哥,dà gē,big brother; elder brother,4
+1770,大规模,dà guī mó,large-scale; extensive,4
+1771,大会,dà huì,convention; general meeting; General Assembly,4
+1772,大姐,dà jiě,elder sister,4
+1773,大楼,dà lóu,building; large building,4
+1774,大陆,dà lù,continent; mainland,4
+1775,大妈,dà mā,aunt; father’s elder brother’s wife,4
+1776,大型,dàxíng,large,4
+1777,大爷,dà ye,uncle; father’s elder brother,4
+1778,大众,dà zhòng,public; the masses; people,4
+1779,代替,dàitì,replace,4
+1780,待遇,dàiyù,treatment,4
+1781,担保,dānbǎo,assure; hypothecate,4
+1782,担任,dānrèn,To serve as,4
+1783,担心,dānxīn,Worry,4
+1784,单纯,dānchún,Simple,4
+1785,单调,dāndiào,monotonous,4
+1786,单独,dāndú,Alone,4
+1787,导游,dǎoyóu,Guide,4
+1788,导致,dǎozhì,cause,4
+1789,倒闭,dǎobì,Collapse,4
+1790,倒车,dào chē,back a car; reverse,4
+1791,得意,déyì,Proud,4
+1792,灯光,dēng guāng,light; stage lighting,4
+1793,登记,dēngjì,register,4
+1794,登录,dēnglù,Sign in,4
+1795,登山,dēng shān,mountaineer; mountain-climbing,4
+1796,的确,díquè,indeed; be certain to,4
+1797,敌人,dírén,Enemy,4
+1798,地面,dì miàn,ground; floor; surface,4
+1799,地位,dìwèi,status,4
+1800,地下,dì xià,underground; subterranean; secret,4
+1801,地址,dìzhǐ,address,4
+1802,典型,diǎnxíng,typical,4
+1803,点名,diǎn míng,rollcall; mention sb. by name,4
+1804,电灯,diàn dēng,electric light,4
+1805,电动车,diàn dòng chē,electric car,4
+1806,电梯,diàntī,Elevator.,4
+1807,电源,diànyuán,power supply,4
+1808,冬季,dōng jì,winter,4
+1809,动画片,dònghuàpiàn,Cartoon,4
+1810,动摇,dòng yáo,shake; vacillate; waver; be indecisive,4
+1811,豆腐,dòufu,tofu,4
+1812,独立,dúlì,Independent,4
+1813,独特,dútè,unique,4
+1814,独自,dú zì,alone; by oneself; one’s own,4
+1815,堵车,dǔchē,Traffic jam,4
+1816,肚子,dùzi,belly,4
+1817,度过,dùguò,Spend,4
+1818,锻炼,duànliàn,Physical exercise,4
+1819,对比,duìbǐ,Contrast,4
+1820,对付,duìfu,deal with,4
+1821,对于,duìyú,about,4
+1822,多次,duō cì,repeatedly; many a time,4
+1823,多年,duō nián,many years,4
+1824,多样,duō yàng,diversity,4
+1825,多种,duō zhǒng,multiple; various; diversified; manifold,4
+1826,恶心,ěxin,disgusting,4
+1827,儿童,értóng,children,4
+1828,而是,ér shì,but,4
+1829,耳机,ěr jī,earphone; headphone; headset,4
+1830,二手,èr shǒu,second hand,4
+1831,发挥,fāhuī,Develop,4
+1832,发票,fāpiào,invoice,4
+1833,发烧,fāshāo,Have a fever,4
+1834,法官,fǎ guān,judge,4
+1835,法律,fǎlǜ,Law,4
+1836,法院,fǎyuàn,Court,4
+1837,翻译,fānyì,translate,4
+1838,反而,fǎn’ér,Instead,4
+1839,反映,fǎnyìng,reflect,4
+1840,方案,fāng’àn,programme,4
+1841,方针,fāngzhēn,policy,4
+1842,放松,fàngsōng,Relax,4
+1843,分布,fēnbù,distribution,4
+1844,分散,fēnsàn,Dispersed,4
+1845,分手,fēnshǒu,Break up,4
+1846,分为,fēn wéi,divide into,4
+1847,分之,… fēn zhī …,fractional number,4
+1848,纷纷,fēnfēn,one after another,4
+1849,奋斗,fèndòu,Struggle,4
+1850,风格,fēnggé,style,4
+1851,风景,fēngjǐng,Scenery,4
+1852,风俗,fēngsú,Customs,4
+1853,封闭,fēngbì,close,4
+1854,否则,fǒuzé,otherwise,4
+1855,夫妇,fūfù,couple,4
+1856,夫妻,fū qī,man and wife,4
+1857,夫人,fūrén,Madam,4
+1858,符号,fúhào,Symbol,4
+1859,符合,fúhé,accord with,4
+1860,付出,fù chū,pay out,4
+1861,负担,fùdān,burden,4
+1862,附近,fùjìn,nearby,4
+1863,复制,fùzhì,copy,4
+1864,改善,gǎishàn,Improve,4
+1865,改正,gǎizhèng,correction,4
+1866,概括,gàikuò,Generalization,4
+1867,感兴趣,gǎnxìngqù,be intretested in,4
+1868,高潮,gāocháo,climax,4
+1869,高价,gāo jià,high price,4
+1870,高尚,gāoshàng,noble,4
+1871,高铁,gāo tiě,high-speed train; high-speed rail,4
+1872,格外,géwài,especially,4
+1873,隔开,gé kāi,separate; space out; separation; partition,4
+1874,个别,gèbié,individual,4
+1875,个体,gètǐ,individual,4
+1876,各个,gè gè,each,4
+1877,根据,gēnjù,according to,4
+1878,工程,gōng chéng,engineering; project,4
+1879,公元,gōngyuán,A.D.,4
+1880,供应,gōng yìng,supply; provide,4
+1881,构成,gòuchéng,constitute,4
+1882,构造,gòu zào,structure; construction,4
+1883,购买,gòu mǎi,buy; purchase,4
+1884,购物,gòuwù,Shopping,4
+1885,骨头,gǔtou,Bone,4
+1886,固定,gùdìng,fixed,4
+1887,关闭,guānbì,close; shut,4
+1888,关于,guānyú,about,4
+1889,官方,guānfāng,by the government official,4
+1890,光临,guānglín,presence,4
+1891,光盘,guāngpán,CD,4
+1892,规律,guīlǜ,Law,4
+1893,规模,guīmó,scale,4
+1894,规则,guīzé,rule,4
+1895,果实,guǒshí,fruit,4
+1896,过分,guòfèn,excessive,4
+1897,海水,hǎi shuǐ,seawater; brine; sea,4
+1898,海鲜,hǎixiān,seafood,4
+1899,含量,hán liàng,content,4
+1900,含义,hányì,signification; meanings,4
+1901,含有,hán yǒu,contain; have,4
+1902,寒假,hánjià,The winter vacation,4
+1903,寒冷,hán lěng,cold; frigid; chill; frigidity,4
+1904,行业,hángyè,industry,4
+1905,航班,hángbān,flight,4
+1906,航空,hángkōng,aviation,4
+1907,毫米,háomǐ,millimeter,4
+1908,毫升,háo shēng,milliliter,4
+1909,好友,hǎo yǒu,friend,4
+1910,号码,hàomǎ,number,4
+1911,合同,hétong,contract,4
+1912,黑暗,hēi àn,dark; darkness; murk,4
+1913,红包,hóng bāo,red envelope; red packet,4
+1914,后头,hòu tou,back,4
+1915,呼吸,hūxī,breathing,4
+1916,忽视,hūshì,Ignore,4
+1917,护士,hùshi,Nurse,4
+1918,怀念,huáiniàn,Miss,4
+1919,怀疑,huáiyí,doubt,4
+1920,缓解,huǎnjiě,relieve,4
+1921,黄瓜,huáng guā,cucumber; cuke,4
+1922,黄金,huángjīn,gold,4
+1923,回复,huí fù,reply,4
+1924,汇报,huìbào,report,4
+1925,汇率,huìlǜ,exchange rate,4
+1926,婚礼,hūnlǐ,wedding,4
+1927,伙伴,huǒbàn,Partner,4
+1928,或许,huòxǔ,maybe; probably,4
+1929,获得,huòdé,Get,4
+1930,获奖,huò jiǎng,win a prize; receive an award,4
+1931,获取,huò qǔ,gain; obtain,4
+1932,几乎,jīhū,almost,4
+1933,机构,jīgòu,mechanism,4
+1934,机遇,jīyù,Opportunity,4
+1935,积累,jīlěi,accumulation,4
+1936,激动,jīdòng,Excited,4
+1937,激烈,jīliè,fierce,4
+1938,及格,jígé,pass,4
+1939,极其,jíqí,extremely,4
+1940,即将,jíjiāng,soon,4
+1941,急忙,jímáng,Hastily,4
+1942,集合,jíhé,aggregate,4
+1943,记载,jìzǎi,Record,4
+1944,纪律,jìlǜ,discipline,4
+1945,技巧,jìqiǎo,Skill,4
+1946,季度,jìdù,quarter (of a year),4
+1947,季节,jìjié,Season,4
+1948,既然,jìrán,Since,4
+1949,加班,jiābān,overtime work,4
+1950,加入,jiā rù,add; mix; join; become a member,4
+1951,加油站,jiāyóuzhàn,Gas station,4
+1952,家务,jiāwù,Housework,4
+1953,假如,jiǎrú,If,4
+1954,坚固,jiāngù,strong,4
+1955,检测,jiǎn cè,detect; test,4
+1956,减肥,jiǎnféi,Reduce weight,4
+1957,减少,jiǎnshǎo,reduce,4
+1958,简历,jiǎnlì,resume,4
+1959,健身,jiànshēn,workout,4
+1960,渐渐,jiàn jiàn,gradually; step by step,4
+1961,讲究,jiǎngjiu,"Pay attention to, stress",4
+1962,讲座,jiǎngzuò,Lecture,4
+1963,奖金,jiǎngjīn,bonus,4
+1964,奖学金,jiǎng xué jīn,scholarship; fellowship,4
+1965,降低,jiàngdī,reduce,4
+1966,降价,jiàng jià,cut price; reduce price,4
+1967,降落,jiàngluò,land,4
+1968,降温,jiàng wēn,lower the temperature; drop in temperature,4
+1969,交换,jiāohuàn,exchange,4
+1970,交际,jiāojì,communication,4
+1971,教授,jiàoshòu,professor,4
+1972,教训,jiàoxùn,lesson,4
+1973,阶段,jiēduàn,stage,4
+1974,街道,jiēdào,Street,4
+1975,节省,jiéshěng,save,4
+1976,结构,jiégòu,structure,4
+1977,结论,jiélùn,conclusion,4
+1978,姐妹,jiě mèi,sisters,4
+1979,解释,jiěshì,explain,4
+1980,尽快,jǐnkuài,as soon as possible,4
+1981,紧密,jǐn mì,close; inseparable,4
+1982,尽力,jìnlì,Try the best,4
+1983,进口,jìnkǒu,Imported,4
+1984,近代,jìndài,Modern,4
+1985,禁止,jìnzhǐ,prohibit,4
+1986,经典,jīngdiǎn,classics; scriptures,4
+1987,精力,jīnglì,energy,4
+1988,竟然,jìngrán,Unexpectedly,4
+1989,镜头,jìngtóu,Camera lens,4
+1990,镜子,jìngzi,Mirror,4
+1991,究竟,jiūjìng,exactly,4
+1992,酒吧,jiǔbā,Bar,4
+1993,居民,jūmín,residents,4
+1994,居住,jūzhù,live,4
+1995,巨大,jùdà,huge,4
+1996,具备,jùbèi,"Have, possess",4
+1997,距离,jùlí,distance,4
+1998,聚会,jùhuì,Party,4
+1999,角色,juésè,role,4
+2000,开花,kāi huā,flower; bloom; blossom,4
+2001,开水,kāishuǐ,Boiling water,4
+2002,看不起,kànbuqǐ,Despise,4
+2003,看来,kàn lái,it seems; it appears,4
+2004,看望,kànwàng,visit,4
+2005,考察,kǎochá,Investigate,4
+2006,考虑,kǎolǜ,Consider,4
+2007,可见,kějiàn,So,4
+2008,空间,kōngjiān,space,4
+2009,口袋,kǒu dài,pocket,4
+2010,口语,kǒu yǔ,spoken language,4
+2011,会计,kuàijì,accountant,4
+2012,快递,kuài dì,express delivery,4
+2013,宽广,kuān guǎng,broad; vast; extensive,4
+2014,矿泉水,kuàngquánshuǐ,Mineral water,4
+2015,扩大,kuòdà,Expand,4
+2016,扩展,kuò zhǎn,expand; extend; spread; develop,4
+2017,括号,kuò hào,brackets; parentheses,4
+2018,垃圾,lā jī,rubbish; garbage; refuse; waste,4
+2019,拉开,lā kāi,pull open; undraw; zip,4
+2020,来不及,láibují,There’s not enough time,4
+2021,来得及,láidejí,In time,4
+2022,来源,láiyuán,source,4
+2023,老公,lǎo gōng,husband,4
+2024,老家,lǎo jiā,hometown; home state,4
+2025,老婆,lǎopó,wife,4
+2026,老实,lǎoshi,honest,4
+2027,乐趣,lèqù,pleasure,4
+2028,泪水,lèi shuǐ,tear; teardrop,4
+2029,类型,lèixíng,type,4
+2030,冷静,lěngjìng,calm down,4
+2031,厘米,límǐ,centimeter,4
+2032,离不开,lí bù kāi,can’t do without,4
+2033,力气,lìqi,Strength,4
+2034,历史,lìshǐ,History,4
+2035,立即,lìjí,immediately,4
+2036,利息,lìxī,accrual; interest,4
+2037,利益,lìyì,interest,4
+2038,良好,liánghǎo,good,4
+2039,粮食,liángshi,foodstuff,4
+2040,两边,liǎng biān,both sides,4
+2041,疗养,liáo yǎng,recuperate; convalesce,4
+2042,了不起,liǎobuqǐ,Amazing,4
+2043,了解,liǎojiě,understand,4
+2044,列车,lièchē,train,4
+2045,列入,liè rù,included in,4
+2046,列为,liè wéi,be classified as; listed as,4
+2047,临时,línshí,temporary,4
+2048,零食,língshí,snacks,4
+2049,流传,liúchuán,spread,4
+2050,楼梯,lóu tī,stairs; staircase; stairway,4
+2051,陆地,lùdì,land,4
+2052,陆续,lùxù,One after another,4
+2053,录取,lùqǔ,matriculate,4
+2054,律师,lǜshī,Lawyer,4
+2055,轮船,lúnchuán,Ship,4
+2056,轮椅,lún yǐ,wheelchair,4
+2057,轮子,lún zi,wheel,4
+2058,论文,lùnwén,paper,4
+2059,毛巾,máojīn,Towel,4
+2060,毛衣,máo yī,sweater; wool sweater,4
+2061,帽子,màozi,Hat,4
+2062,没错,méi cuò,that’s right,4
+2063,没法儿,méi fǎr,can not; no way,4
+2064,没想到,méi xiǎng dào,didn’t expect,4
+2065,美金,měi jīn,USD; dollar,4
+2066,美女,měi nǚ,belle ; beauty; beautiful woman,4
+2067,梦见,mèng jiàn,see in a dream; dream about; dream,4
+2068,梦想,mèngxiǎng,Dream,4
+2069,秘密,mìmì,Secret,4
+2070,秘书,mìshū,secretary,4
+2071,密码,mìmǎ,Password,4
+2072,密切,mìqiè,close,4
+2073,免费,miǎnfèi,Free of charge,4
+2074,面临,miànlín,face,4
+2075,面试,miàn shì,interview; audition,4
+2076,描述,miáo shù,describe; depict; description,4
+2077,描写,miáoxiě,describe,4
+2078,名牌儿,míng páir,famous brand,4
+2079,名片,míngpiàn,business card,4
+2080,名人,míng rén,celebrity; famous person,4
+2081,模特儿,mó tèr,model,4
+2082,模型,móxíng,Model,4
+2083,默默,mòmò,silently,4
+2084,哪怕,nǎpà,even if,4
+2085,男女,nán nǚ,men and women; male and female,4
+2086,男士,nán shì,man,4
+2087,难免,nánmiǎn,Unavoidable,4
+2088,脑袋,nǎodai,head,4
+2089,闹钟,nào zhōng,alarm clock,4
+2090,内部,nèibù,interior,4
+2091,内科,nèikē,Internal medicine,4
+2092,能干,nénggàn,capable,4
+2093,宁静,níng jìng,peaceful; tranquil; quiet,4
+2094,女士,nǚshì,Ma’am,4
+2095,暖气,nuǎn qì,central heating; heating; heater,4
+2096,拍照,pāi zhào,take a picture; photograph,4
+2097,排列,páiliè,array,4
+2098,盘子,pánzi,plate,4
+2099,胖子,pàng zi,fat person; fatty,4
+2100,培训,péixùn,Train,4
+2101,培训班,péi xùn bān,training class,4
+2102,培养,péiyǎng,culture,4
+2103,培育,péiyù,Cultivation,4
+2104,片面,piànmiàn,one-sided,4
+2105,品质,pǐnzhì,quality,4
+2106,平方,píngfāng,square,4
+2107,平静,píngjìng,calm,4
+2108,平均,píngjūn,Average,4
+2109,平稳,píng wěn,smooth; steady,4
+2110,迫切,pòqiè,urgent,4
+2111,破产,pòchǎn,bankruptcy,4
+2112,妻子,qīzi,Wife,4
+2113,期待,qīdài,expect; look forward to,4
+2114,期间,qījiān,Period,4
+2115,期末,qī mò,end of term,4
+2116,期限,qīxiàn,term,4
+2117,期中,qī zhōng,midterm,4
+2118,其余,qíyú,Rest,4
+2119,企业,qǐyè,enterprise,4
+2120,气球,qì qiú,balloon,4
+2121,汽水,qì shuǐ,soda; soda water; aerated water; sparkling water,4
+2122,汽油,qìyóu,gasoline,4
+2123,器官,qìguān,organ,4
+2124,前头,qián tou,front; thereinbefore,4
+2125,前途,qiántú,future,4
+2126,巧克力,qiǎokèlì,Chocolates,4
+2127,亲爱,qīn’ài,Dear,4
+2128,亲密,qīnmì,close,4
+2129,青春,qīngchūn,Youth,4
+2130,轻松,qīngsōng,Relaxed,4
+2131,轻易,qīngyì,easily,4
+2132,清醒,qīngxǐng,Sober,4
+2133,情景,qíngjǐng,scene,4
+2134,穷人,qióng rén,poor people; the poor,4
+2135,秋季,qiū jì,autumn; fall,4
+2136,趋势,qūshì,trend,4
+2137,权利,quánlì,Right,4
+2138,确认,quèrèn,confirm,4
+2139,然而,rán’ér,however,4
+2140,燃料,rán liào,fuel,4
+2141,燃烧,ránshāo,burning,4
+2142,热闹,rènao,lively,4
+2143,热心,rèxīn,enthusiastic,4
+2144,人家,rénjiā,family,4
+2145,日记,rìjì,diary,4
+2146,日历,rìlì,calendar,4
+2147,如今,rújīn,nowadays,4
+2148,色彩,sècǎi,color,4
+2149,森林,sēnlín,Forest,4
+2150,闪电,shǎndiàn,lightning,4
+2151,善良,shànliáng,kind; virtuous,4
+2152,善于,shànyú,be good at,4
+2153,伤害,shānghài,hurt,4
+2154,商务,shāngwù,business,4
+2155,上个月,shàng gè yuè,last month,4
+2156,上楼,shàng lóu,go upstairs,4
+2157,上门,shàng mén,drop in; visit,4
+2158,设施,shèshī,facilities,4
+2159,设置,shèzhì,Set up,4
+2160,申请,shēnqǐng,Apply,4
+2161,身材,shēncái,figure,4
+2162,身份,shēnfèn,identity,4
+2163,身高,shēn gāo,height,4
+2164,深厚,shēn hòu,deep; profound; solid; deep-seated,4
+2165,神话,shénhuà,Myth,4
+2166,神秘,shénmì,mysterious,4
+2167,甚至,shènzhì,Even to the extent that,4
+2168,失败,shībài,fail,4
+2169,失望,shīwàng,Disappointment,4
+2170,失业,shīyè,Unemployment,4
+2171,诗人,shī rén,poet,4
+2172,实施,shíshī,Implementation,4
+2173,实用,shíyòng,Practical,4
+2174,食堂,shí táng,dining room; mess hall; canteen,4
+2175,使劲,shǐ jìn,exert all one’s strength; put in energy,4
+2176,士兵,shìbīng,soldiers,4
+2177,市区,shì qū,downtown area; urban district,4
+2178,似的,shìde,Like,4
+2179,事物,shìwù,Thing,4
+2180,事先,shìxiān,Prior,4
+2181,试卷,shìjuàn,test paper,4
+2182,是否,shìfǒu,Whether,4
+2183,收回,shōu huí,withdraw; regain; call in; countermand,4
+2184,收获,shōuhuò,Harvest,4
+2185,收益,shōuyì,income; profit,4
+2186,手工,shǒugōng,manual,4
+2187,手里,shǒu lǐ,in one’s hands,4
+2188,手术,shǒushù,Operation,4
+2189,手套,shǒutào,glove,4
+2190,受不了,shòubuliǎo,Cannot bear sth,4
+2191,售货员,shòuhuòyuán,Salesperson,4
+2192,叔叔,shūshu,uncle,4
+2193,舒适,shūshì,Comfortable,4
+2194,熟练,shúliàn,skilled,4
+2195,暑假,shǔ jià,summer vacation,4
+2196,树林,shù lín,wood; grove; forest,4
+2197,树叶,shù yè,leaf; tree leaf,4
+2198,数据,shùjù,data,4
+2199,数码,shùmǎ,Digital,4
+2200,刷牙,shuāyá,Brush one’s teeth,4
+2201,刷子,shuā zi,brush; scrub,4
+2202,帅哥,shuài gē,handsome boy,4
+2203,率先,shuài xiān,lead; take the lead,4
+2204,睡着,shuì zháo,sleep; fall asleep,4
+2205,顺序,shùnxù,order,4
+2206,说不定,shuōbudìng,maybe,4
+2207,说服,shuōfú,Persuade,4
+2208,思考,sīkǎo,Reflection,4
+2209,似乎,sìhū,It seems that,4
+2210,松树,sōng shù,pine tree; pine,4
+2211,塑料,sù liào,plastic,4
+2212,塑料袋,sùliàodài,Plastic bag,4
+2213,酸奶,suān nǎi,yogurt,4
+2214,随手,suíshǒu,Readily,4
+2215,孙女,sūn nǚ,granddaughter,4
+2216,孙子,sūnzi,Grandson,4
+2217,缩短,suōduǎn,Shorten,4
+2218,缩小,suō xiǎo,reduce; lessen; narrow; shrink; zoom out,4
+2219,台阶,táijiē,Steps,4
+2220,台上,tái shàng,on the stage,4
+2221,套餐,tào cān,set meal,4
+2222,特价,tè jià,special offer; bargain price,4
+2223,特殊,tèshū,special,4
+2224,特征,tèzhēng,Features,4
+2225,提供,tígōng,provide,4
+2226,提醒,tíxǐng,remind,4
+2227,体操,tǐ cāo,gymnastics,4
+2228,体检,tǐ jiǎn,physical examination,4
+2229,体重,tǐ zhòng,body weight,4
+2230,替代,tì dài,replace; substitute,4
+2231,天真,tiānzhēn,naive,4
+2232,填空,tiánkòng,Fill in the blanks,4
+2233,挑选,tiāo xuǎn,pick; choose; select; pick out,4
+2234,调皮,tiáopí,naughty,4
+2235,挑战,tiǎozhàn,Dekaron,4
+2236,停下,tíng xià,stop,4
+2237,通知书,tōng zhī shū,notice,4
+2238,同情,tóngqíng,Sympathy,4
+2239,童话,tónghuà,fairy tale,4
+2240,童年,tóng nián,childhood; babyhood,4
+2241,统计,tǒngjì,Statistics,4
+2242,统一,tǒngyī,Unified,4
+2243,痛快,tòngkuài,"Happy, to one`s heart`s content",4
+2244,投入,tóurù,put into,4
+2245,投诉,tóusù,complaint,4
+2246,投资,tóuzī,Investment,4
+2247,透明,tòumíng,transparent,4
+2248,图案,tú’àn,pattern,4
+2249,途中,tú zhōng,on the way to; en route,4
+2250,土地,tǔdì,land,4
+2251,推迟,tuīchí,delay,4
+2252,推销,tuīxiāo,promote sales,4
+2253,袜子,wàzi,Socks,4
+2254,外汇,wài huì,foreign exchange; foreign currency,4
+2255,外交官,wài jiāo guān,diplomat; diplomatist,4
+2256,外套,wài tào,coat,4
+2257,晚点,wǎn diǎn,late; behind schedule,4
+2258,万一,wànyī,In case,4
+2259,网络,wǎngluò,network,4
+2260,网址,wǎng zhǐ,Internet site; website; URL,4
+2261,微笑,wēixiào,Smile,4
+2262,微信,wēi xìn,WeChat (a Chinese social app),4
+2263,围巾,wéijīn,scarf,4
+2264,维持,wéichí,maintain,4
+2265,维护,wéihù,protect,4
+2266,维修,wéixiū,Repair,4
+2267,尾巴,wěiba,tail,4
+2268,未必,wèibì,not necessarily,4
+2269,未来,wèilái,Future,4
+2270,位于,wèiyú,Be located,4
+2271,位置,wèizhì,position,4
+2272,味儿,wèir,flavor; taste,4
+2273,稳定,wěndìng,Stable,4
+2274,问候,wènhòu,To greet,4
+2275,无法,wú fǎ,unable; incapable,4
+2276,无聊,wúliáo,Boring,4
+2277,无论,wúlùn,no matter,4
+2278,无数,wúshù,Countless,4
+2279,无所谓,wúsuǒwèi,cannot be designated as,4
+2280,无限,wú xiàn,infinite; limitless; unlimited,4
+2281,五颜六色,wǔ yán liù sè,colourful; multicolored,4
+2282,误会,wùhuì,Misunderstanding,4
+2283,西瓜,xīguā,watermelon,4
+2284,吸管,xī guǎn,straw,4
+2285,吸收,xīshōu,absorb,4
+2286,吸烟,xī yān,smoke,4
+2287,吸引,xīyǐn,Attract,4
+2288,喜爱,xǐ ài,like; love; be fond of,4
+2289,系列,xìliè,series,4
+2290,系统,xìtǒng,system,4
+2291,细节,xìjié,details,4
+2292,细致,xìzhì,careful,4
+2293,下个月,xià gè yuè,next month,4
+2294,下降,xià jiàng,decline; drop; decrease; fall; go down,4
+2295,下楼,xià lóu,go downstairs; come downstairs,4
+2296,下载,xiàzài,download,4
+2297,夏季,xià jì,summer,4
+2298,鲜花,xiān huā,fresh flower,4
+2299,鲜明,xiānmíng,distinct,4
+2300,显著,xiǎnzhù,remarkable,4
+2301,限制,xiànzhì,limit,4
+2302,相处,xiāngchǔ,Get along with,4
+2303,相反,xiāngfǎn,Contrary,4
+2304,箱子,xiāng zi,chest; bin; box; case; trunk,4
+2305,想念,xiǎngniàn,miss,4
+2306,想象,xiǎngxiàng,imagine,4
+2307,项目,xiàngmù,project,4
+2308,相片,xiàng piàn,photo; photograph,4
+2309,消化,xiāohuà,Digestion,4
+2310,销售,xiāoshòu,Sale,4
+2311,小吃,xiǎochī,snack,4
+2312,小伙子,xiǎohuǒzi,Young fellow,4
+2313,小型,xiǎo xíng,small-size; small-scale,4
+2314,效率,xiàolǜ,efficiency,4
+2315,心理,xīnlǐ,Psychology,4
+2316,新郎,xīnláng,Groom,4
+2317,新娘,xīnniáng,Bride,4
+2318,新鲜,xīnxiān,fresh,4
+2319,新型,xīn xíng,new type; new kind,4
+2320,兴奋,xīngfèn,Excitement,4
+2321,形容,xíngróng,describe,4
+2322,形势,xíngshì,situation,4
+2323,型号,xíng hào,model; type; pattern,4
+2324,兴趣,xìng qù,interest,4
+2325,性质,xìngzhì,Nature,4
+2326,兄弟,xiōngdì,Brother,4
+2327,胸部,xiōng bù,chest; thorax; breast,4
+2328,修理,xiūlǐ,repair,4
+2329,选择,xuǎnzé,Choice,4
+2330,学分,xué fēn,credit; academic credit,4
+2331,学年,xué nián,school year; academic year,4
+2332,学时,xué shí,class hour; period,4
+2333,学术,xuéshù,learning,4
+2334,学问,xuéwen,knowledge,4
+2335,寻找,xúnzhǎo,"Seek, look for",4
+2336,迅速,xùnsù,rapid,4
+2337,牙刷,yá shuā,toothbrush,4
+2338,亚运会,yà yùn huì,Asian Games,4
+2339,延长,yáncháng,extend,4
+2340,延期,yánqī,Delay,4
+2341,延续,yánxù,continue,4
+2342,严格,yángé,strict,4
+2343,严重,yánzhòng,serious,4
+2344,研究,yánjiū,research,4
+2345,研究生,yán jiū shēng,postgraduate; graduate student,4
+2346,研制,yán zhì,prepare; manufacture; develop,4
+2347,眼镜,yǎnjìng,glasses,4
+2348,眼泪,yǎn lèi,tear; eyedrop,4
+2349,眼里,yǎn lǐ,within one’s vision; in one’s eyes,4
+2350,演讲,yǎnjiǎng,speech,4
+2351,阳台,yángtái,balcony,4
+2352,养成,yǎngchéng,Cultivate,4
+2353,药物,yào wù,drug; medicine,4
+2354,业余,yèyú,amateur,4
+2355,叶子,yèzi,Leaf,4
+2356,医疗,yī liáo,medical treatment,4
+2357,医学,yī xué,medical science; medicine,4
+2358,依靠,yīkào,rely on; depend on,4
+2359,依然,yīrán,still,4
+2360,一律,yílǜ,all and singular,4
+2361,一再,yízài,repeatedly,4
+2362,一致,yízhì,Agreement,4
+2363,移动,yídòng,move,4
+2364,移民,yímín,immigrant,4
+2365,遗产,yíchǎn,heritage,4
+2366,遗传,yíchuán,inheritance,4
+2367,疑问,yíwèn,Doubt,4
+2368,以及,yǐjí,as well as,4
+2369,以内,yǐ nèi,within,4
+2370,一般来说,yì bān lái shuō,generally speaking,4
+2371,义务,yìwù,obligation,4
+2372,议论,yìlùn,Discussion,4
+2373,引导,yǐndǎo,guide,4
+2374,引进,yǐn jìn,introduce from elsewhere; bring in; recommend,4
+2375,引起,yǐnqǐ,cause,4
+2376,英勇,yīngyǒng,heroic,4
+2377,营业,yíngyè,Do business,4
+2378,赢得,yíng dé,gain; win,4
+2379,影子,yǐngzi,shadow,4
+2380,勇敢,yǒnggǎn,Brave,4
+2381,勇气,yǒngqì,courage,4
+2382,用途,yòngtú,purpose,4
+2383,优良,yōu liáng,fine; good; excellent,4
+2384,优美,yōuměi,Graceful,4
+2385,优秀,yōuxiù,excellent,4
+2386,邮局,yóujú,Post Office,4
+2387,有劲儿,yǒu jìnr,strong; energetic,4
+2388,有趣,yǒuqù,interesting,4
+2389,有限,yǒu xiàn,limited; finite,4
+2390,幼儿园,yòu’éryuán,Kindergarten,4
+2391,于是,yúshì,Therefore,4
+2392,语法,yǔfǎ,grammar,4
+2393,语音,yǔ yīn,voice,4
+2394,玉米,yùmǐ,Corn,4
+2395,预测,yù cè,forecast; prognosis,4
+2396,预订,yùdìng,book; subscribe for,4
+2397,遇到,yùdào,encounter,4
+2398,遇见,yù jiàn,meet; come across,4
+2399,原料,yuánliào,raw material,4
+2400,原则,yuánzé,Principle,4
+2401,圆满,yuánmǎn,Satisfactorily,4
+2402,约会,yuēhuì,Date,4
+2403,月底,yuè dǐ,the end of a month,4
+2404,阅读,yuèdú,Read,4
+2405,运动会,yùn dòng huì,sports meeting,4
+2406,运动员,yùn dòng yuán,athlete; sportsman,4
+2407,运气,yùnqi,luck,4
+2408,运用,yùnyòng,Application,4
+2409,再三,zàisān,repeatedly,4
+2410,在乎,zàihu,care about,4
+2411,在于,zàiyú,rest with,4
+2412,赞成,zànchéng,agree,4
+2413,赞赏,zàn shǎng,praise; panegyrize; eulogize; admiration,4
+2414,赞助,zànzhù,Sponsor,4
+2415,造型,zàoxíng,style; modeling,4
+2416,战斗,zhàndòu,Battle,4
+2417,战胜,zhàn shèng,defeat; conquer,4
+2418,战士,zhàn shì,warrior; soldier; fighter,4
+2419,战争,zhànzhēng,War,4
+2420,丈夫,zhàngfu,husband,4
+2421,招呼,zhāo hu,call; hail; greet; glad-hand,4
+2422,着火,zháohuǒ,on fire,4
+2423,着急,zháojí,Worry,4
+2424,召开,zhàokāi,convene,4
+2425,针对,zhēnduì,In the light of,4
+2426,争论,zhēnglùn,debate,4
+2427,征服,zhēngfú,Conquer,4
+2428,征求,zhēngqiú,"seek, ask for",4
+2429,政府,zhèngfǔ,government,4
+2430,政治,zhèngzhì,Politics,4
+2431,之后,zhī hòu,later; after; afterwards,4
+2432,之间,zhī jiān,between; among,4
+2433,之前,zhī qián,before; prior to,4
+2434,之一,zhī yī,one of,4
+2435,植物,zhíwù,Botany,4
+2436,指挥,zhǐhuī,command,4
+2437,制订,zhì dìng,formulate; work out; map out,4
+2438,质量,zhìliàng,quality,4
+2439,治疗,zhìliáo,Treatment,4
+2440,智力,zhìlì,intelligence,4
+2441,智能,zhìnéng,Intelligence,4
+2442,中介,zhōngjiè,intermediary,4
+2443,种类,zhǒnglèi,type,4
+2444,中奖,zhòng jiǎng,win a lottery,4
+2445,种植,zhòngzhí,plant,4
+2446,重量,zhòngliàng,weight,4
+2447,逐步,zhúbù,gradually,4
+2448,逐渐,zhújiàn,gradually,4
+2449,主题,zhǔtí,theme,4
+2450,主席,zhǔxí,Chairman,4
+2451,祝福,zhùfú,blessing,4
+2452,著名,zhùmíng,famous,4
+2453,著作,zhùzuò,Work,4
+2454,抓紧,zhuājǐn,Pay close attention to; grasp,4
+2455,专心,zhuānxīn,Attentively,4
+2456,转动,zhuǎn dòng,turn; move; turn round,4
+2457,转告,zhuǎngào,Tell,4
+2458,转身,zhuǎn shēn,turn round; face about,4
+2459,转弯,zhuǎn wān,make a turn; turn a corner,4
+2460,转移,zhuǎnyí,transfer,4
+2461,装修,zhuāngxiū,decorate house,4
+2462,装置,zhuāng zhì,device; equipment,4
+2463,追求,zhuīqiú,Pursuit,4
+2464,准时,zhǔnshí,on time,4
+2465,资料,zīliào,data,4
+2466,资源,zīyuán,Resources,4
+2467,自信,zìxìn,self-confidence,4
+2468,字母,zìmǔ,Letter,4
+2469,综合,zōnghé,comprehensive,4
+2470,总共,zǒnggòng,In total,4
+2471,总理,zǒnglǐ,prime minister,4
+2472,总统,zǒngtǒng,President,4
+2473,总之,zǒngzhī,in short,4
+2474,阻止,zǔzhǐ,prevent,4
+2475,嘴巴,zuǐ ba,mouth,4
+2476,最初,zuìchū,First,4
+2477,作出,zuò chū,"make (a decision, etc.)",4
+2478,作为,zuòwéi,As,4
+2479,做梦,zuò mèng,dream; daydream,4
+2480,安慰,ānwèi,comfort,5
+2481,岸上,àn shàng,ashore; shore; bank,5
+2482,按摩,ànmó,massage,5
+2483,白酒,bái jiǔ,Chinese Baijiu; liquor and spirits,5
+2484,拜访,bàifǎng,visit,5
+2485,扮演,bànyǎn,Play the role,5
+2486,包围,bāowéi,Surround,5
+2487,包装,bāozhuāng,pack; put up; make up,5
+2488,保卫,bǎowèi,Defend,5
+2489,保养,bǎoyǎng,maintain,5
+2490,报答,bàodá,reciprocate; pay back; repay,5
+2491,报警,bàojǐng,call the police,5
+2492,抱怨,bàoyuàn,Complain,5
+2493,背包,bēi bāo,backpack; knapsack; rucksack; infantry pack,5
+2494,悲剧,bēi jù,tragedy,5
+2495,悲伤,bēi shāng,sad; sorrowful,5
+2496,北极,běijí,arctic,5
+2497,被动,bèidòng,passive,5
+2498,本人,běnrén,oneself,5
+2499,鼻子,bízi,nose,5
+2500,比方,bǐfāng,Example,5
+2501,比重,bǐzhòng,specific gravity; proportion,5
+2502,彼此,bǐcǐ,each other,5
+2503,必需,bì xū,essential; indispensable,5
+2504,毕竟,bìjìng,after all,5
+2505,闭幕,bì mù,close; conclude; lower the curtain,5
+2506,闭幕式,bì mù shì,closing ceremony,5
+2507,边境,biānjìng,border; frontier,5
+2508,编辑,biānjí,edit,5
+2509,变动,biàn dòng,change; alteration; variation,5
+2510,便利,biànlì,facilitate,5
+2511,便条,biàntiáo,Note,5
+2512,便于,biànyú,Easy to,5
+2513,宾馆,bīnguǎn,hotel,5
+2514,饼干,bǐnggān,Biscuits,5
+2515,病毒,bìngdú,virus,5
+2516,玻璃,bōli,Glass,5
+2517,博客,bó kè,blog,5
+2518,博览会,bólǎnhuì,exposition,5
+2519,博士,bóshì,doctor,5
+2520,博物馆,bówùguǎn,Museum,5
+2521,薄弱,bóruò,weak,5
+2522,不顾,búgù,disregard,5
+2523,不利,bú lì,unfavourable; disadvantageous; harmful; detrimental,5
+2524,不耐烦,búnàifán,Impatient,5
+2525,不幸,bú xìng,misfortune; unfortunat; unfortunately,5
+2526,不易,bú yì,not easy; difficult; tough,5
+2527,补偿,bǔcháng,compensate,5
+2528,补贴,bǔtiē,subsidy,5
+2529,不曾,bù céng,never,5
+2530,不得了,búdéliǎo,Very,5
+2531,不敢当,bùgǎndāng,I really don’t deserve this.,5
+2532,不良,bù liáng,bad; harmful; unhealthy,5
+2533,不免,bùmiǎn,unavoidable,5
+2534,不能不,bù néng bù,have to; cannot but,5
+2535,不时,bùshí,now and then,5
+2536,不停,bù tíng,without stop; non-stop,5
+2537,不许,bù xǔ,not allow; must not; can’t,5
+2538,不止,bùzhǐ,more than,5
+2539,不足,bùzú,insufficient,5
+2540,部位,bùwèi,part; section,5
+2541,猜测,cāi cè,guess; conjecture; surmise,5
+2542,裁判,cáipàn,Referee,5
+2543,采购,cǎigòu,Purchase,5
+2544,彩票,cǎipiào,lottery,5
+2545,餐馆,cān guǎn,restaurant,5
+2546,餐厅,cāntīng,Restaurant,5
+2547,餐饮,cān yǐn,catering; repast,5
+2548,草原,cǎo yuán,grasslands; prairie,5
+2549,层次,céngcì,gradation; arrangement,5
+2550,叉子,chāzi,Fork,5
+2551,差别,chābié,difference,5
+2552,差距,chājù,disparity; distance,5
+2553,查询,chá xún,inquire; demand,5
+2554,差一点儿,chā（yì）diǎnr,almost; nearly,5
+2555,拆除,chāi chú,tear down; demolish; dismantle; remove,5
+2556,产业,chǎnyè,industry,5
+2557,长度,cháng dù,length; extent,5
+2558,长寿,cháng shòu,long life; longevity,5
+2559,尝试,chángshì,attempt,5
+2560,厂长,chǎng zhǎng,factory director; plant manager,5
+2561,场面,chǎngmiàn,scene,5
+2562,倡导,chàngdǎo,Advocate,5
+2563,超越,chāoyuè,Transcend,5
+2564,车主,chē zhǔ,car owner,5
+2565,称号,chēnghào,Title,5
+2566,成本,chéngběn,cost,5
+2567,成交,chéngjiāo,Deal,5
+2568,成效,chéngxiào,"Results, effects",5
+2569,成语,chéngyǔ,idiom,5
+2570,承办,chéngbàn,Undertake,5
+2571,城里,chéng lǐ,inside the city; in town,5
+2572,乘车,chéng chē,riding; ride,5
+2573,乘客,chéng kè,passenger,5
+2574,乘坐,chéngzuò,ride,5
+2575,吃力,chīlì,Sweaty,5
+2576,池子,chí zi,pond; pool,5
+2577,冲动,chōngdòng,impulse,5
+2578,冲突,chōngtū,conflict,5
+2579,充足,chōngzú,adequate,5
+2580,出版,chūbǎn,publish,5
+2581,出差,chūchāi,A business travel,5
+2582,出汗,chū hàn,sweat; sweating,5
+2583,出于,chū yú,out of; start from; proceed from; stem,5
+2584,初期,chū qī,prime; initial stage; early days,5
+2585,除非,chúfēi,Unless,5
+2586,除夕,chúxī,the New Year’s Eve,5
+2587,厨房,chúfáng,Kitchen,5
+2588,处罚,chǔ fá,punish; penalize; punishment,5
+2589,处分,chǔfèn,prescription,5
+2590,处在,chǔ zài,at; be in,5
+2591,传达,chuándá,Convey,5
+2592,传递,chuán dì,transmit; deliver; transfer,5
+2593,传真,chuánzhēn,Fax,5
+2594,窗帘,chuānglián,Window curtains,5
+2595,创立,chuànglì,Found,5
+2596,辞典,cí diǎn,dictionary,5
+2597,辞职,cízhí,resign,5
+2598,此后,cǐ hòu,after that; hereafter; henceforth,5
+2599,此刻,cǐ kè,now; at the moment,5
+2600,此时,cǐ shí,this moment; now,5
+2601,聪明,cōngming,clever,5
+2602,从而,cóng’ér,thus,5
+2603,从中,cóng zhōng,from; therefrom,5
+2604,存款,cún kuǎn,deposit; bank savings,5
+2605,达成,dáchéng,Reach,5
+2606,答复,dáfù,Reply,5
+2607,打扮,dǎban,dress up,5
+2608,打包,dǎbāo,Pack,5
+2609,打击,dǎjī,strike,5
+2610,打架,dǎjià,Fight,5
+2611,打扰,dǎrǎo,Disturb,5
+2612,大胆,dà dǎn,bold; daring; audacious; audacity,5
+2613,大都,dà dōu,for the most part; mostly,5
+2614,大纲,dà gāng,outline; main point; compendium,5
+2615,大伙儿,dàhuǒr,you all; everybody,5
+2616,大奖赛,dà jiǎng sài,grand prix,5
+2617,大脑,dà nǎo,cerebrum; brain,5
+2618,大事,dà shì,event; in a big way,5
+2619,大厅,dà tīng,hall,5
+2620,大象,dàxiàng,Elephant,5
+2621,大熊猫,dà xióng māo,panda; giant panda,5
+2622,大于,dà yú,be greater than; more than,5
+2623,大致,dàzhì,roughly,5
+2624,代价,dàijià,cost,5
+2625,代理,dàilǐ,agent,5
+2626,带有,dài yǒu,with; have; bear,5
+2627,贷款,dàikuǎn,extend credit to; provide a loan,5
+2628,单一,dān yī,single; unitary; sole,5
+2629,胆小,dǎn xiǎo,timid; cowardly,5
+2630,蛋糕,dàngāo,Cake,5
+2631,当场,dāngchǎng,On the spot,5
+2632,当代,dāngdài,Contemporary,5
+2633,当年,dāng nián,in those years; in those days,5
+2634,当前,dāngqián,current,5
+2635,当选,dāngxuǎn,be elected; come in,5
+2636,到来,dào lái,arrival; advent,5
+2637,倒是,dào shì,on the contrary; contrariwise; actually,5
+2638,道德,dàodé,Morality,5
+2639,得了,dé le,stop it; hold it; got,5
+2640,得以,dé yǐ,be able to,5
+2641,等候,děnghòu,Wait,5
+2642,等级,děngjí,grade; rank,5
+2643,低于,dī yú,below; under,5
+2644,地带,dì dài,zone; district; region,5
+2645,地形,dì xíng,terrain; topography; orographic,5
+2646,地震,dìzhèn,earthquake,5
+2647,递给,dì gěi,hand over; pass on,5
+2648,典礼,diǎnlǐ,Ceremony,5
+2649,点燃,diǎn rán,light; ignite; kindle,5
+2650,电池,diànchí,Battery,5
+2651,电饭锅,diàn fàn guō,rice cooker,5
+2652,电子版,diàn zǐ bǎn,electronic edition,5
+2653,调动,diàodòng,transfer,5
+2654,动机,dòngjī,motivation,5
+2655,动手,dòngshǒu,DIY,5
+2656,动态,dòngtài,dynamic,5
+2657,动员,dòngyuán,mobilization,5
+2658,豆制品,dòu zhì pǐn,bean products,5
+2659,对立,duìlì,Opposition,5
+2660,对应,duìyìng,Corresponding,5
+2661,儿女,ér nǚ,sons and daughters; children,5
+2662,耳朵,ěrduo,Ears,5
+2663,二维码,èr wéi mǎ,QR code,5
+2664,发布,fābù,Release,5
+2665,发觉,fājué,find,5
+2666,发射,fāshè,launch,5
+2667,发行,fāxíng,issue,5
+2668,罚款,fákuǎn,forfeit; amerce; fine,5
+2669,法规,fǎ guī,rule of law; statute; law,5
+2670,法制,fǎ zhì,legal system,5
+2671,繁荣,fánróng,Boom,5
+2672,返回,fǎn huí,return; backtrack; go back,5
+2673,防治,fángzhì,Prevention and cure,5
+2674,放大,fàngdà,enlarge,5
+2675,放弃,fàngqì,give up,5
+2676,分成,fēn chéng,divide into; separate into,5
+2677,分解,fēnjiě,decompose,5
+2678,分类,fēn lèi,classify; assort; classification; sort,5
+2679,分离,fēn lí,separate; sever; dissociate; detachment,5
+2680,分析,fēnxī,Analysis,5
+2681,分享,fēn xiǎng,share; partake,5
+2682,丰收,fēngshōu,Have bumper harvest,5
+2683,风度,fēngdù,Manner,5
+2684,风光,fēngguāng,Scenery,5
+2685,疯狂,fēngkuáng,Insane,5
+2686,服从,fúcóng,Obey,5
+2687,幅度,fúdù,range; extent,5
+2688,福利,fúlì,welfare,5
+2689,辅助,fǔzhù,auxiliary,5
+2690,负责人,fù zé rén,principal; person in charge,5
+2691,附件,fùjiàn,Enclosure,5
+2692,改革,gǎigé,reform,5
+2693,干脆,gāncuì,simply,5
+2694,干扰,gānrǎo,interfere,5
+2695,干预,gānyù,intervene,5
+2696,感想,gǎnxiǎng,Feel,5
+2697,钢笔,gāng bǐ,pen; fountain pen,5
+2698,钢琴,gāng qín,piano; pianoforte,5
+2699,高大,gāo dà,tall; lofty,5
+2700,高度,gāo dù,altitude; height; high; highly,5
+2701,高跟鞋,gāo gēn xié,high-heeled shoes,5
+2702,高温,gāo wēn,high temperature,5
+2703,高于,gāo yú,higher than; overtop,5
+2704,高原,gāo yuán,plateau; highland; tableland,5
+2705,搞好,gǎo hǎo,do well; make a good job of,5
+2706,歌曲,gē qǔ,song,5
+2707,隔壁,gébì,next door,5
+2708,个儿,gèr,height; size; stature,5
+2709,跟前,gēnqián,In front of,5
+2710,跟随,gēnsuí,follow,5
+2711,更换,gēng huàn,change; replace,5
+2712,更新,gēngxīn,renovate; renew,5
+2713,工艺,gōng yì,technology; craft,5
+2714,工作日,gōng zuò rì,workday; working day,5
+2715,公告,gōnggào,Notice,5
+2716,公认,gōngrèn,Accepted,5
+2717,公式,gōngshì,formula,5
+2718,公正,gōngzhèng,fair,5
+2719,共计,gòngjì,count up to; sum to,5
+2720,共享,gòng xiǎng,enjoy together; share,5
+2721,沟通,gōutōng,Communicate,5
+2722,估计,gūjì,estimate,5
+2723,古老,gǔ lǎo,ancient; old; age-old,5
+2724,鼓励,gǔlì,encourage,5
+2725,鼓掌,gǔzhǎng,applause,5
+2726,顾问,gùwèn,adviser,5
+2727,关怀,guānhuái,Care,5
+2728,关键,guānjiàn,crux,5
+2729,冠军,guànjūn,Champion,5
+2730,光荣,guāngróng,glory,5
+2731,光线,guāng xiàn,light; optical line,5
+2732,广泛,guǎngfàn,widely,5
+2733,规划,guīhuà,Plan,5
+2734,柜子,guì zi,cupboard; cabinet; chest,5
+2735,国籍,guójí,nationality,5
+2736,国民,guó mín,national,5
+2737,过度,guòdù,excessive,5
+2738,过敏,guòmǐn,allergy,5
+2739,过于,guòyú,too; excessively,5
+2740,好运,hǎo yùn,good luck,5
+2741,号召,hàozhào,call,5
+2742,合并,hébìng,merge,5
+2743,合成,héchéng,Synthesis,5
+2744,盒饭,hé fàn,box lunch,5
+2745,盒子,hézi,Box,5
+2746,贺卡,hè kǎ,greeting card,5
+2747,后悔,hòuhuǐ,regret,5
+2748,胡同儿,hú tòngr,alley; lane; bystreet,5
+2749,胡子,hú zi,mustache; beard,5
+2750,华语,huá yǔ,the Chinese language; Chinese,5
+2751,化石,huàshí,Fossil,5
+2752,划分,huàfēn,Divide,5
+2753,画面,huà miàn,frames; picture,5
+2754,环节,huánjié,link,5
+2755,慌忙,huāng máng,hurried; hurry; hurry-scurry,5
+2756,灰色,huī sè,gray; pessimistic,5
+2757,恢复,huīfù,recovery,5
+2758,回报,huíbào,Return,5
+2759,回避,huíbì,obviate; slide over,5
+2760,回顾,huígù,review; look back,5
+2761,回收,huíshōu,recovery,5
+2762,回头,huí tóu,turn one’s head; repent; later,5
+2763,回信,huí xìn,reply; write in reply; letter in reply,5
+2764,回忆,huíyì,Memory,5
+2765,汇款,huì kuǎn,remittance; remit money,5
+2766,会谈,huì tán,talks; conversation,5
+2767,活力,huólì,energy; vigor,5
+2768,活泼,huópō,lively,5
+2769,火柴,huǒchái,Match,5
+2770,火腿,huǒ tuǐ,ham,5
+2771,火灾,huǒ zāi,fire; fire disaster,5
+2772,或是,huò shì,or,5
+2773,机器人,jī qì rén,robot,5
+2774,机制,jī zhì,mechanism; machine-processed; machine-made,5
+2775,肌肉,jīròu,muscle,5
+2776,基地,jīdì,base,5
+2777,基金,jījīn,fund,5
+2778,即使,jíshǐ,even if,5
+2779,集团,jítuán,group,5
+2780,记忆,jìyì,memory,5
+2781,技能,jì néng,technical ability; skill,5
+2782,继承,jìchéng,inherit,5
+2783,加热,jiā rè,heat; heating; calefaction,5
+2784,加上,jiā shàng,plus; add; with the addition of,5
+2785,加速,jiā sù,speed up; accelerate; quicken,5
+2786,加以,jiā yǐ,moreover; in addition,5
+2787,驾驶,jiàshǐ,Drive,5
+2788,驾照,jià zhào,driving license,5
+2789,坚定,jiāndìng,"Firm, steadfast",5
+2790,艰苦,jiānkǔ,hard,5
+2791,艰难,jiānnán,difficult,5
+2792,检验,jiǎnyàn,test,5
+2793,减轻,jiǎn qīng,lighten; ease; alleviate; mitigate; mitigation,5
+2794,剪刀,jiǎndāo,scissors,5
+2795,剪子,jiǎn zi,scissors; shears; clippers,5
+2796,间接,jiànjiē,indirect,5
+2797,建造,jiàn zào,construct; build; put up,5
+2798,建筑,jiànzhù,Architecture,5
+2799,健全,jiànquán,sound,5
+2800,键盘,jiànpán,keyboard,5
+2801,将要,jiāng yào,will; shall; be going to,5
+2802,奖励,jiǎnglì,reward,5
+2803,交代,jiāodài,hand over,5
+2804,郊区,jiāoqū,Suburb,5
+2805,胶带,jiāo dài,tape; adhesive plaster,5
+2806,胶水,jiāoshuǐ,glue,5
+2807,脚步,jiǎo bù,footstep; step; pace,5
+2808,接触,jiēchù,Contact,5
+2809,接连,jiēlián,One after another,5
+2810,解除,jiěchú,Relieve,5
+2811,解放,jiěfàng,liberate,5
+2812,今日,jīn rì,today,5
+2813,尽管,jǐnguǎn,although,5
+2814,紧紧,jǐn jǐn,closely; tightly,5
+2815,尽可能,jǐn kě néng,as much as possible,5
+2816,进化,jìnhuà,evolution,5
+2817,近来,jìnlái,recently,5
+2818,经费,jīngfèi,funds,5
+2819,景象,jǐng xiàng,scene; sight,5
+2820,警告,jǐnggào,warning,5
+2821,竞赛,jìngsài,competition,5
+2822,竞争,jìngzhēng,compete,5
+2823,酒鬼,jiǔ guǐ,drunkard,5
+2824,救灾,jiù zāi,disaster relief,5
+2825,居然,jūrán,actually,5
+2826,局面,júmiàn,situation,5
+2827,局长,jú zhǎng,director,5
+2828,举动,jǔdòng,Move,5
+2829,拒绝,jùjué,refuse,5
+2830,俱乐部,jùlèbù,Club,5
+2831,剧本,jùběn,Script,5
+2832,决不,jué bù,never; not at all; definitely not,5
+2833,绝望,juéwàng,Despair,5
+2834,军人,jūn rén,soldier; serviceman,5
+2835,开幕,kāi mù,open; inaugurate; rising of a curtain,5
+2836,开幕式,kāimùshì,The opening ceremony,5
+2837,看成,kàn chéng,regard as; consider as; treat,5
+2838,看出,kàn chū,see; find out; perceive; espy,5
+2839,看待,kàndài,To view,5
+2840,考核,kǎohé,examine; assess,5
+2841,烤肉,kǎo ròu,barbecue; roast meat; grill,5
+2842,烤鸭,kǎoyā,Roasted Duck,5
+2843,靠近,kào jìn,near; close to; by,5
+2844,可怜,kělián,Poor,5
+2845,可惜,kěxī,unfortunately,5
+2846,渴望,kěwàng,Yearn,5
+2847,客户,kèhù,Customer,5
+2848,客气,kè qì,polite; courteous; modest,5
+2849,客厅,kètīng,A living room,5
+2850,课题,kètí,topic,5
+2851,肯定,kěndìng,sure,5
+2852,空中,kōng zhōng,in the air; in the sky,5
+2853,控制,kòngzhì,control,5
+2854,口号,kǒu hào,slogan; catchword; catchphrase,5
+2855,快活,kuàihuo,happy,5
+2856,宽度,kuān dù,breadth; width,5
+2857,困扰,kùn rǎo,perplex; persecute; puzzle; obsession,5
+2858,来信,lái xìn,send a letter here; incoming letter,5
+2859,朗读,lǎngdú,Reading aloud,5
+2860,浪漫,làngmàn,romantic,5
+2861,劳动,láodòng,labour,5
+2862,礼拜,lǐ bài,week; day of the week; religious service,5
+2863,礼貌,lǐmào,politeness,5
+2864,厉害,lìhai,Fierce,5
+2865,立场,lìchǎng,position,5
+2866,利润,lìrùn,profit,5
+2867,例外,lìwài,exception,5
+2868,连接,lián jiē,"link; joint; relate, unite, connect, attach; connection",5
+2869,联络,liánluò,liaison,5
+2870,联想,liánxiǎng,association,5
+2871,脸盆,liǎn pén,washbasin,5
+2872,脸色,liǎn sè,complexion; look; color; facial expression,5
+2873,恋爱,liàn’ài,Love,5
+2874,两岸,liǎng àn,both sides; both coasts; cross-strait,5
+2875,邻居,línjū,neighbor,5
+2876,铃声,líng shēng,ring; the tinkle of bells,5
+2877,领带,lǐng dài,necktie; tie,5
+2878,流动,liú dòng,flow; run; mobile,5
+2879,流通,liútōng,circulation,5
+2880,漏洞,lòu dòng,leak; flaw; hole; loophole,5
+2881,逻辑,luóji,logic,5
+2882,落实,luòshí,put into effect,5
+2883,码头,mǎtóu,wharf,5
+2884,买卖,mǎi mài,buy and sell; business; transaction,5
+2885,漫长,màncháng,Very long,5
+2886,漫画,mànhuà,Cartoon,5
+2887,毛笔,máo bǐ,writing brush; Chinese brush,5
+2888,矛盾,máodùn,contradiction,5
+2889,贸易,màoyì,Trade,5
+2890,煤气,méi qì,coal gas; gas,5
+2891,门诊,mén zhěn,outpatient service,5
+2892,迷人,mírén,charming,5
+2893,迷信,míxìn,superstition,5
+2894,面貌,miànmào,face,5
+2895,面子,miànzi,prestige; face,5
+2896,敏感,mǐngǎn,Sensitive,5
+2897,明亮,míng liàng,light; bright; lightness; vividness,5
+2898,明明,míngmíng,Obviously,5
+2899,命令,mìnglìng,command,5
+2900,模范,mófàn,model,5
+2901,模仿,mófǎng,imitate,5
+2902,模糊,móhu,vague,5
+2903,模式,móshì,mode; style,5
+2904,摩擦,mócā,rub; scrape,5
+2905,摩托,mó tuō,motorcycle,5
+2906,模样,múyàng,Appearance,5
+2907,目光,mùguāng,Eye,5
+2908,耐心,nàixīn,patience,5
+2909,男性,nán xìng,man; male; masculinity,5
+2910,南北,nán běi,north and south,5
+2911,南极,nán jí,South Pole; Antarctic Pole,5
+2912,难得,nándé,rare,5
+2913,难以,nán yǐ,difficult; hard,5
+2914,脑子,nǎo zi,brain,5
+2915,内在,nèizài,inherent,5
+2916,能量,néngliàng,energy,5
+2917,年度,niándù,year,5
+2918,年龄,niánlíng,Age,5
+2919,年前,nián qián,before the New Year; years ago,5
+2920,牛仔裤,niúzǎikù,Jeans,5
+2921,农产品,nóng chǎn pǐn,produce; farm produce; agricultural products,5
+2922,女性,nǚ xìng,woman; woman; femininity,5
+2923,偶尔,ǒu’ěr,occasionally,5
+2924,偶然,ǒurán,accidental,5
+2925,偶像,ǒuxiàng,idol,5
+2926,拍摄,pāi shè,film; shoot,5
+2927,排除,páichú,eliminate; remove; debar,5
+2928,赔偿,péicháng,compensate for,5
+2929,配备,pèibèi,Equipment,5
+2930,配套,pèitào,form a complete set,5
+2931,皮肤,pífū,skin,5
+2932,皮鞋,píxié,leather shoes,5
+2933,脾气,píqi,Bad temper,5
+2934,骗子,piàn zi,fraud; cheater; swindler,5
+2935,频道,píndào,channel,5
+2936,频繁,pínfán,frequently,5
+2937,工艺品,gōng yì pǐn,article; product (handicraft),5
+2938,品种,pǐnzhǒng,Varieties,5
+2939,平坦,píngtǎn,flat,5
+2940,平原,píngyuán,plain,5
+2941,评估,pínggū,evaluate,5
+2942,评论,pínglùn,comment,5
+2943,葡萄,pútao,Grape,5
+2944,葡萄酒,pú táo jiǔ,wine; grape wine,5
+2945,期望,qīwàng,Expect,5
+2946,齐全,qíquán,complete; all ready,5
+2947,启动,qǐ dòng,switch on; start,5
+2948,启发,qǐfā,Inspire,5
+2949,启事,qǐshì,Notice,5
+2950,起到,qǐ dào,play; act as,5
+2951,起码,qǐmǎ,"Minimum, at least",5
+2952,气体,qì tǐ,gas,5
+2953,气象,qìxiàng,Meteorological,5
+2954,签订,qiān dìng,conclude and sign; sign,5
+2955,签名,qiān míng,signature; sign one’s name; autograph,5
+2956,签约,qiān yuē,sign up; sign a contract,5
+2957,签证,qiānzhèng,visa,5
+2958,签字,qiān zì,sign; affix one’s signature; sign a signature,5
+2959,前景,qiánjǐng,prospect,5
+2960,前提,qiántí,precondition,5
+2961,强度,qiáng dù,strength; intensity,5
+2962,墙壁,qiáng bì,wall,5
+2963,抢救,qiǎngjiù,rescue,5
+2964,强迫,qiǎngpò,Force,5
+2965,悄悄,qiāoqiāo,quietly,5
+2966,敲门,qiāo mén,knock on the door,5
+2967,勤奋,qínfèn,hardworking,5
+2968,清晨,qīngchén,Early morning,5
+2969,清理,qīnglǐ,Clear,5
+2970,情节,qíngjié,plot,5
+2971,情形,qíngxíng,Situation,5
+2972,晴朗,qínglǎng,sunny,5
+2973,区域,qūyù,region,5
+2974,全都,quán dōu,all; without exception,5
+2975,全世界,quán shì jiè,worldwide; entire world,5
+2976,缺乏,quēfá,Lack,5
+2977,确立,quèlì,establish,5
+2978,群体,qún tǐ,group; colony,5
+2979,群众,qúnzhòng,The masses,5
+2980,热量,rè liàng,calories; heat; quantity of heat,5
+2981,热门,rèmén,Hot,5
+2982,人间,rénjiān,Human world,5
+2983,人力,rén lì,manpower; manual labour,5
+2984,人士,rénshì,Personage,5
+2985,人物,rénwù,character,5
+2986,忍不住,rěnbuzhù,Unable to bear,5
+2987,忍受,rěnshòu,bear,5
+2988,认定,rèndìng,cognizance,5
+2989,仍旧,réngjiù,still,5
+2990,如此,rú cǐ,so; such; in this way; like that,5
+2991,如同,rú tóng,as; like,5
+2992,如下,rú xià,as follows; as below,5
+2993,入门,rù mén,introduction to a subject; elementary course,5
+2994,软件,ruǎnjiàn,Software,5
+2995,散文,sǎnwén,Prose,5
+2996,杀毒,shā dú,antivirus; kill virus,5
+2997,沙漠,shāmò,Desert,5
+2998,山区,shān qū,mountain area,5
+2999,扇子,shànzi,Fan,5
+3000,商标,shāngbiāo,trademark,5
+3001,上级,shàngjí,Superior,5
+3002,上下,shàng xià,up and down; top and bottom; high and low; old and young,5
+3003,上涨,shàng zhǎng,rise; go up,5
+3004,稍微,shāowēi,slightly,5
+3005,舍不得,shěbude,Hate to part with or use,5
+3006,舍得,shě de,be willing to part with; not begrudge,5
+3007,设想,shèxiǎng,imagine， conceive,5
+3008,社区,shèqū,Community,5
+3009,射击,shèjī,Shooting,5
+3010,摄像,shè xiàng,camera; camera shooting,5
+3011,摄像机,shè xiàng jī,video camera,5
+3012,摄影,shèyǐng,Photography,5
+3013,摄影师,shè yǐng shī,photographer; cameraman,5
+3014,深处,shēn chù,deep; depths; recess; profundity,5
+3015,深度,shēn dù,depth; deepness,5
+3016,神经,shénjīng,nerve,5
+3017,神奇,shénqí,Magical,5
+3018,神情,shén qíng,expression; look,5
+3019,升高,shēng gāo,hoist; elevate; lift; escalate; exaltation,5
+3020,生成,shēng chéng,generate; produce,5
+3021,胜负,shèngfù,victory and defeat,5
+3022,剩下,shèng xià,be left over; remain,5
+3023,失误,shīwù,An error,5
+3024,师傅,shīfu,Master worker,5
+3025,诗歌,shī gē,poem; poetry,5
+3026,十足,shízú,100 percent,5
+3027,时常,shícháng,often,5
+3028,时光,shíguāng,time,5
+3029,时机,shíjī,Opportunity,5
+3030,时事,shíshì,current affairs,5
+3031,实惠,shíhuì,substantial,5
+3032,使得,shǐ de,make; cause; usable; workable,5
+3033,示范,shìfàn,lead the way; demonstrate,5
+3034,势力,shìlì,Power,5
+3035,试图,shìtú,Try,5
+3036,视频,shìpín,video,5
+3037,视为,shì wéi,treat; regard as,5
+3038,收购,shōu gòu,purchase; acquisition; buy,5
+3039,收集,shōu jí,gather; collect; collection,5
+3040,收拾,shōushi,Tidy,5
+3041,手段,shǒu duàn,means; measure; trick; artifice,5
+3042,手法,shǒufǎ,technique,5
+3043,寿司,shòu sī,sushi,5
+3044,受灾,shòu zāi,disaster; the afflicted,5
+3045,书法,shūfǎ,Calligraphy,5
+3046,书柜,shū guì,bookcase,5
+3047,书桌,shū zhuō,desk; writing desk,5
+3048,输出,shū chū,output; export; efference,5
+3049,蔬菜,shūcài,Vegetables,5
+3050,熟悉,shúxī,be familiar with,5
+3051,鼠标,shǔbiāo,mouse,5
+3052,数目,shù mù,number; amount,5
+3053,摔倒,shuāidǎo,fall,5
+3054,率领,shuàilǐng,Lead,5
+3055,双手,shuāng shǒu,both hands; pair of hands,5
+3056,水产品,shuǐ chǎn pǐn,aquatic product,5
+3057,水分,shuǐ fèn,moisture,5
+3058,水库,shuǐ kù,reservoir,5
+3059,水灾,shuǐ zāi,flood; inundation,5
+3060,睡眠,shuì mián,sleep; slumber,5
+3061,说法,shuō fǎ,way of saying a thing; statement; version; wording,5
+3062,硕士,shuòshì,master,5
+3063,私人,sīrén,private,5
+3064,思维,sīwéi,thinking,5
+3065,四周,sì zhōu,all around,5
+3066,搜索,sōusuǒ,search,5
+3067,宿舍,sùshè,dormitory,5
+3068,酸甜苦辣,suān tián kǔ là,"sour, sweet, bitter, hot ; ups and downs; joys and sorrows of life",5
+3069,随后,suí hòu,follow; soon afterwards,5
+3070,随意,suíyì,random; casual,5
+3071,随着,suízhe,along with,5
+3072,岁月,suìyuè,Years,5
+3073,损害,sǔn hài,harm; damage; injure; hurt,5
+3074,损失,sǔnshī,loss,5
+3075,所在,suǒ zài,place; location; where,5
+3076,台风,táifēng,Typhoon,5
+3077,抬头,tái tóu,look up; gain ground; raise one’s head,5
+3078,太空,tàikōng,Space,5
+3079,逃跑,táo pǎo,run away; flee; take flight; take to one’s heels,5
+3080,逃走,táo zǒu,escape; flee,5
+3081,桃花,táo huā,peach blossom,5
+3082,桃树,táo shù,peach tree,5
+3083,讨厌,tǎoyàn,Hate,5
+3084,特定,tèdìng,given,5
+3085,特性,tè xìng,characteristic; property; feature; peculiarity; quality,5
+3086,特有,tè yǒu,peculiar; characteristic,5
+3087,提倡,tíchàng,promote,5
+3088,提起,tí qǐ,mention; speak of; raise; lift,5
+3089,提示,tíshì,hint,5
+3090,题材,tícái,theme,5
+3091,体积,tǐjī,volume,5
+3092,体力,tǐ lì,physical strength; physical power,5
+3093,天才,tiāncái,genius,5
+3094,天然气,tiānránqì,Natural gas,5
+3095,天文,tiānwén,Astronomy,5
+3096,调节,tiáojié,adjust,5
+3097,调解,tiáojiě,mediate,5
+3098,停留,tíng liú,remain; stay,5
+3099,通用,tōngyòng,currency,5
+3100,偷偷,tōu tōu,secretly; stealthily; covertly; on the sly,5
+3101,突破,tūpò,Breach,5
+3102,土豆,tǔdòu,Potato,5
+3103,团长,tuán zhǎng,regimental commander; head of a delegation,5
+3104,推行,tuī xíng,practise; carry out; pursue,5
+3105,脱离,tuōlí,Be divorced from,5
+3106,外界,wàijiè,outside,5
+3107,完了,wán le,come to an end; be over; completion of a term,5
+3108,微博,wēi bó,Weibo (a Chinese social media app),5
+3109,为难,wéinán,Embarrassed,5
+3110,为期,wéiqī,by a definite date,5
+3111,为止,wéi zhǐ,up to; till,5
+3112,为主,wéi zhǔ,mainly; give priority,5
+3113,违法,wéi fǎ,break the law; be illegal,5
+3114,违反,wéifǎn,Violation,5
+3115,违规,wéi guī,violation; get out of line,5
+3116,围绕,wéirào,around,5
+3117,唯一,wéiyī,Only,5
+3118,委托,wěituō,Entrust,5
+3119,卫星,wèixīng,satellite,5
+3120,慰问,wèiwèn,Condolences,5
+3121,温和,wēnhé,mild,5
+3122,文艺,wényì,literature,5
+3123,卧室,wòshì,Bedroom,5
+3124,污染,wūrǎn,contaminated,5
+3125,污水,wū shuǐ,sewage; slops; foul water; polluted water,5
+3126,无奈,wúnài,cannot help but,5
+3127,无疑,wú yí,undoubtedly; no doubt,5
+3128,物价,wù jià,(commodity) prices,5
+3129,物业,wùyè,property,5
+3130,物质,wùzhì,material,5
+3131,误解,wùjiě,misunderstand,5
+3132,西红柿,xīhóngshì,Tomato,5
+3133,西装,xī zhuāng,suit; Western-style clothes,5
+3134,喜剧,xǐ jù,comedy,5
+3135,戏剧,xìjù,Theatre,5
+3136,先后,xiān hòu,successively; one after another,5
+3137,先前,xiānqián,previously,5
+3138,鲜艳,xiānyàn,Colorful,5
+3139,现有,xiàn yǒu,existing; now available; existence,5
+3140,现状,xiànzhuàng,Present situation,5
+3141,线索,xiànsuǒ,Clue,5
+3142,乡村,xiāng cūn,country; village; countryside; rural area; rural,5
+3143,相等,xiāngděng,Equal,5
+3144,相应,xiāngyìng,Corresponding,5
+3145,香肠,xiāngcháng,sausage,5
+3146,详细,xiángxì,detailed,5
+3147,享受,xiǎngshòu,enjoy,5
+3148,向导,xiàngdǎo,Guide,5
+3149,向前,xiàng qián,forward; onward; ahead,5
+3150,向上,xiàng shàng,upward; up,5
+3151,相声,xiàngsheng,crosstalk,5
+3152,象征,xiàngzhēng,Symbolize,5
+3153,消除,xiāochú,eliminate,5
+3154,消毒,xiāodú,Disinfection,5
+3155,消防,xiāofáng,Fire control,5
+3156,消费者,xiāo fèi zhě,consumer; customer,5
+3157,消极,xiāojí,negative,5
+3158,小偷儿,xiǎo tōur,thief,5
+3159,协议,xiéyì,Agreement,5
+3160,协议书,xié yì shū,agreement; protocol; written agreement,5
+3161,心态,xīntài,mentality,5
+3162,心疼,xīnténg,Distressed,5
+3163,辛苦,xīnkǔ,hard,5
+3164,欣赏,xīnshǎng,Appreciate,5
+3165,信念,xìnniàn,belief,5
+3166,信箱,xìn xiāng,letter box; mailbox; post box,5
+3167,行驶,xíng shǐ,go; ply; travel,5
+3168,形态,xíngtài,Form,5
+3169,性能,xìngnéng,performance,5
+3170,雄伟,xióngwěi,Magnificent,5
+3171,休闲,xiūxián,Leisure time,5
+3172,修复,xiūfù,repair,5
+3173,修建,xiūjiàn,build,5
+3174,修养,xiūyǎng,"training, mastery",5
+3175,虚心,xūxīn,With an open mind; modest,5
+3176,许可,xǔkě,Permit,5
+3177,选修,xuǎn xiū,elective; take as an elective course,5
+3178,学科,xué kē,branch of learning; subject; discipline,5
+3179,学位,xuéwèi,Academic degree,5
+3180,学者,xué zhě,scholar; learned man; man of learning,5
+3181,寻求,xún qiú,quest; seek; look for; explore,5
+3182,询问,xúnwèn,inquiry,5
+3183,押金,yājīn,deposit,5
+3184,鸭子,yā zi,duck,5
+3185,亚军,yàjūn,Runner-up,5
+3186,延伸,yánshēn,extend,5
+3187,严厉,yánlì,severe,5
+3188,严肃,yánsù,serious,5
+3189,言语,yán yǔ,speech; parole; verbal,5
+3190,研究所,yán jiū suǒ,research institute; graduate school,5
+3191,眼光,yǎnguāng,Eye,5
+3192,邀请,yāoqǐng,Invitation,5
+3193,摇头,yáo tóu,shake one’s head,5
+3194,也好,yě hǎo,may as well; no matter whether,5
+3195,业务,yèwù,business,5
+3196,夜间,yè jiān,nighttime; at night,5
+3197,一流,yīliú,First-class,5
+3198,依法,yī fǎ,according to the law; legal,5
+3199,依旧,yījiù,still,5
+3200,依据,yījù,Basis,5
+3201,依照,yī zhào,according to; in the light of:,5
+3202,一辈子,yíbèizi,A lifetime,5
+3203,一带,yí dài,area; surroundings; region; district,5
+3204,一旦,yídàn,once; in case,5
+3205,一句话,yí jù huà,in a word; in short; one sentence,5
+3206,一路,yí lù,all the way; take the same route,5
+3207,一下儿（副）,yí xiàr,a little bit; a little while,5
+3208,一下子,yí xià zi,all of a sudden; all at once; for a while,5
+3209,一向,yíxiàng,Always,5
+3210,以便,yǐbiàn,so that,5
+3211,以往,yǐwǎng,Past,5
+3212,一口气,yì kǒu qì,one breath; in one breath,5
+3213,一身,yì shēn,the whole body; all over the body,5
+3214,意识,yìshí,consciousness,5
+3215,意味着,yìwèizhe,Signify,5
+3216,意志,yìzhì,will,5
+3217,因而,yīn’ér,thus,5
+3218,饮料,yǐnliào,Drinks,5
+3219,饮食,yǐnshí,diet,5
+3220,印刷,yìnshuā,printing,5
+3221,硬件,yìngjiàn,Hardware,5
+3222,拥抱,yōngbào,embrace,5
+3223,拥有,yōngyǒu,Have,5
+3224,用不着,yòng bù zháo,no need; have no use for,5
+3225,用户,yònghù,user,5
+3226,用来,yòng lái,be used for; used to,5
+3227,用于,yòng yú,use for; used in; use on,5
+3228,优惠,yōuhuì,preferential; favorable,5
+3229,优先,yōuxiān,first,5
+3230,幽默,yōumò,Humor,5
+3231,尤其,yóuqí,especially,5
+3232,由此,yóu cǐ,from this; therefrom; thus,5
+3233,犹豫,yóuyù,Hesitate,5
+3234,游泳池,yóu yǒng chí,swimming pool,5
+3235,友谊,yǒuyì,friendship,5
+3236,有毒,yǒu dú,poisonous; venomous,5
+3237,有害,yǒu hài,harmful; pernicious; detrimental,5
+3238,有力,yǒu lì,strong; powerful; forceful; energetic; vigorous,5
+3239,有利于,yǒu lì yú,in favour of; make for; to the benefit of; avail,5
+3240,有着,yǒu zhe,have; possess,5
+3241,羽毛球,yǔmáoqiú,Badminton,5
+3242,羽绒服,yǔróngfú,Down Jackets,5
+3243,雨水,yǔ shuǐ,rainwater; rainfall; rain,5
+3244,预备,yù bèi,prepare; get ready; preparation,5
+3245,预期,yùqī,expect; anticipate,5
+3246,元旦,uándàn,the New year’s Day,5
+3247,园林,yuánlín,Gardens,5
+3248,原理,yuánlǐ,principle,5
+3249,原始,yuánshǐ,Original,5
+3250,原先,yuánxiān,Original,5
+3251,原有,yuán yǒu,original,5
+3252,远处,yuǎn chù,distance; far away,5
+3253,约束,yuēshù,bind; restrain,5
+3254,月饼,yuè bǐng,moon cake,5
+3255,月球,yuè qiú,Moon,5
+3256,阅览室,yuè lǎn shì,reading room,5
+3257,运行,yùnxíng,run; working,5
+3258,灾害,zāihài,disaster,5
+3259,灾难,zāinàn,disaster,5
+3260,灾区,zāi qū,disaster area,5
+3261,再次,zài cì,once more; once again; one more time,5
+3262,再也,zài yě,never; anymore; no longer,5
+3263,在场,zài chǎng,be on the scene; be on the spot,5
+3264,在内,zài nèi,including; inside; internally,5
+3265,暂时,zànshí,temporary,5
+3266,暂停,zàn tíng,pause; suspend; time out,5
+3267,糟糕,zāogāo,terrible,5
+3268,早期,zǎo qī,early phase; early stage,5
+3269,增产,zēng chǎn,increase production,5
+3270,增大,zēng dà,enlargement; magnify; increase,5
+3271,增多,zēng duō,increase; grow in number,5
+3272,增强,zēng qiáng,strengthen; enhance; heighten,5
+3273,赠送,zèngsòng,Give,5
+3274,展览,zhǎnlǎn,exhibition,5
+3275,展示,zhǎnshì,Exhibit,5
+3276,展现,zhǎnxiàn,To show,5
+3277,占领,zhànlǐng,occupy,5
+3278,占有,zhàn yǒu,own; possess; have; occupy; hold; having,5
+3279,涨价,zhǎng jià,rise in price; inflation of prices; mark up,5
+3280,掌握,zhǎngwò,master,5
+3281,招生,zhāo shēng,enroll new students; recruit students,5
+3282,招手,zhāo shǒu,beckon; wave; beck,5
+3283,珍贵,zhēnguì,precious,5
+3284,珍惜,zhēnxī,cherish,5
+3285,珍珠,zhēnzhū,Pearl,5
+3286,真诚,zhēn chéng,sincere; genuine; true; genuineness,5
+3287,真理,zhēnlǐ,Truth,5
+3288,真相,zhēnxiàng,fact; truth,5
+3289,诊断,zhěnduàn,Diagnosis,5
+3290,振动,zhèndòng,Vibration,5
+3291,震惊,zhènjīng,shock,5
+3292,争议,zhēngyì,dispute,5
+3293,正版,zhèng bǎn,genuine; legal copy,5
+3294,正规,zhèngguī,regular,5
+3295,正如,zhèng rú,just as; exactly as,5
+3296,正义,zhèngyì,justice,5
+3297,证实,zhèngshí,Confirm,5
+3298,证书,zhèngshū,certificate,5
+3299,挣钱,zhèng qián,make money; earn money,5
+3300,之内,zhī nèi,in; within,5
+3301,之外,zhī wài,outside; except,5
+3302,之下,zhī xià,under,5
+3303,之中,zhī zhōng,in; in the midst of; among,5
+3304,支出,zhīchū,payout; expend,5
+3305,支配,zhīpèi,Control,5
+3306,执行,zhíxíng,implement,5
+3307,直线,zhí xiàn,straight line,5
+3308,值班,zhíbān,Be on duty,5
+3309,职能,zhínéng,function,5
+3310,职位,zhíwèi,position,5
+3311,职务,zhíwù,post,5
+3312,只不过,zhǐ bú guò,only; just; merely,5
+3313,只见,zhǐ jiàn,only see; see,5
+3314,指标,zhǐbiāo,index,5
+3315,指甲,zhǐjia,nail,5
+3316,指示,zhǐshì,Instructions,5
+3317,指责,zhǐzé,Accuse,5
+3318,制成,zhì chéng,make into; be made from,5
+3319,制约,zhìyuē,restrict,5
+3320,治安,zhì’ān,public security,5
+3321,治理,zhìlǐ,Government,5
+3322,中断,zhōngduàn,interrupt,5
+3323,中秋节,zhōng qiū jié,Mid-Autumn Festival,5
+3324,中央,zhōngyāng,center,5
+3325,中药,zhōng yào,traditional Chinese medicine,5
+3326,终点,zhōngdiǎn,End,5
+3327,终身,zhōngshēn,lifelong,5
+3328,终止,zhōngzhǐ,termination,5
+3329,中毒,zhòng dú,poisoning; be poisoned,5
+3330,众多,zhòng duō,multitudinous; numerous; many,5
+3331,周期,zhōuqī,period cycle,5
+3332,竹子,zhúzi,Bamboo,5
+3333,主办,zhǔbàn,Host,5
+3334,主导,zhǔdǎo,leading,5
+3335,主观,zhǔguān,subjective,5
+3336,主管,zhǔguǎn,Executive director,5
+3337,主体,zhǔ tǐ,main body; main part; principal part; subject,5
+3338,助理,zhùlǐ,assistant,5
+3339,助手,zhùshǒu,assistant,5
+3340,注册,zhùcè,register,5
+3341,注射,zhùshè,injection,5
+3342,注视,zhùshì,Gaze,5
+3343,注重,zhùzhòng,pay attention to,5
+3344,祝贺,zhùhè,Congratulate,5
+3345,专辑,zhuān jí,album,5
+3346,专利,zhuānlì,patent,5
+3347,转化,zhuǎn huà,change; transform,5
+3348,转换,zhuǎn huàn,conversion; change; transform; convert,5
+3349,转让,zhuǎnràng,make over; transfer,5
+3350,转向,zhuǎn xiàng,turn to; sheer off; change direction,5
+3351,装饰,zhuāngshì,decorate,5
+3352,资本,zīběn,capital,5
+3353,资产,zīchǎn,capital; asset,5
+3354,资助,zīzhù,give financial aid,5
+3355,子弹,zǐdàn,Bullet,5
+3356,仔细,zǐxì,careful,5
+3357,自豪,zìháo,Proud,5
+3358,自杀,zì shā,suicide; commit suicide,5
+3359,自愿,zìyuàn,voluntarily,5
+3360,总裁,zǒngcái,CEO,5
+3361,总数,zǒng shù,tote; sum; totality,5
+3362,总算,zǒngsuàn,finally,5
+3363,总体,zǒng tǐ,overall; total; entire; totality,5
+3364,阻碍,zǔ’ài,hinder,5
+3365,组织,zǔzhī,organization,5
+3366,尊敬,zūnjìng,respect,5
+3367,尊重,zūnzhòng,respect,5
+3368,遵守,zūnshǒu,comply with,5
+3369,挨着,āi zhe,next to; close to,6
+3370,挨打,ái dǎ,take a beating; get a thrashing; come under attack,6
+3371,安检,ān jiǎn,security check,6
+3372,罢工,bàgōng,Strike,6
+3373,罢了,bà le,let it pass; that’s all; (auxiliary word),6
+3374,白领,bái lǐng,white collar; white collar worker,6
+3375,百分点,bǎi fēn diǎn,percentage point,6
+3376,办公,bàn gōng,work; handle official business; work in an office,6
+3377,办事处,bàn shì chù,office; agency,6
+3378,办学,bàn xué,run a school,6
+3379,半决赛,bàn jué sài,semifinal,6
+3380,傍晚,bàngwǎn,Evening,6
+3381,保健,bǎo jiàn,health protection; health care,6
+3382,报刊,bào kān,newspapers and periodicals; press,6
+3383,报考,bào kǎo,register for examination; sign up for an examination,6
+3384,抱歉,bàoqiàn,feel sorry,6
+3385,暴风雨,bào fēng yǔ,rainstorm; storm; tempest,6
+3386,暴力,bàolì,violence,6
+3387,暴露,bàolù,Expose,6
+3388,暴雨,bào yǔ,torrential rain; rainstorm; scat,6
+3389,爆发,bàofā,burst,6
+3390,爆炸,bàozhà,blast,6
+3391,悲惨,bēicǎn,miserable,6
+3392,背心,bèi xīn,vest; sleeveless garment; sleeveless,6
+3393,背着,bèi zhe,behind one’s back,6
+3394,被告,bèigào,Defendant,6
+3395,奔跑,bēn pǎo,run,6
+3396,本地,běn dì,this locality; local; native,6
+3397,本期,běn qī,current period,6
+3398,本身,běnshēn,itself,6
+3399,本土,běn tǔ,mainland; one’s native country; metropolitan territory,6
+3400,本质,běnzhì,essence,6
+3401,笔试,bǐ shì,written examination,6
+3402,必将,bì jiāng,will certainly; surely will,6
+3403,必修,bì xiū,obligatory; compulsory; required,6
+3404,边缘,biānyuán,edge,6
+3405,编制,biān zhì,authorized strength; work out; draw up; compile,6
+3406,变更,biàn gēng,change; alter; modify,6
+3407,变换,biàn huàn,transform; convert; vary; alternate,6
+3408,变形,biàn xíng,deform; be out of shape; deformation; morph,6
+3409,便是,biàn shì,that’s it,6
+3410,遍地,biàn dì,everywhere; all around,6
+3411,表面上,biǎo miàn shàng,superficial; ostensible; apparent; apparently,6
+3412,病房,bìng fáng,ward of a hospital; sickroom,6
+3413,病情,bìng qíng,state of an illness; patient’s condition,6
+3414,拨打,bō dǎ,dial,6
+3415,波动,bō dòng,undulate; fluctuate; surge; undulation; fluctuation; wave motion,6
+3416,波浪,bōlàng,wave,6
+3417,不便,bú biàn,inconvenient; unsuitable; be short of cash,6
+3418,不见,bú jiàn,not see; not meet,6
+3419,不料,búliào,Unexpectedly,6
+3420,不再,bú zài,no longer; no more,6
+3421,不至于,bú zhì yú,cannot go so far; be unlikely to,6
+3422,补考,bǔ kǎo,makeup examination,6
+3423,补课,bǔ kè,make up missed lessons,6
+3424,补习,bǔ xí,take lessons after school or work,6
+3425,补助,bǔ zhù,subsidy; subsidize; allowance,6
+3426,不成,bù chéng,won’t do; fail,6
+3427,不禁,bùjīn,Can not help but,6
+3428,不仅仅,bù jǐn jǐn,not just; not only; more than,6
+3429,不通,bù tōng,be blocked up; be impassable; not make sense; be illogical,6
+3430,不怎么,bù zěn me,not particularly; not very,6
+3431,不怎么样,bù zěn me yàng,not up to much; very indifferent,6
+3432,不值,bù zhí,not worth,6
+3433,布满,bù mǎn,be full of,6
+3434,部队,bù duì,army; armed forces; troop; unit,6
+3435,采纳,cǎinà,accept,6
+3436,参赛,cān sài,take part in match; enter the competition,6
+3437,参展,cān zhǎn,take part in an exhibition; participate in an exhibition,6
+3438,残疾,cánjí,A disability,6
+3439,残疾人,cán jí rén,handicapped; disabled person,6
+3440,残酷,cánkù,cruel,6
+3441,仓库,cāngkù,Warehouse,6
+3442,操纵,cāozòng,control,6
+3443,厕所,cèsuǒ,Toilet,6
+3444,测定,cè dìng,determine; determination; measurement,6
+3445,策划,cèhuà,plan; hatch; plot,6
+3446,策略,cèlüè,tactic; policy,6
+3447,层面,céng miàn,level,6
+3448,差异,chā yì,difference; divergence; discrepancy; diversity,6
+3449,查出,chá chū,trace; find out; discover; find out,6
+3450,查看,chá kàn,look over; examine; check,6
+3451,拆迁,chāi qiān,demolition; relocation,6
+3452,产量,chǎn liàng,output; yield; volume of production,6
+3453,昌盛,chāngshèng,Prosperity,6
+3454,长短,cháng duǎn,short and long; length; accident; extent,6
+3455,长假,cháng jià,long holiday; long leave,6
+3456,长久,cháng jiǔ,for a long time; muchly,6
+3457,长跑,cháng pǎo,long-distance race; long distance run,6
+3458,长远,cháng yuǎn,long-term; long-range; enduring; chronic,6
+3459,常规,cháng guī,conventional; common; routine,6
+3460,常年,cháng nián,perennial; year in year out; average year,6
+3461,厂商,chǎng shāng,manufacturer; firm; factory owner,6
+3462,场地,chǎng dì,space; place; site,6
+3463,场馆,chǎng guǎn,venue; stadium,6
+3464,场景,chǎng jǐng,scene,6
+3465,畅通,chàngtōng,unimpeded; unblocked,6
+3466,超出,chāo chū,overstep; go beyond; exceed,6
+3467,炒股,chǎo gǔ,invest in stocks,6
+3468,炒作,chǎo zuò,hype,6
+3469,车号,chē hào,car number; wagon number,6
+3470,车牌,chē pái,licence plate; plate number,6
+3471,车展,chē zhǎn,auto show; car exhibition,6
+3472,撤离,chè lí,withdraw; leave; evacuate,6
+3473,撤销,chèxiāo,repeal; retract,6
+3474,成分,chéngfèn,component,6
+3475,成品,chéng pǐn,end product; finish product,6
+3476,承诺,chéngnuò,Promise,6
+3477,城区,chéng qū,the city proper; urban area; city subdivision,6
+3478,城乡,chéng xiāng,urban and rural; city and countryside,6
+3479,城镇,chéng zhèn,town; city,6
+3480,持有,chí yǒu,hold; possess,6
+3481,冲击,chōngjī,To attack,6
+3482,重建,chóng jiàn,rebuild; reconstruct; reestablish; rehabilitate; reconstruction,6
+3483,重组,chóng zǔ,reorganization; regroup,6
+3484,崇拜,chóngbài,worship,6
+3485,宠物,chǒngwù,Pet,6
+3486,出场,chū chǎng,come on the stage; enter the arena,6
+3487,出动,chū dòng,dispatch; start off; call out,6
+3488,出访,chū fǎng,visit a foreign country,6
+3489,出路,chūlù,way out,6
+3490,出面,chū miàn,come forward; appear personally,6
+3491,出名,chū míng,famous; well-known,6
+3492,出入,chū rù,come in and go out; discrepancy; divergence,6
+3493,出事,chū shì,meet with a mishap; have an accident,6
+3494,出台,chū tái,introduced; be published,6
+3495,出行,chū xíng,travel; trip; getting around,6
+3496,初等,chū děng,elementary; primary; rudimentary,6
+3497,厨师,chú shī,chef; cook,6
+3498,储存,chǔcún,Storage,6
+3499,处处,chù chù,everywhere; in all respects,6
+3500,处长,chù zhǎng,the head of a department; section chief,6
+3501,传出,chuán chū,efferent; come out; come through,6
+3502,传媒,chuán méi,media,6
+3503,传输,chuán shū,transmission; transport,6
+3504,传言,chuán yán,hearsay; rumour; pass on a message,6
+3505,船员,chuán yuán,crew; crewman; waterman,6
+3506,船长,chuán zhǎng,captain; skipper,6
+3507,船只,chuán zhī,ship; vessel; craft,6
+3508,窗口,chuāng kǒu,window; wicket,6
+3509,创办,chuàng bàn,establish; found,6
+3510,创建,chuàng jiàn,found; establish; creation,6
+3511,创意,chuàng yì,creativity,6
+3512,此处,cǐ chù,here; this place,6
+3513,此次,cǐ cì,this time,6
+3514,此前,cǐ qián,before,6
+3515,此事,cǐ shì,this matter,6
+3516,此致,cǐ zhì,regards; sincerely; with the best wishes,6
+3517,次数,cì shù,frequency; number of times,6
+3518,从不,cóng bù,never; never ever,6
+3519,从没,cóng méi,never;  never did,6
+3520,村庄,cūn zhuāng,village; hamlet,6
+3521,错过,cuò guò,miss; let slip,6
+3522,搭档,dādàng,partner,6
+3523,搭配,dāpèi,arrange; match,6
+3524,打动,dǎ dòng,move; touch,6
+3525,打断,dǎ duàn,break; interrupt; fracture,6
+3526,打发,dǎ fa,send; dispatch; dismiss,6
+3527,打官司,dǎguānsi,To engage in a lawsuit,6
+3528,打牌,dǎ pái,play cards; play mah-jong,6
+3529,打印机,dǎ yìn jī,printer,6
+3530,打造,dǎ zào,build; make; creation,6
+3531,大道,dà dào,main road; avenue,6
+3532,大街,dà jiē,avenue; street; main street,6
+3533,大力,dà lì,energetic; energetically; vigorously,6
+3534,大米,dà mǐ,rice,6
+3535,大批,dà pī,large quantity; a smart of; legion,6
+3536,大赛,dà sài,contest,6
+3537,大师,dà shī,great master; grandmaster; master,6
+3538,大使,dà shǐ,ambassador; envoy,6
+3539,待会儿,dāi huìr,after a while; later,6
+3540,担忧,dān yōu,worry; be anxious; trepidation,6
+3541,单打,dān dǎ,singles,6
+3542,诞生,dànshēng,Be born,6
+3543,当成,dāng chéng,regard; treat as; take,6
+3544,当天,dāng tiān,that day,6
+3545,当作,dàng zuò,regard as; treat as,6
+3546,档案,dàng’àn,archives,6
+3547,到期,dào qī,mature; expire; become due; maturity,6
+3548,盗版,dào bǎn,piracy; illegal copy,6
+3549,道教,dào jiào,Taoism,6
+3550,道歉,dàoqiàn,apologize,6
+3551,低头,dī tóu,head down; lower one’s head; submit,6
+3552,低温,dī wēn,Low temperature; hypothermia; microtherm,6
+3553,抵达,dǐdá,Arrive,6
+3554,抵抗,dǐkàng,resistance,6
+3555,地板,dì bǎn,floor,6
+3556,地名,dì míng,place name,6
+3557,地下室,dì xià shì,basement; cellar,6
+3558,电车,diàn chē,tram; tramcar; streetcar; trolleybus; trolley,6
+3559,电动,diàn dòng,motor-driven; power-driven; electric,6
+3560,电力,diàn lì,electricity; electric power,6
+3561,电器,diàn qì,electric appliance; electrical equipment,6
+3562,调研,diào yán,research; investigation,6
+3563,定价,dìng jià,fix a price; set price; fixed price; pricing,6
+3564,定时,dìng shí,timing; definite time,6
+3565,定位,dìng wèi,locate; location; positioning; registration,6
+3566,动画,dòng huà,cartoon; animation,6
+3567,斗争,dòuzhēng,Struggle,6
+3568,都市,dū shì,metropolis; city,6
+3569,毒品,dúpǐn,narcotics,6
+3570,赌博,dǔbó,gambling,6
+3571,端午节,uānwǔjié,The Dragon Boat Festival,6
+3572,短片,duǎn piàn,short film,6
+3573,队伍,duìwu,Ranks,6
+3574,对抗,duìkàng,Combat,6
+3575,对外,duì wài,foreign; external,6
+3576,多半,duō bàn,most; the greater part; chiefly; probably,6
+3577,多方面,duō fāng miàn,multifaceted; in many aspects; many-sided,6
+3578,多媒体,duō méi tǐ,multimedia,6
+3579,夺取,duó qǔ,seize; wrest; strive for; snatch; taking,6
+3580,恩人,ēn rén,benefactor,6
+3581,儿科,ér kē,pediatrics; pediatric department,6
+3582,发病,fā bìng,onset; morbidity; pathogenesis; outbreak; fall ill,6
+3583,发电,fā diàn,generate electricity; power generation,6
+3584,发放,fā fàng,provide; grant; extend; give out; issue,6
+3585,发怒,fā nù,get angry; fly into a rage; flare up; huff,6
+3586,发起,fā qǐ,initiate; sponsor; start; launch,6
+3587,发言人,fā yán rén,spokesman; spokesperson; addressor; prolocutor,6
+3588,发炎,fāyán,inflammation,6
+3589,法庭,fǎ tíng,court; tribunal,6
+3590,法语,fǎ yǔ,French language,6
+3591,番茄,fān qié,tomato,6
+3592,凡是,fánshì,All,6
+3593,繁殖,fánzhí,Reproduction,6
+3594,反抗,fǎnkàng,Resistance,6
+3595,反问,fǎnwèn,rhetorical question,6
+3596,反响,fǎn xiǎng,repercussion; echo; reverberation; reaction,6
+3597,犯规,fàn guī,foul,6
+3598,犯罪,fàn zuì,commit a crime; offense; crime,6
+3599,防范,fáng fàn,be on guard; keep a lookout,6
+3600,防守,fángshǒu,Defense,6
+3601,房价,fáng jià,house price,6
+3602,仿佛,fǎngfú,as if,6
+3603,飞船,fēi chuán,spaceship; airship; dirigible; areoboat; vehicle,6
+3604,飞行员,fēi xíng yuán,aviator; pilot,6
+3605,分工,fēn gōng,division of labor; divide the work,6
+3606,分裂,fēnliè,division,6
+3607,愤怒,fènnù,anger,6
+3608,风暴,fēngbào,Storm,6
+3609,峰会,fēng huì,summit; summit meeting,6
+3610,奉献,fèngxiàn,dedicate,6
+3611,佛教,fó jiào,Buddhism,6
+3612,父女,fù nǚ,father and daughter,6
+3613,父子,fù zǐ,father and son,6
+3614,妇女,fùnǚ,Woman,6
+3615,复苏,fù sū,resuscitate; recovery; come to; revive,6
+3616,富人,fù rén,the rich,6
+3617,富有,fù yǒu,rich; wealthy; richness; abound,6
+3618,改装,gǎi zhuāng,repack; refit; reequip,6
+3619,干涉,gānshè,interference,6
+3620,赶不上,gǎn bú shàng,can’t catch up with; fall behind; can’t keep up,6
+3621,赶忙,gǎn máng,hurry; hasten; make haste; quickly,6
+3622,赶上,gǎn shàng,overtake; catch up; emulate; keep up,6
+3623,敢于,gǎn yú,dare to; be bold in; have the courage to; venture,6
+3624,感人,gǎn rén,moving; touching,6
+3625,刚好,gāng hǎo,just; exactly; happen to,6
+3626,岗位,gǎngwèi,post,6
+3627,港口,gǎngkǒu,Port,6
+3628,高层,gāo céng,high level; high class; high-rise,6
+3629,高档,gāodàng,High-grade,6
+3630,高等,gāo děng,higher; advanced; high; of a higher level,6
+3631,高峰,gāofēng,peak,6
+3632,高考,gāo kǎo,college entrance examination,6
+3633,高科技,gāo kē jì,high technology; high tech,6
+3634,高手,gāo shǒu,master; past master; master hand; ace,6
+3635,稿子,gǎo zi,manuscript; draft; sketch,6
+3636,歌唱,gē chàng,sing; singing,6
+3637,歌词,gē cí,lyric; lyrics; libretto,6
+3638,歌星,gē xīng,singer; singing star,6
+3639,革新,gé xīn,innovation; renovation,6
+3640,更是,gèng shì,more; even more,6
+3641,工商,gōng shāng,industry and commerce,6
+3642,公安,gōng ān,public security; police; ministry of public security,6
+3643,公鸡,gōng jī,cock; rooster,6
+3644,公众,gōng zhòng,public,6
+3645,公主,gōngzhǔ,princess,6
+3646,攻击,gōngjī,attack,6
+3647,供给,gōngjǐ,supply,6
+3648,巩固,gǒnggù,consolidate,6
+3649,贡献,gòngxiàn,contribution,6
+3650,构建,gòu jiàn,structure; construct,6
+3651,孤独,gūdú,lonely,6
+3652,孤儿,gū ér,orphan,6
+3653,姑姑,gūgu,aunt,6
+3654,古典,gǔdiǎn,classical,6
+3655,股东,gǔdōng,stockholder,6
+3656,股票,gǔpiào,shares; stock,6
+3657,故障,gùzhàng,fault,6
+3658,关爱,guān ài,care; caring,6
+3659,关联,guān lián,relevance; relevancy; be related; be connected; be linked,6
+3660,观光,guānguāng,Sightseeing,6
+3661,官司,guān si,lawsuit,6
+3662,管道,guǎn dào,pipeline; channel; tunnel; piping; tubing,6
+3663,光辉,guānghuī,Glory,6
+3664,广阔,guǎngkuò,wide,6
+3665,轨道,guǐdào,track,6
+3666,国产,guó chǎn,domestic; made in one’s country,6
+3667,国歌,guó gē,national anthem,6
+3668,国会,guó huì,parliament ; congress,6
+3669,国旗,guó qí,national flag,6
+3670,国王,guówáng,king,6
+3671,果酱,guǒ jiàng,jam; squish; marmalade,6
+3672,果树,guǒ shù,fruiter; fruit tree,6
+3673,过渡,guòdù,transition,6
+3674,过后,guò hòu,afterwards; later; after,6
+3675,过时,guò shí,obsolete; outdate; outmode; out of style,6
+3676,海报,hǎi bào,poster; playbill,6
+3677,海底,hǎi dǐ,seabed ; seafloor,6
+3678,海军,hǎi jūn,navy,6
+3679,海浪,hǎi làng,sea wave,6
+3680,海外,hǎi wài,overseas; abroad,6
+3681,海湾,hǎi wān,bay; gulf,6
+3682,海洋,hǎiyáng,ocean,6
+3683,好容易,hǎoróng yì,with great difficulty; have a hard time (doing sth.),6
+3684,好似,hǎo sì,seem; be like,6
+3685,好转,hǎo zhuǎn,get better; improve,6
+3686,好学,hào xué,studious; fond of learning,6
+3687,合约,hé yuē,treaty; contract; arrangement; deal,6
+3688,和谐,héxié,Harmonious,6
+3689,核心,héxīn,core,6
+3690,黑夜,hēi yè,night,6
+3691,很难说,hěn nán shuō,hard to say,6
+3692,衡量,héng liáng,weigh; measure; scale; weight,6
+3693,宏大,hóng dà,grand; great,6
+3694,洪水,hóngshuǐ,Flood,6
+3695,忽略,hūlüè,ignore,6
+3696,互动,hù dòng,interactive; interaction,6
+3697,户外,hù wài,outdoor,6
+3698,花费,huā fèi,spend; expend; cost; spending,6
+3699,花瓶,huā píng,vase; jardiniere,6
+3700,花生,huāshēng,peanut,6
+3701,化解,huà jiě,resolve; dissolve; defuse; solution,6
+3702,幻想,huànxiǎng,fantasy,6
+3703,患者,huànzhě,Patient,6
+3704,皇帝,huángdì,Emperor,6
+3705,回应,huí yìng,response; respond,6
+3706,会见,huì jiàn,meet with; pay a visit,6
+3707,会长,huì zhǎng,president; chairman; president of an organization,6
+3708,绘画,huì huà,paint; draw; drawing; painting,6
+3709,混合,hùnhé,blend,6
+3710,混乱,hùnluàn,confusion,6
+3711,活跃,huóyuè,active,6
+3712,火箭,huǒjiàn,rocket,6
+3713,机动车,jī dòng chē,motor vehicle,6
+3714,机关,jī guān,mechanism; gear; machine-operated; office; organ; intrigue,6
+3715,机械,jīxiè,Mechanics,6
+3716,基督教,jī dū jiào,Christianity; the Christian religion; Christian,6
+3717,激情,jīqíng,Passion,6
+3718,吉利,jí lì,lucky; auspicious; propitious,6
+3719,吉祥,jíxiáng,lucky; auspicious,6
+3720,极端,jíduān,extreme,6
+3721,急救,jí jiù,first aid; emergency treatment,6
+3722,疾病,jíbìng,disease,6
+3723,给予,jǐyǔ,give,6
+3724,加盟,jiā méng,join,6
+3725,家电,jiā diàn,home appliances,6
+3726,家园,jiā yuán,home; homeland; homestead,6
+3727,嘉宾,jiābīn,Distinguished guest,6
+3728,假日,jià rì,holiday,6
+3729,监测,jiān cè,monitor,6
+3730,监督,jiāndū,supervise,6
+3731,简介,jiǎn jiè,brief introduction; synopsis; summary,6
+3732,鉴定,jiàndìng,Appraisal,6
+3733,将军,jiāngjūn,General,6
+3734,讲课,jiǎng kè,teach; lecture,6
+3735,酱油,jiàngyóu,soy sauce,6
+3736,骄傲,jiāo’ào,Proud,6
+3737,焦点,jiāodiǎn,focus,6
+3738,脚印,jiǎo yìn,footprint; footmark; track,6
+3739,教堂,jiào táng,church; cathedral; chapel,6
+3740,教育部,jiào yù bù,Ministry of Education,6
+3741,接收,jiē shōu,receive; accept; take over; admit,6
+3742,街头,jiē tóu,street,6
+3743,节假日,jié jià rì,holidays; festival and holiday,6
+3744,节能,jié néng,energy conservation; energy saving,6
+3745,节奏,jiézòu,rhythm,6
+3746,杰出,jiéchū,outstanding,6
+3747,截止,jiézhǐ,due,6
+3748,截至,jiézhì,By (time）,6
+3749,解说,jiě shuō,explain orally; comment; definition; narrate,6
+3750,文艺界,wén yì jiè,circles; world (circle of literature and art),6
+3751,借鉴,jièjiàn,take example by,6
+3752,金额,jīn é,money; sum; amount,6
+3753,金钱,jīn qián,money,6
+3754,金融,jīnróng,Finance,6
+3755,进攻,jìngōng,attack,6
+3756,近日,jìn rì,recently; in the past few days,6
+3757,近视,jìn shì,myopia; short sight,6
+3758,惊人,jīng rén,astonishing; amazing; alarming,6
+3759,惊喜,jīng xǐ,surprise; pleasantly surprised,6
+3760,精美,jīng měi,exquisite; elegant; fineness; refineness,6
+3761,精品,jīng pǐn,boutique,6
+3762,景点,jǐng diǎn,attractions; scenic spot,6
+3763,纠纷,jiūfēn,dissension; tangle,6
+3764,纠正,jiūzhèng,correct,6
+3765,酒水,jiǔ shuǐ,drinks; beverage; booze,6
+3766,救命,jiù mìng,help; save life,6
+3767,救援,jiù yuán,rescue; succor; support,6
+3768,救助,jiù zhù,succour; salvation; help sb. in danger or difficulty,6
+3769,就是说,jiù shì shuō,that is; in other words; namely,6
+3770,就算,jiù suàn,even if; granted that,6
+3771,捐款,juān kuǎn,donate; donation; donate money; contribute funds,6
+3772,捐赠,juān zèng,contribute; donate; present,6
+3773,捐助,juān zhù,offer; contribute; donate; donation,6
+3774,决策,juécè,make policy,6
+3775,觉悟,juéwù,consciousness,6
+3776,绝大多数,jué dà duō shù,most of; overwhelming majority,6
+3777,军队,jūnduì,army,6
+3778,军舰,jūn jiàn,warship; military naval ship,6
+3779,军事,jūnshì,Military,6
+3780,开创,kāi chuàng,start; initiate; begin,6
+3781,开关,kāi guān,switch; power switch,6
+3782,开设,kāi shè,open; set up; establish; offer,6
+3783,开通,kāi tōng,open; clear; dredge; open-minded; liberal,6
+3784,开头,kāi tóu,begin; start; beginning,6
+3785,开夜车,kāi yè chē,drive at night; work at night; work late into the night,6
+3786,看管,kān guǎn,look after; guard; watch; attend,6
+3787,看得见,kàn de jiàn,visible; noticeable,6
+3788,看得起,kàn de qǐ,think highly of; have a good opinion of,6
+3789,看好,kàn hǎo,look to further increase; optimistic about,6
+3790,看作,kàn zuò,see; regard as; look upon,6
+3791,康复,kāng fù,recovery; rehabilitation,6
+3792,抗议,kàngyì,Protest,6
+3793,考场,kǎo chǎng,examination hall; examination room,6
+3794,考题,kǎo tí,examination questions; examination paper,6
+3795,科研,kē yán,research; scientific research,6
+3796,客车,kè chē,bus; coach,6
+3797,空军,kōng jūn,air force; air service,6
+3798,口试,kǒu shì,oral examination; oral test,6
+3799,快车,kuài chē,express train; express bus,6
+3800,宽阔,kuān kuò,broad; wide; expanse; spacious,6
+3801,来往,lái wǎng,contact; dealing; intercourse; come and go,6
+3802,栏目,lánmù,column,6
+3803,蓝领,lán lǐng,blue-collar worker; blue collar,6
+3804,蓝天,lán tiān,blue sky,6
+3805,老乡,lǎo xiāng,fellow-villager; fellow-townsma,6
+3806,冷气,lěng qì,air conditioning; cool air,6
+3807,冷水,lěng shuǐ,cold water; unboiled water,6
+3808,礼堂,lǐ táng,hall; assembly hall; auditorium,6
+3809,理财,lǐ cái,manage finances; conduct financial transactions,6
+3810,理智,lǐzhì,reasonable,6
+3811,影响力,yǐng xiǎng lì,ability; capability (influence),6
+3812,联盟,liánméng,union,6
+3813,联赛,lián sài,league,6
+3814,联手,lián shǒu,join hands,6
+3815,凉鞋,liáng xié,sandal,6
+3816,两侧,liǎng cè,both sides; two flanks,6
+3817,两手,liǎng shǒu,two hands; dual tactics,6
+3818,聊天儿,liáo tiānr,chat,6
+3819,灵活,línghuó,flexible,6
+3820,领取,lǐng qǔ,draw; receive; pull down,6
+3821,领袖,lǐngxiù,leader,6
+3822,留言,liú yán,leave a message; leave comments,6
+3823,流感,liú gǎn,flu; influenza,6
+3824,楼道,lóu dào,corridor,6
+3825,楼房,lóu fáng,building; storied building,6
+3826,陆军,lù jūn,army; ground force; land force,6
+3827,录像,lù xiàng,video; video tape,6
+3828,录音机,lù yīn jī,recorder; sound recorder; transcription machine,6
+3829,路过,lù guò,pass by,6
+3830,旅店,lǚ diàn,inn; hostel; hotel,6
+3831,绿化,lǜ huà,greening; afforest,6
+3832,马车,mǎ chē,carriage; wagon,6
+3833,馒头,mántou,Steamed buns,6
+3834,慢车,màn chē,slow train; local; slow train,6
+3835,盲人,máng rén,blind; blindman,6
+3836,梅花,méi huā,plum blossom; plum flower,6
+3837,美容,měi róng,beauty; cosmetology,6
+3838,免得,miǎndé,lest,6
+3839,面对面,miàn duì miàn,face to face; surface-to-surface,6
+3840,面向,miàn xiàng,turn in the direction of; face; turn towards,6
+3841,民歌,mín gē,folk song; ballad,6
+3842,民工,mín gōng,migrant workers; civilian worker,6
+3843,民警,mín jǐng,people’s police; people’s policeman,6
+3844,民意,mín yì,public opinion; popular will; public will,6
+3845,民主,mínzhǔ,democratic,6
+3846,名额,míng’é,Places,6
+3847,名胜,míng shèng,a place of interest; scenic spot,6
+3848,名义,míng yì,name; titular,6
+3849,名誉,míngyù,reputation,6
+3850,明日,míng rì,tomorrow,6
+3851,没收,mò shōu,confiscate; expropriate,6
+3852,墨水,mò shuǐ,ink; writing ink,6
+3853,母鸡,mǔ jī,hen,6
+3854,母女,mǔ nǚ,mother and daughter,6
+3855,母子,mǔ zǐ,mother and son; mother and child,6
+3856,拿走,ná zǒu,take away,6
+3857,奶粉,nǎi fěn,milk powder; dried milk,6
+3858,奶牛,nǎi niú,cow; dairy cattle; milk cow,6
+3859,难忘,nán wàng,unforgettable; memorable; indelibility,6
+3860,内地,nèi dì,inland; interior; mainland,6
+3861,内外,nèi wài,inside and outside; around,6
+3862,内衣,nèi yī,underwear; underclothes; undies,6
+3863,能否,néng fǒu,can; whether,6
+3864,排行榜,pái háng bǎng,leaderboard; ranking list,6
+3865,派出,pài chū,send; dispatch,6
+3866,盼望,pànwàng,look forward to,6
+3867,陪同,péi tóng,accompany; companion,6
+3868,配置,pèi zhì,configuration; deploy,6
+3869,皮球,pí qiú,rubber ball; ball,6
+3870,贫困,pínkùn,Poor,6
+3871,品牌,pǐn pái,brand,6
+3872,聘请,pìn qǐng,hire; engage; invite,6
+3873,平凡,píngfán,ordinary,6
+3874,平方米,píng fāng mǐ,square metre,6
+3875,平衡,pínghéng,balance,6
+3876,平台,píng tái,platform; terrace,6
+3877,评选,píng xuǎn,appraise and elect; choose,6
+3878,屏幕,píngmù,screen,6
+3879,欺负,qīfu,bully,6
+3880,奇妙,qímiào,wonderful,6
+3881,企图,qǐtú,Attempt,6
+3882,起点,qǐ diǎn,starting point; outset,6
+3883,起诉,qǐ sù,prosecute; sue; bring a lawsuit,6
+3884,气氛,qìfēn,atmosphere,6
+3885,恰当,qiàdàng,appropriate,6
+3886,恰好,qià hǎo,just right; exactly right,6
+3887,恰恰,qià qià,just; exactly; precisely,6
+3888,铅笔,qiānbǐ,pencil,6
+3889,谦虚,qiānxū,Modest,6
+3890,前方,qián fāng,ahead; the front,6
+3891,前来,qián lái,come,6
+3892,潜力,qiánlì,potential,6
+3893,强盗,qiáng dào,robber; bandit,6
+3894,强化,qiáng huà,strengthen; intensify; strengthening,6
+3895,强势,qiáng shì,strong; mighty,6
+3896,强壮,qiáng zhuàng,strong; sturdy; robust,6
+3897,桥梁,qiáoliáng,bridge,6
+3898,巧妙,qiǎomiào,clever,6
+3899,茄子,qié zi,eggplant,6
+3900,切实,qièshí,practical,6
+3901,侵犯,qīnfàn,Violation,6
+3902,亲属,qīn shǔ,kinsfolk; relatives; cognate,6
+3903,亲眼,qīn yǎn,with one’s own eyes; personally,6
+3904,倾向,qīngxiàng,inclination,6
+3905,清洁,qīngjié,clean,6
+3906,清洁工,qīng jié gōng,dustman; cleaner,6
+3907,清明节,qīng míng jié,Tomb-Sweeping Day; Ching Ming Festival,6
+3908,清洗,qīng xǐ,wash; clean; rinse; purge; comb out,6
+3909,情绪,qíngxù,emotion,6
+3910,求职,qiú zhí,job hunting; job wanted,6
+3911,球拍,qiú pāi,racket; racquet,6
+3912,球星,qiú xīng,star,6
+3913,球员,qiú yuán,player,6
+3914,区分,qūfēn,Distinguish,6
+3915,渠道,qúdào,channel,6
+3916,取款,qǔ kuǎn,withdrawal,6
+3917,取款机,qǔ kuǎn jī,ATM; cash dispenser,6
+3918,去掉,qù diào,get rid of; do away with; take out,6
+3919,权力,quánlì,power,6
+3920,全力,quán lì,full force; all-out; sparing no effort,6
+3921,全新,quán xīn,new; brand new,6
+3922,缺陷,quēxiàn,defect,6
+3923,却是,què shì,nevertheless; however,6
+3924,让座,ràng zuò,offer one’s seat to sb.,6
+3925,热点,rè diǎn,hot spot; hot point,6
+3926,热水,rè shuǐ,hot water,6
+3927,热水器,rè shuǐ qì,water heater; hot-water heater,6
+3928,热线,rè xiàn,hotline,6
+3929,人权,rén quán,human rights,6
+3930,认同,rèn tóng,identify with; self-identity; acknowledge,6
+3931,日夜,rì yè,day and night; round the clock,6
+3932,日语,rì yǔ,Japanese language,6
+3933,融合,róng hé,fuse; merge; mix,6
+3934,融入,róng rù,assimilate into; blend in,6
+3935,如一,rú yī,consistent,6
+3936,乳制品,rǔ zhì pǐn,dairy product,6
+3937,入学,rù xué,admission; start school,6
+3938,赛场,sài chǎng,arena; competition terrain,6
+3939,三明治,sān míng zhì,sandwich,6
+3940,丧失,sàngshī,lose,6
+3941,山峰,shān fēng,mountain peak,6
+3942,山谷,shān gǔ,valley,6
+3943,山坡,shān pō,hillside; mountain slope,6
+3944,伤口,shāng kǒu,wound; cut,6
+3945,伤亡,shāng wáng,injuries and deaths; casualties,6
+3946,伤员,shāng yuán,wounded,6
+3947,商城,shāng chéng,mall,6
+3948,上当,shàngdàng,be fooled,6
+3949,上帝,shàng dì,God,6
+3950,上市,shàng shì,appear on the market; listed,6
+3951,上台,shàng tái,appear on the stage; come into power,6
+3952,上演,shàng yǎn,perform; staged; put on the stage,6
+3953,少儿,shào ér,children,6
+3954,舌头,shétou,Tongue,6
+3955,设计师,shè jì shī,designer,6
+3956,涉及,shèjí,Involve,6
+3957,深化,shēn huà,deepen; intensify,6
+3958,深深,shēn shēn,deeply; profoundly; deep,6
+3959,审查,shěnchá,Examination,6
+3960,升级,shēng jí,upgrade; be stepped up; escalate,6
+3961,升学,shēng xué,enter a higher school,6
+3962,升值,shēng zhí,appreciation; appreciate; increase in value,6
+3963,生活费,shēng huó fèi,living expenses; cost of living; alimony,6
+3964,省钱,shěng qián,save money,6
+3965,圣诞节,shèng dàn jié,Christmas,6
+3966,盛行,shèngxíng,Prevalence,6
+3967,师父,shī fu,master; a polite form of address to a monk or nun,6
+3968,师生,shī shēng,teacher and student,6
+3969,时而,shí’ér,from time to time; now … now …,6
+3970,时节,shí jié,season; time,6
+3971,时期,shíqī,period,6
+3972,时时,shí shí,often; constantly,6
+3973,时装,shí zhuāng,fashion; fashionable dress,6
+3974,识字,shí zì,learn to read; literacy,6
+3975,实践,shíjiàn,practice,6
+3976,食欲,shí yù,appetite,6
+3977,市民,shì mín,citizen; city resident,6
+3978,事后,shì hòu,after the event; afterwards,6
+3979,试点,shì diǎn,pilot; launch a pilot project,6
+3980,适当,shì dàng,suitable; proper; appropriate,6
+3981,收藏,shōucáng,Collection,6
+3982,收取,shōu qǔ,charge,6
+3983,收养,shōu yǎng,adoption; adopt,6
+3984,手续费,shǒu xù fèi,handling fee; commission charges,6
+3985,首次,shǒu cì,for the first time; first,6
+3986,首脑,shǒu nǎo,head; leader; headman,6
+3987,首席,shǒu xí,chief; seat of honor,6
+3988,首相,shǒu xiàng,prime minister,6
+3989,书房,shū fáng,study,6
+3990,薯片,shǔ piàn,chips; crisps; potato chips,6
+3991,薯条,shǔ tiáo,french fries,6
+3992,双打,shuāng dǎ,doubles; pair game,6
+3993,水泥,shuǐní,cement,6
+3994,说明书,shuō míng shū,manual; synopsis,6
+3995,说实话,shuō shí huà,to be frank; tell the truth; to be honest,6
+3996,司长,sī zhǎng,director; department Chief,6
+3997,死亡,sǐwáng,death,6
+3998,四处,sì chù,around; all over the place; in all directions,6
+3999,送礼,sòng lǐ,present; send gifts,6
+4000,送行,sòng xíng,see off; give a send-off party,6
+4001,素质,sùzhì,quality,6
+4002,算了,suàn le,forget it,6
+4003,算是,suàn shì,at last; be considered,6
+4004,岁数,suì shù,age,6
+4005,踏实,tāshi,"earnest, steady and sure",6
+4006,台灯,tái dēng,desk lamp; table lamp; reading lamp,6
+4007,太阳能,tài yáng néng,solar energy,6
+4008,叹气,tànqì,Sigh,6
+4009,探索,tànsuǒ,explore,6
+4010,探讨,tàntǎo,discuss; probe into,6
+4011,特大,tè dà,especially big; most,6
+4012,特地,tè dì,for a special purpose; specially,6
+4013,特快,tè kuài,express,6
+4014,特意,tèyì,specially,6
+4015,疼痛,téng tòng,pain; ache; soreness,6
+4016,提交,tí jiāo,submit; refer,6
+4017,提升,tí shēng,promote; hoist; elevate; promotion,6
+4018,天然,tiān rán,natura,6
+4019,天堂,tiāntáng,heaven,6
+4020,天下,tiān xià,world,6
+4021,田径,tiánjìng,Athletics,6
+4022,跳水,tiào shuǐ,dive; diving,6
+4023,听取,tīng qǔ,listen to; hear,6
+4024,通报,tōng bào,circulate a notice; circular; bulletin; journal,6
+4025,通道,tōng dào,access; aisle; passage; passageway,6
+4026,通红,tōng hóng,flush; very red,6
+4027,通话,tōng huà,call; converse; communicate by phone,6
+4028,通行,tōng xíng,go through; pass through; current; general,6
+4029,通讯,tōngxùn,communication,6
+4030,同胞,tóngbāo,Compatriot,6
+4031,同行,tóng háng,peer; of the same trade or occupation; person of the same occupation,6
+4032,同期,tóng qī,corresponding time period; the same period,6
+4033,同一,tóng yī,same; identical,6
+4034,铜牌,tóng pái,bronze medal; copper medal,6
+4035,头疼,tóu téng,headache,6
+4036,投票,tóupiào,vote,6
+4037,透露,tòulù,disclose,6
+4038,图书,tú shū,books,6
+4039,徒弟,túdì,Apprentice,6
+4040,途径,tújìng,channel,6
+4041,团队,tuán duì,team,6
+4042,推出,tuī chū,roll out; push-off,6
+4043,退票,tuì piào,refund; return a ticket,6
+4044,拖鞋,tuō xié,slipper,6
+4045,娃娃,wáwa,A doll,6
+4046,外币,wài bì,foreign currency,6
+4047,外部,wài bù,outside; external; exterior,6
+4048,外出,wài chū,go out,6
+4049,外观,wài guān,exterior; outward appearance; outward,6
+4050,外科,wài kē,surgery; surgical department,6
+4051,外来,wài lái,foreign; external; outside,6
+4052,外头,wài tou,outside,6
+4053,外衣,wài yī,coat; jacket; outer clothing; garb; overclothes; semblance,6
+4054,外资,wài zī,foreign investment,6
+4055,弯曲,wān qū,winding; meandering; zigzag; crook; curved; bending; bend,6
+4056,顽皮,wán pí,naughty; mischievous,6
+4057,顽强,wánqiáng,Tenacious,6
+4058,王后,wáng hòu,queen,6
+4059,王子,wángzǐ,prince,6
+4060,网吧,wǎng bā,internet cafe; internet bar,6
+4061,网页,wǎng yè,web page,6
+4062,往后,wǎng hòu,from now on; later; in the future; backward,6
+4063,往来,wǎng lái,back and forth; contact; dealing; intercourse,6
+4064,往年,wǎng nián,in previous years; in former years,6
+4065,望见,wàng jiàn,see; set eyes on,6
+4066,危机,wēijī,crisis,6
+4067,威胁,wēixié,threaten,6
+4068,微波炉,wēi bō lú,microwave oven,6
+4069,维生素,wéishēngsù,Vitamin,6
+4070,为此,wèi cǐ,to this end; for this reason; for this purpose,6
+4071,为何,wèi hé,why; for what reason,6
+4072,文娱,wén yú,cultural recreation; entertainment,6
+4073,卧铺,wò pù,sleeper; sleeping berth,6
+4074,乌云,wū yún,dark clouds; black clouds,6
+4075,无边,wú biān,boundless,6
+4076,无关,wú guān,have nothing to do; unrelated; irrelevant,6
+4077,无效,wú xiào,invalid; null; to no avail; in vain,6
+4078,舞蹈,wǔdǎo,Dance,6
+4079,物品,wù pǐn,article; goods; item,6
+4080,西班牙语,xī bān yá yǔ,Spanish language,6
+4081,吸毒,xī dú,drug; drug addict,6
+4082,牺牲,xīshēng,sacrifice,6
+4083,洗衣粉,xǐ yī fěn,washing powder,6
+4084,戏曲,xì qǔ,drama; Chinese opera,6
+4085,细胞,xìbāo,Cells,6
+4086,细菌,xìjūn,Bacteria,6
+4087,先锋,xiān fēng,pioneer; vanguard,6
+4088,显出,xiǎn chū,show; manifest,6
+4089,线路,xiàn lù,line; route; circuit,6
+4090,陷入,xiànrù,fall into,6
+4091,响声,xiǎng shēng,sound; noise,6
+4092,想不到,xiǎng bú dào,unexpected,6
+4093,消耗,xiāohào,consume,6
+4094,消灭,xiāomiè,eliminate,6
+4095,小费,xiǎo fèi,tip,6
+4096,小麦,xiǎomài,Wheat,6
+4097,小于,xiǎo yú,less than,6
+4098,晓得,xiǎo dé,know,6
+4099,笑脸,xiào liǎn,smiley; smiling face,6
+4100,笑容,xiào róng,smiling expression; smile,6
+4101,笑声,xiào shēng,laughter; laughing,6
+4102,协会,xiéhuì,association,6
+4103,协商,xiéshāng,consult,6
+4104,协调,xiétiáo,coordinate,6
+4105,协助,xiézhù,assist,6
+4106,写字楼,xiě zì lóu,office building,6
+4107,写字台,xiě zì tái,writing desk; desk,6
+4108,心灵,xīnlíng,Heart,6
+4109,心愿,xīn yuàn,wish; aspiration,6
+4110,心脏,xīnzàng,heart,6
+4111,心脏病,xīn zàng bìng,heart disease,6
+4112,新人,xīn rén,newcomer; new personality; new talent,6
+4113,新兴,xīn xīng,new; emerging; newly-developing,6
+4114,薪水,xīnshui,salary,6
+4115,信仰,xìnyǎng,Faith,6
+4116,信用,xìn yòng,credit,6
+4117,兴旺,xīngwàng,Prosperous,6
+4118,行程,xíng chéng,travel; itinerary,6
+4119,凶手,xiōngshǒu,Murderer,6
+4120,修车,xiū chē,car repair; car repairing,6
+4121,袖珍,xiù zhēn,pocket-size; pocket,6
+4122,旋转,xuánzhuǎn,rotate,6
+4123,选拔,xuǎnbá,Selection,6
+4124,选举,xuǎnjǔ,Election,6
+4125,学会,xué huì,learn; master; study,6
+4126,学员,xué yuán,student; trainee,6
+4127,血管,xuè guǎn,blood vessel; artery; vein,6
+4128,血液,xuè yè,blood,6
+4129,循环,xúnhuán,loop,6
+4130,压迫,yāpò,Oppression,6
+4131,烟花,yān huā,fireworks,6
+4132,沿海,yánhǎi,coastal,6
+4133,沿着,yán zhe,along,6
+4134,研发,yán fā,research and development,6
+4135,眼看,yǎn kàn,see; soon; in a moment; watch helplessly,6
+4136,演奏,yǎnzòu,Play,6
+4137,宴会,yànhuì,banquet,6
+4138,养老,yǎng lǎo,pension; provide for the aged,6
+4139,氧气,yǎngqì,oxygen,6
+4140,药品,yào pǐn,drug; medicine; medicament,6
+4141,要不然,yào bù rán,otherwise,6
+4142,要好,yào hǎo,be close friends; try hard to make progress; better,6
+4143,要么,yào me,or; either … or …,6
+4144,要素,yàosù,Essential factor,6
+4145,野生,yě shēng,wild; uncultivated; feral,6
+4146,医药,yī yào,medicine; curative,6
+4147,依次,yī cì,in proper order; successively,6
+4148,依赖,yīlài,rely on,6
+4149,一次性,yí cì xìng,disposable; single use,6
+4150,一代,yí dài,generation,6
+4151,一道,yí dào,together; a streak of,6
+4152,一贯,yíguàn,consistent,6
+4153,一路上,yí lù shàng,all the way; along the way,6
+4154,仪器,yíqì,instrument,6
+4155,仪式,yíshì,Ceremony,6
+4156,遗憾,yíhàn,regret; pity,6
+4157,一番,yì fān,some; one time,6
+4158,一模一样,yì mú yí yàng,exactly the same; as like as two peas,6
+4159,一齐,yì qí,all together; simultaneously; in unison,6
+4160,一时,yì shí,for a short while; temporary; momentary,6
+4161,一同,yì tóng,together; at the same time and place,6
+4162,一行,yì xíng,delegation; a group travelling together; party,6
+4163,艺人,yì rén,actor; artist; artisan; handicraftsman,6
+4164,议题,yì tí,issue; topic for discussion; issue under discussion,6
+4165,异常,yìcháng,abnormal,6
+4166,意想不到,yì xiǎng bù dào,unexpected; surprising; out of the blue; unpredicted,6
+4167,意愿,yì yuàn,wish; desire; aspiration; volitional,6
+4168,因素,yīnsù,Factor,6
+4169,阴谋,yīnmóu,conspiracy,6
+4170,阴影,yīn yǐng,shadow; shade,6
+4171,音量,yīn liàng,volume; sound volume,6
+4172,音像,yīn xiàng,audiovisual; audio-video,6
+4173,隐藏,yǐn cáng,hide; hiding; conceal; put out of sight,6
+4174,隐私,yǐnsī,Privacy,6
+4175,英雄,yīngxióng,Hero,6
+4176,迎来,yíng lái,usher in; greet,6
+4177,影迷,yǐng mí,movie fan; film fan,6
+4178,影星,yǐng xīng,movie star,6
+4179,应对,yìng duì,reply; answer; respond; react,6
+4180,应急,yìng jí,meet an urgent need; meet an emergency; meet a contingency,6
+4181,用处,yòng chù,use; good; usefulness,6
+4182,用得着,yòng de zháo,useful; need,6
+4183,用法,yòng fǎ,usage; use,6
+4184,用品,yòng pǐn,supplies; appliance,6
+4185,用心,yòng xīn,attentively; intention; diligently,6
+4186,优质,yōu zhì,high quality; high grade,6
+4187,游人,yóu rén,visitor; tourist; sightseer,6
+4188,游玩,yóu wán,amuse; play; stroll; playing,6
+4189,游戏机,yóu xì jī,game console; game machine,6
+4190,游行,yóu xíng,parade; march; demonstration; procession,6
+4191,有关,yǒu guān,related; concerning; relate; concern,6
+4192,有没有,yǒu méi yǒu,do you have…?; Have you ever…? ; Is there any…?,6
+4193,有事,yǒu shì,engaged; occupied; busy; something,6
+4194,娱乐,yúlè,entertainment,6
+4195,愉快,yúkuài,Cheerful,6
+4196,宇航员,yǔ háng yuán,cosmonaut; astronaut,6
+4197,雨衣,yǔ yī,raincoat,6
+4198,预约,yù yuē,reservation; reserve; make an appointment,6
+4199,元素,yuánsù,element,6
+4200,园地,yuán dì,garden; field,6
+4201,原告,yuángào,accuser,6
+4202,原谅,yuánliàng,Forgive,6
+4203,圆珠笔,yuán zhū bǐ,ball point pen,6
+4204,援助,yuán zhù,help; support; aid; back up,6
+4205,缘故,yuángù,Reason,6
+4206,远方,yuǎn fāng,distance,6
+4207,远离,yuǎn lí,away; aloof; removed,6
+4208,远远,yuǎn yuǎn,far away,6
+4209,约定,yuē dìng,appoint; arrange; promise; agreement,6
+4210,乐曲,yuè qǔ,music; musical composition,6
+4211,允许,yǔnxǔ,allow,6
+4212,运作,yùn zuò,operation; operate,6
+4213,晕车,yùn chē,carsickness; motion sickness,6
+4214,再生,zài shēng,regeneration; regenerate; revive,6
+4215,再说,zài shuō,besides; put off until some time later; say,6
+4216,遭到,zāo dào,suffer; suffered; meet with,6
+4217,遭受,zāoshòu,Suffer,6
+4218,遭遇,zāoyù,encounter,6
+4219,早晚,zǎo wǎn,sooner or later; morning and evening; time; some day,6
+4220,增进,zēng jìn,enhance; promote,6
+4221,增值,zēng zhí,value-added; appreciation; increase in value,6
+4222,扎实,zhāshi,solid,6
+4223,炸弹,zhà dàn,bomb,6
+4224,炸药,zhà yào,explosive; dynamite,6
+4225,占据,zhànjù,Occupy,6
+4226,战场,zhàn chǎng,battleground; battlefield,6
+4227,战略,zhànlüè,strategy,6
+4228,战术,zhànshù,tactics,6
+4229,战友,zhàn yǒu,comrades in arms,6
+4230,站台,zhàn tái,platform; railway platform,6
+4231,秘书长,mì shū zhǎng,chief; head; leader (secretary general),6
+4232,掌声,zhǎng shēng,applause,6
+4233,账户,zhànghù,account,6
+4234,障碍,zhàng’ài,obstacle,6
+4235,招聘,zhāopìn,recruit,6
+4236,照样,zhàoyàng,all the same; as before,6
+4237,照耀,zhàoyào,Shine,6
+4238,哲学,zhéxué,Philosophy,6
+4239,这就是说,zhè jiù shì shuō,this means that; that is to say,6
+4240,争夺,zhēngduó,Fight for,6
+4241,整顿,zhěngdùn,rectify,6
+4242,整治,zhěng zhì,rectify; renovate; fix,6
+4243,正当,zhèngdāng,proper,6
+4244,政策,zhèngcè,policy,6
+4245,政党,zhèng dǎng,political party,6
+4246,政权,zhèngquán,regime,6
+4247,症状,zhèngzhuàng,Symptom,6
+4248,之类,zhī lèi,such as; and so on,6
+4249,支撑,zhīchēng,brace,6
+4250,支援,zhīyuán,support,6
+4251,知名,zhī míng,famous; well-known,6
+4252,直升机,zhí shēng jī,helicopter,6
+4253,职责,zhí zé,duty; responsibility,6
+4254,只得,zhǐ dé,have to; have no alternative but to; be obliged,6
+4255,只顾,zhǐ gù,merely; simply; only care for; be absorbed to,6
+4256,只管,zhǐ guǎn,by all means; not hesitate; merely; just,6
+4257,指定,zhǐdìng,Appoint,6
+4258,指数,zhǐ shù,index; exponent,6
+4259,指头,zhǐ tou,finger; toe,6
+4260,指着,zhǐ zhe,point; pointing,6
+4261,至于,zhìyú,As for,6
+4262,治病,zhì bìng,treat a disease; treat an illness,6
+4263,智慧,zhìhuì,wisdom,6
+4264,中等,zhōng děng,medium; moderate,6
+4265,中华,zhōng huá,China,6
+4266,中期,zhōng qī,mid-term; metaphase,6
+4267,中外,zhōng wài,at home and abroad; Chinese and foreign,6
+4268,忠心,zhōng xīn,loyalty; devotion; faithfulness,6
+4269,钟头,zhōng tóu,hour,6
+4270,种种,zhǒng zhǒng,all sorts of; all kinds of; a variety of,6
+4271,珠宝,zhū bǎo,jewelry,6
+4272,诸位,zhūwèi,every one,6
+4273,主持人,zhǔ chí rén,host; presenter,6
+4274,主角,zhǔ jué,lead; protagonist; leading actor,6
+4275,主流,zhǔliú,Main stream,6
+4276,住宅,zhùzhái,residence,6
+4277,柱子,zhù zi,post; pillar,6
+4278,祝愿,zhù yuàn,wish,6
+4279,专用,zhuān yòng,special; dedicated,6
+4280,赚钱,zhuàn qián,make money,6
+4281,装备,zhuāngbèi,equipment,6
+4282,壮观,zhuàngguān,grand; sublime,6
+4283,追究,zhuījiū,Investigate,6
+4284,咨询,zīxún,Consultation,6
+4285,自来水,zì lái shuǐ,tap water; running water,6
+4286,自我,zì wǒ,oneself; self,6
+4287,自学,zì xué,self-study,6
+4288,自言自语,zì yán zì yǔ,soliloquize; talk to oneself,6
+4289,自在,zì zài,free; comfortable; unrestrained,6
+4290,宗教,zōngjiào,Religion,6
+4291,总部,zǒng bù,headquarters; general headquarters,6
+4292,总监,zǒng jiān,director; chief inspector,6
+4293,总经理,zǒng jīng lǐ,general manager,6
+4294,总量,zǒng liàng,total; all quantity,6
+4295,走私,zǒusī,smuggle,6
+4296,租金,zū jīn,rent; rental,6
+4297,足以,zúyǐ,Enough,6
+4298,上班族,shàng bān zú,a class of things with common features or attribute (office worker; commuter),6
+4299,祖父,zǔfù,grandfather,6
+4300,祖国,zǔguó,Motherland,6
+4301,祖母,zǔ mǔ,grandmother,6
+4302,最佳,zuì jiā,optimal; the best; optimum,6
+4303,最终,zuì zhōng,final; ultimate,6
+4304,罪恶,zuì è,sin; crime; evil,6
+4305,作废,zuòfèi,"cancel, blank out",6
+4306,作战,zuò zhàn,fight; war; do battle; combat,6
+4307,座谈会,zuò tán huì,foum; symposium; informal discussion,6
