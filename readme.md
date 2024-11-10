@@ -4,7 +4,7 @@ An app to aid users learn Chinese based on the HSK standard up to HSK 6
 
 ## DB Architecture
 
-![[cn_llm_db.png]]
+![db architecture](cn_llm_db.png)
 
 ## Features
 
