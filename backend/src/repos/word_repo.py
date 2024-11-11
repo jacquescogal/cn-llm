@@ -389,3 +389,49 @@ class WordRepo:
             # Release the connection back to the pool
             await self.database.release_connection(conn)
         return []
+    
+    async def get_word_list_from_key_word_search(self, key_word: str, last_id:int, limit:int) -> Tuple[List[WordModel], NextPageMetaDTO]:
+        conn:Connection = await self.database.get_conn()
+        try:
+            async with conn.cursor() as cur:
+                await cur.execute(
+                    '''SELECT 
+                    a.word_id, 
+                    a.hanzi, 
+                    a.pinyin, 
+                    a.meaning, 
+                    a.hsk_level, 
+                    a.is_compound, 
+                    CASE WHEN b.word_id IS NOT NULL THEN TRUE ELSE FALSE END AS is_learnt 
+                FROM (
+                    SELECT * 
+                    FROM word_tab a 
+                    WHERE hanzi LIKE %s OR pinyin LIKE %s OR pinyin LIKE %s AND word_id > %s
+                    ORDER BY word_id ASC
+                    LIMIT %s) a 
+                    LEFT JOIN card_tab b ON a.word_id = b.word_id;''',
+                    (f'%{key_word}%', f'{key_word}%', f'% {key_word}%', last_id, limit+1,)
+                )
+                fetched = await cur.fetchall()
+                has_more = len(fetched) > limit
+                words = []
+                new_last_id = last_id
+                for f in fetched:
+                    if len(words) == limit:
+                        break
+                    new_last_id = f[0]
+                    word = WordModel(
+                        word_id=f[0],
+                        hanzi=f[1],
+                        pinyin=f[2],
+                        meaning=f[3],
+                        hsk_level=f[4],
+                        is_compound=f[5],
+                        is_learnt=f[6]
+                    )
+                    words.append(word)
+                return words, NextPageMetaDTO(last_id=new_last_id, limit=limit, has_more=has_more)
+        finally:
+            # Release the connection back to the pool
+            await self.database.release_connection(conn)
+        return [], None

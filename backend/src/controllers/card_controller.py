@@ -29,7 +29,7 @@ class CardController:
         fsrs_card: FSRSCardModel = card.get_fsrs_card()
         return StudyCardDto(word=word, fsrs_card=fsrs_card)
     
-    async def get_card_by_word_id(self, word_id: int) -> CardModel:
+    async def get_card_by_word_id(self, word_id: int) -> StudyCardDto:
         card: CardModel = await self.card_repo.read_card_by_word_id(word_id)
         if card is None:
             return None
