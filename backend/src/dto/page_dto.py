@@ -1,11 +1,12 @@
 from pydantic import BaseModel, Field
 from typing import List
 from src.model import *
-class NextPageMetaDTO(BaseModel):
-    last_id: int
+class PageMeta(BaseModel):
+    # database is less than 10_000 rows, using (offset, limit) pagination
+    offset: int
     limit: int
-    has_more: bool = Field(default=False)
+    has_more: Optional[bool] = Field(default=False)
 
 class WordPageDTO(BaseModel):
     word_list: List[WordModel]
-    next_page_meta: NextPageMetaDTO
+    page_meta: PageMeta

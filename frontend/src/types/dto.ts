@@ -4,6 +4,27 @@ export enum State {
     Review = 2,
     Relearning = 3
 }
+export enum SearchBy {
+    Hanzi,
+    Pinyin,
+    Meaning,
+}
+export enum HSKLevel {
+    HSK1 = 1,
+    HSK2 = 2,
+    HSK3 = 3,
+    HSK4 = 4,
+    HSK5 = 5,
+    HSK6 = 6
+}
+export enum CardType {
+    Meaning = 1,
+    Pinyin = 2,
+    Hanzi = 3,
+    MCQ = 4,
+    OCR = 5
+}
+
 export interface WordDTO{
     word_id: number;
     hanzi: string;
@@ -25,22 +46,34 @@ export interface FSRSCardDTO {
     state: State;
     last_review: Date;
 }
-export interface StudyCardDTO {
+
+export interface CardDTO {
+    fsrs: FSRSCardDTO;
+    card_type: CardType;
+    is_disabled: boolean;
+}
+
+export interface ReadCardDTO {
     word: WordDTO;
-    fsrs_card: FSRSCardDTO;
+    card: CardDTO[];
 }
 
 export interface RatingDTO {
     rating: number;
 }
 
-export interface NextPageMetaDTO{
-    last_id: number;
+export interface PageMetaDTO{
+    offset: number;
     limit: number;
     has_more: boolean;
 }
 
 export interface WordPageDTO{
     word_list: WordDTO[];
-    next_page_meta: NextPageMetaDTO;
+    page_meta: PageMetaDTO;
+}
+
+export interface WordSearchFilter {
+    hsk?: number[];
+    learnt?: boolean; 
 }
