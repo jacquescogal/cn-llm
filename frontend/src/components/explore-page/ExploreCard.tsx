@@ -4,7 +4,7 @@ import { IoIosAddCircle, IoIosRemoveCircle } from "react-icons/io";
 import { TiTick, TiTickOutline } from "react-icons/ti";
 import Modal from "../common/modal/Modal";
 import WordFocusForm from "./WordFocusForm";
-import { createCard, createCardAll, deleteCardOfWordCardType, getCardById } from "../../services/card-api";
+import { createCard, createCardAll, deleteCardOfWordCardTypeReviewType, getCardById } from "../../services/card-api";
 
 
 const ExploreCard = (props: { word: WordDTO; searchQuery: string}) => {
@@ -40,13 +40,13 @@ const ExploreCard = (props: { word: WordDTO; searchQuery: string}) => {
     }
   }
 
-  const addCardType = async (cardType: number) => {
+  const addCardType = async (cardType: number, reviewType:number) => {
     try {
-      const response: ReadCardDTO = await createCard(word.word_id, cardType);
+      const response: ReadCardDTO = await createCard(word.word_id, cardType, reviewType);
       const currentCardList = readCardDto.card;
       for (const cardDto of response.card){
         // replace the card if it already exists else add it
-        const index = currentCardList.findIndex((card)=>card.card_type === cardDto.card_type);
+        const index = currentCardList.findIndex((card)=>card.card_type === cardDto.card_type && card.review_type === cardDto.review_type);
         if (index !== -1){
           currentCardList[index] = cardDto;
         }
@@ -60,19 +60,14 @@ const ExploreCard = (props: { word: WordDTO; searchQuery: string}) => {
     }
   }
 
-  const removeCardType = async (cardType: number) => {
+  const removeCardType = async (cardType: number, reviewType:number) => {
+    console.log(cardType, reviewType)
     try {
-      const response: ReadCardDTO = await deleteCardOfWordCardType(word.word_id, cardType);
+      await deleteCardOfWordCardTypeReviewType(word.word_id, cardType, reviewType);
       const currentCardList = readCardDto.card;
-      for (const cardDto of response.card){
-        // replace the card if it already exists else add it
-        const index = currentCardList.findIndex((card)=>card.card_type === cardDto.card_type);
-        if (index !== -1){
-          currentCardList[index] = cardDto;
-        }
-        else{
-          currentCardList.push(cardDto);
-        }
+      const index = currentCardList.findIndex((card)=>card.card_type === cardType && card.review_type === reviewType);
+      if (index !== -1){
+        currentCardList[index].is_disabled = true;
       }
       setReadCardDto({...readCardDto, card: currentCardList});
     } catch (error) {

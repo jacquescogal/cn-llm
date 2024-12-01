@@ -245,6 +245,7 @@ const ExplorePage = () => {
           ,
           wordSearchFilter
         );
+        console.log(results);
         if (currentOffset !== pageMetaDTORef.current.offset){
           return;
         }
@@ -325,7 +326,7 @@ const ExplorePage = () => {
     };
   }, []);
   return (
-    <div className="relative h-full bg-inherit flex flex-col">
+    <div className="relative h-full bg-inherit flex flex-col bg-base-100">
         <div className="flex flex-row justify-center py-2 ">
           <FilterDropdown
             label={"HSK Filter"}
@@ -339,7 +340,7 @@ const ExplorePage = () => {
           />
           <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
         </div>
-        <div ref={containerRef} className="grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 bg-base-100 h-full m-4 p-4 gap-y-2 overflow-y-scroll justify-items-center rounded-xl shadow-md">
+        <div ref={containerRef} className="grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 bg-base-100 h-full m-4 p-4 gap-y-2 overflow-y-scroll justify-items-center rounded-xl shadow-md auto-rows-min">
           {wordList && wordList.length ? (
             wordList.map((word, index) => (
               <ExploreCard key={index} word={word} searchQuery={searchQuery} />

@@ -3,7 +3,8 @@ from fsrs import Card as fsrsCard, State, FSRS, Rating, ReviewLog
 from datetime import datetime, timezone
 from src.model.word_model import WordModel
 from src.enums import *
-from typing import Optional
+from typing import Optional, List
+import json
 
 
 class FSRSCardModel(BaseModel):
@@ -32,7 +33,6 @@ class FSRSCardModel(BaseModel):
 
     @classmethod
     def from_fsrs_card(cls, card: fsrsCard) -> 'FSRSCardModel':
-        print(card.to_dict())
         return cls(
             due=card.to_dict().get('due', None),
             stability=card.stability,
@@ -44,11 +44,23 @@ class FSRSCardModel(BaseModel):
             state=card.state,
             last_review=card.to_dict().get('last_review', None)
         )
-    
+
+class CardContent(BaseModel):
+    question: str
+
+    def get_json(self):
+        return json.dumps(self.dict())
+
+class SingleAnswerCardContent(CardContent):
+    answer: str
+
+class OrderedAnswerCardContent(CardContent):
+    answer_list: List[str]
+
 class CardModel(BaseModel):
     card_id: Optional[int] = Field(default=0)
-    word_id: int
     card_type: CardType
+    review_type: ReviewType
     due_dt_unix: Optional[int] = Field(default=None)
     stability_int: Optional[int] = Field(default=None)
     difficulty_int: Optional[int] = Field(default=None)
@@ -58,13 +70,14 @@ class CardModel(BaseModel):
     lapses: Optional[int] = Field(default=None)
     state: Optional[State] = Field(default=None)
     last_review_dt_unix: Optional[int] = Field(default=None)
+    card_content: Optional[CardContent] = Field(default=None)
     is_disabled: Optional[bool] = Field(default=False)
     
     @classmethod
-    def make_card_template(self, word_id:int, card_type: CardType) -> 'CardModel':
+    def make_card_template(self, card_type: CardType, review_type: ReviewType) -> 'CardModel':
         return CardModel(
-            word_id=word_id,
             card_type=card_type,
+            review_type=review_type,
             due_dt_unix=None,
             stability_int=None,
             difficulty_int=None,
@@ -74,16 +87,17 @@ class CardModel(BaseModel):
             lapses=None,
             state=None,
             last_review_dt_unix=None,
+            card_content=None,
             is_disabled=False,
         )
     def get_card_id(self) -> int:
         return self.card_id
 
-    def get_word_id(self) -> int:
-        return self.word_id
-    
     def get_card_type(self) -> CardType:
         return self.card_type
+    
+    def get_review_type(self) -> ReviewType:
+        return self.review_type
 
     def get_fsrs_card_model(self) -> FSRSCardModel:
         return FSRSCardModel(
@@ -123,3 +137,5 @@ class CardModel(BaseModel):
         self.state = card.state
         self.last_review_dt_unix = int(card.last_review.timestamp()) if card.last_review is not None else None
         return self
+    
+

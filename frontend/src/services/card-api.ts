@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { CardType, ReadCardDTO} from '../types/dto';
+import { CardType, ReadCardDTO, ReviewType} from '../types/dto';
 
 // Base URL configuration
 const api = axios.create({
@@ -16,8 +16,8 @@ export const getCardById = async (word_id: number): Promise<ReadCardDTO> => {
 };
 
 // Create card
-export const createCard = async (word_id: number, card_type: CardType): Promise<ReadCardDTO> => {
-  const response = await api.post<ReadCardDTO>(`/card/word/${word_id}/type/${card_type}`);
+export const createCard = async (word_id: number, card_type: CardType, review_type: ReviewType): Promise<ReadCardDTO> => {
+  const response = await api.post<ReadCardDTO>(`/card/word/${word_id}/type/${card_type}/review/${review_type}`);
   return response.data;
 };
 
@@ -28,11 +28,11 @@ export const createCardAll = async (word_id: number): Promise<ReadCardDTO> => {
 };
 
 // Delete card
-export const deleteCardOfWordCardType = async (word_id: number, card_type: CardType): Promise<ReadCardDTO> => {
-  const response = await api.delete<ReadCardDTO>(`/card/word/${word_id}/type/${card_type}`);
+export const deleteCardOfWordCardTypeReviewType = async (word_id: number, card_type: CardType, review_type: ReviewType): Promise<null> => {
+  const response = await api.delete<null>(`/card/word/${word_id}/type/${card_type}/review/${review_type}`);
   return response.data;
 };
-
+ 
 // // Update card on review
 // export const updateCardOnReview = async (id: number, ratingDTO: RatingDTO): Promise<boolean> => {
 //   const response = await api.put<boolean>(`/card/${id}`, ratingDTO);

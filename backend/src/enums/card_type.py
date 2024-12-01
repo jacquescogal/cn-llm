@@ -23,3 +23,4 @@ class ReviewType(Enum):
     # 2. for hanzi composites, drag and drop the components into the correct order
     # 3. for tone, drag and drop the tone mark into the correct position
     DRAG_AND_DROP = 4 # drag and drop into an example 
+

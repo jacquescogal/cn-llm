@@ -14,7 +14,7 @@ class WordRepo:
         try:
             async with conn.cursor() as cur:
                 await cur.execute(
-                    'SELECT a.word_id, a.hanzi, a.pinyin, a.meaning, a.hsk_level, a.is_compound, CASE WHEN b.word_id IS NOT NULL THEN TRUE ELSE FALSE END AS is_learnt FROM (SELECT * from word_tab WHERE word_id = %s) a LEFT JOIN (SELECT * from card_tab WHERE word_id = %s) b ON a.word_id = b.word_id',
+                    'SELECT a.word_id, a.hanzi, a.pinyin, a.meaning, a.hsk_level, a.is_compound, CASE WHEN b.word_id IS NOT NULL THEN TRUE ELSE FALSE END AS is_learnt FROM (SELECT * from word_tab WHERE word_id = %s) a LEFT JOIN (SELECT * from card_word_map_tab WHERE word_id = %s) b ON a.word_id = b.word_id',
                     (id, id,)
                 )
                 fetched = await cur.fetchone()
@@ -53,7 +53,7 @@ class WordRepo:
                     FROM word_tab a 
                     INNER JOIN (SELECT child_id FROM word_map_tab WHERE parent_id = %s) b 
                     ON a.word_id = b.child_id) a 
-                    LEFT JOIN card_tab b ON a.word_id = b.word_id 
+                    LEFT JOIN card_word_map_tab b ON a.word_id = b.word_id 
                     AND b.word_id = %s;''',
                     (id,id,)
                 )
@@ -93,7 +93,7 @@ class WordRepo:
                     FROM word_tab a 
                     INNER JOIN (SELECT parent_id FROM word_map_tab WHERE child_id = %s) b 
                     ON a.word_id = b.parent_id) a 
-                    LEFT JOIN card_tab b ON a.word_id = b.word_id 
+                    LEFT JOIN card_word_map_tab b ON a.word_id = b.word_id 
                     AND b.word_id = %s;''',
                     (id,id,)
                 )
@@ -134,7 +134,7 @@ class WordRepo:
                     WHERE hsk_level = %s
                     ORDER BY word_id ASC
                     LIMIT %s OFFSET %s) a
-                    LEFT JOIN card_tab b ON a.word_id = b.word_id;''',
+                    LEFT JOIN card_word_map_tab b ON a.word_id = b.word_id;''',
                     (level, limit+1, offset,)
                 )
                 fetched = await cur.fetchall()
@@ -177,7 +177,7 @@ class WordRepo:
                         FROM word_tab 
                         ORDER BY word_id ASC
                     ) a 
-                    LEFT JOIN card_tab b ON a.word_id = b.word_id
+                    LEFT JOIN card_word_map_tab b ON a.word_id = b.word_id
                     WHERE b.word_id IS NULL
                     LIMIT %s OFFSET %s;
                     ''',
@@ -223,7 +223,7 @@ class WordRepo:
                         FROM word_tab 
                         ORDER BY word_id ASC
                     ) a 
-                    INNER JOIN card_tab b ON a.word_id = b.word_id
+                    INNER JOIN card_word_map_tab b ON a.word_id = b.word_id
                     LIMIT %s OFFSET %s;
                     ''',
                     (limit+1, offset,)
@@ -269,7 +269,7 @@ class WordRepo:
                     WHERE hsk_level = %s
                     ORDER BY word_id ASC
                     LIMIT %s OFFSET %s) a
-                    LEFT JOIN card_tab b ON a.word_id = b.word_id;''',
+                    LEFT JOIN card_word_map_tab b ON a.word_id = b.word_id;''',
                     (level, limit+1, offset,)
                 )
                 fetched = await cur.fetchall()
@@ -312,7 +312,7 @@ class WordRepo:
                     FROM word_tab a 
                     WHERE word_id IN %s
                     ORDER BY word_id ASC) a 
-                    LEFT JOIN card_tab b ON a.word_id = b.word_id;''',
+                    LEFT JOIN card_word_map_tab b ON a.word_id = b.word_id;''',
                     (word_id_list,)
                 )
                 
@@ -366,7 +366,7 @@ class WordRepo:
                     SELECT * 
                     FROM word_tab a 
                     ORDER BY word_id ASC) a
-                    LEFT JOIN (SELECT word_id from card_tab GROUP BY word_id) b ON a.word_id = b.word_id
+                    LEFT JOIN (SELECT word_id from card_word_map_tab GROUP BY word_id) b ON a.word_id = b.word_id
                     {hsk_filter_str}
                     {learnt_filter_str}
                     LIMIT %s OFFSET %s;'''
@@ -433,7 +433,7 @@ class WordRepo:
                         ORDER BY word_id ASC
                         LIMIT %s OFFSET %s
                     ) a
-                    LEFT JOIN (SELECT word_id from card_tab GROUP BY word_id) b ON a.word_id = b.word_id
+                    LEFT JOIN (SELECT word_id from card_word_map_tab GROUP BY word_id) b ON a.word_id = b.word_id
                     {learnt_filter_str};
                 '''
                 print(query)

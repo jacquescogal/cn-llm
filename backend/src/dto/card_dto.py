@@ -5,6 +5,7 @@ from typing import List
 class CardDto(BaseModel):
     card_id: int
     card_type: CardType
+    review_type: ReviewType
     is_disabled: bool
     fsrs: FSRSCardModel
 

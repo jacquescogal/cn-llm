@@ -30,8 +30,8 @@ CREATE TABLE IF NOT EXISTS word_map_tab (
 -- Create card_tab table
 CREATE TABLE IF NOT EXISTS card_tab (
     card_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
-    word_id INT UNSIGNED NOT NULL,
     card_type INT UNSIGNED NOT NULL, 
+    review_type INT UNSIGNED NOT NULL,
     due_dt_unix BIGINT,
     stability INT UNSIGNED NOT NULL, -- use 7 dp for the stability. [0, 100]
     difficulty INT UNSIGNED NOT NULL, -- use 7 dp for the difficulty. [0, 1]
@@ -41,10 +41,19 @@ CREATE TABLE IF NOT EXISTS card_tab (
     lapses INT UNSIGNED NOT NULL,
     card_state INT UNSIGNED NOT NULL, -- 0: new, 1: learning, 2: reviewing, 3: relearning
     last_review_dt_unix BIGINT ,
-    is_disabled BOOLEAN NOT NULL, 
-    FOREIGN KEY (word_id) REFERENCES word_tab(word_id) ON DELETE CASCADE
+    card_content_json JSON NOT NULL,
+    is_disabled BOOLEAN NOT NULL
 ); -- card_tab
 
 CREATE INDEX idx_due_dt_unix ON card_tab(due_dt_unix);
-CREATE INDEX idx_word_id_card_type ON card_tab(word_id, card_type);
+CREATE INDEX idx_card_type_review_type ON card_tab(card_type, review_type);
 
+-- Create the card_word_map_tab table
+CREATE TABLE IF NOT EXISTS card_word_map_tab (
+    card_id INT UNSIGNED NOT NULL,
+    word_id INT UNSIGNED NOT NULL,
+    is_singular BOOLEAN NOT NULL, -- low parity column
+    PRIMARY KEY (card_id, word_id),
+    FOREIGN KEY (card_id) REFERENCES card_tab(card_id) ON DELETE CASCADE,
+    FOREIGN KEY (word_id) REFERENCES word_tab(word_id) ON DELETE CASCADE
+); -- card_word_map_tab

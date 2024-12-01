@@ -4,7 +4,7 @@ from typing import List
 from aiomysql import Connection, Cursor
 from src.dto import *
 from typing import List, Tuple
-
+from src.constants import *
 class CardRepo:
     instance = None
     def __init__(self, database: Database):
@@ -15,10 +15,10 @@ class CardRepo:
         try:
             async with conn.cursor() as cur:
                 await cur.execute(
-                    'INSERT INTO card_tab (word_id, card_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, is_disabled) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)',
+                    'INSERT INTO card_tab (card_type, review_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, card_content_json, is_disabled) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)',
                     (
-                        card.word_id,
                         card.card_type.value,
+                        card.review_type.value,
                         card.due_dt_unix,
                         card.stability_int,
                         card.difficulty_int,
@@ -28,13 +28,13 @@ class CardRepo:
                         card.lapses,
                         card.state,
                         card.last_review_dt_unix,
+                        card.card_content.get_json(),
                         card.is_disabled
                     )
                 )
                 # commit and get the last inserted id
                 await conn.commit()
                 card_id = cur.lastrowid
-                print(card_id)
                 card.card_id = card_id
                 return card
         finally:
@@ -47,15 +47,15 @@ class CardRepo:
         try:
             async with conn.cursor() as cur:
                 await cur.execute(
-                    'SELECT word_id, card_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, is_disabled FROM card_tab WHERE card_id = %s',
+                    'SELECT card_type, review_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, card_content_json, is_disabled FROM card_tab WHERE card_id = %s',
                     (card_id,)
                 )
                 fetched = await cur.fetchone()
                 if fetched:
                     card = CardModel(
                         card_id=card_id,
-                        word_id=fetched[0],
-                        card_type=fetched[1],
+                        card_type=fetched[0],
+                        review_type=fetched[1],
                         due_dt_unix=fetched[2],
                         stability_int=fetched[3],
                         difficulty_int=fetched[4],
@@ -65,7 +65,8 @@ class CardRepo:
                         lapses=fetched[8],
                         state=fetched[9],
                         last_review_dt_unix=fetched[10],
-                        is_disabled=fetched[11]
+                        card_content=MULTI_WORD_CONTENT_MAP.get((CardType(fetched[0]),ReviewType(fetched[1])), SingleAnswerCardContent).model_validate_json(fetched[11]),
+                        is_disabled=fetched[12]
                     )
                     return card
         finally:
@@ -73,20 +74,22 @@ class CardRepo:
             await self.database.release_connection(conn)
         return None
     
-    async def read_card_of_type(self, word_id: int, card_type: CardType) -> CardModel:
+    async def read_card_of_type(self, card_id_list: List[int], card_type: CardType, review_type: ReviewType) -> CardModel:
+        if len(card_id_list) == 0:
+            return None
         conn: Connection = await self.database.get_conn()
         try:
             async with conn.cursor() as cur:
-                await cur.execute(
-                    'SELECT card_id, word_id, card_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, is_disabled FROM card_tab WHERE word_id = %s AND card_type = %s',
-                    (word_id, card_type.value)
-                )
+                # Use the unpacking operator * to pass each card_id as an individual argument
+                query = 'SELECT card_id, card_type, review_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, card_content_json, is_disabled FROM card_tab WHERE card_type = %s AND review_type = %s AND card_id IN (%s)' % (card_type.value, review_type.value, ','.join(['%s'] * len(card_id_list)))
+                await cur.execute(query, tuple(card_id_list))  # pass the list as a tuple of parameters
                 fetched = await cur.fetchone()
+                print(fetched)
                 if fetched:
                     card = CardModel(
                         card_id=fetched[0],
-                        word_id=fetched[1],
-                        card_type=fetched[2],
+                        card_type=fetched[1],
+                        review_type=fetched[2],
                         due_dt_unix=fetched[3],
                         stability_int=fetched[4],
                         difficulty_int=fetched[5],
@@ -96,7 +99,8 @@ class CardRepo:
                         lapses=fetched[9],
                         state=fetched[10],
                         last_review_dt_unix=fetched[11],
-                        is_disabled=fetched[12]
+                        card_content=MULTI_WORD_CONTENT_MAP.get((CardType(fetched[1]),ReviewType(fetched[2])), SingleAnswerCardContent).model_validate_json(fetched[12]),
+                        is_disabled=fetched[13]
                     )
                     return card
         finally:
@@ -104,21 +108,23 @@ class CardRepo:
             await self.database.release_connection(conn)
         return None
     
-    async def read_card_list_by_word_id(self, word_id: int) -> List[CardModel]:
+    async def read_card_list_by_card_id_list(self, card_id_list: List[int]) -> List[CardModel]:
+        if len(card_id_list) == 0:
+            return []
         conn: Connection = await self.database.get_conn()
         try:
             async with conn.cursor() as cur:
-                await cur.execute(
-                    'SELECT card_id, word_id, card_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, is_disabled FROM card_tab WHERE word_id = %s',
-                    (word_id,)
-                )
+                # Use the unpacking operator * to pass each card_id as an individual argument
+                query = 'SELECT card_id, card_type, review_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, card_content_json, is_disabled FROM card_tab WHERE card_id IN (%s)' % ','.join(['%s'] * len(card_id_list))
+                await cur.execute(query, tuple(card_id_list))  # pass the list as a tuple of parameters
                 fetched = await cur.fetchall()
                 cards = []
                 for f in fetched:
+                    print(f)
                     card = CardModel(
                         card_id=f[0],
-                        word_id=f[1],
-                        card_type=f[2],
+                        card_type=f[1],
+                        review_type=f[2],
                         due_dt_unix=f[3],
                         stability_int=f[4],
                         difficulty_int=f[5],
@@ -128,7 +134,8 @@ class CardRepo:
                         lapses=f[9],
                         state=f[10],
                         last_review_dt_unix=f[11],
-                        is_disabled=f[12]
+                        card_content=MULTI_WORD_CONTENT_MAP.get((CardType(f[1]),ReviewType(f[2])), SingleAnswerCardContent).model_validate_json(f[12]),
+                        is_disabled=f[13]
                     )
                     cards.append(card)
                 return cards
@@ -142,7 +149,7 @@ class CardRepo:
         try:
             async with conn.cursor() as cur:
                 await cur.execute(
-                    'UPDATE card_tab SET due_dt_unix=%s, stability=%s, difficulty=%s, elapsed_days=%s, scheduled_days=%s, reps=%s, lapses=%s, card_state=%s, last_review_dt_unix=%s, is_disabled=%s WHERE card_id=%s',
+                    'UPDATE card_tab SET due_dt_unix=%s, stability=%s, difficulty=%s, elapsed_days=%s, scheduled_days=%s, reps=%s, lapses=%s, card_state=%s, last_review_dt_unix=%s, card_content_json=%s, is_disabled=%s WHERE card_id=%s',
                     (
                         card.due_dt_unix,
                         card.stability_int,
@@ -153,6 +160,7 @@ class CardRepo:
                         card.lapses,
                         card.state,
                         card.last_review_dt_unix,
+                        card.card_content.get_json(),
                         card.is_disabled,
                         card.card_id
                     )
@@ -169,7 +177,7 @@ class CardRepo:
         try:
             async with conn.cursor() as cur:
                 await cur.execute(
-                    'SELECT card_id, word_id, card_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, is_disabled FROM card_tab WHERE is_disabled=false ORDER BY due_dt_unix ASC LIMIT %s',
+                    'SELECT card_id, card_type, review_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, card_content_json, is_disabled FROM card_tab WHERE is_disabled=false ORDER BY due_dt_unix ASC LIMIT %s',
                     (limit,)
                 )
                 fetched = await cur.fetchall()
@@ -177,8 +185,8 @@ class CardRepo:
                 for f in fetched:
                     card = CardModel(
                         card_id=f[0],
-                        word_id=f[1],
-                        card_type=f[2],
+                        card_type=f[1],
+                        review_type=f[2],
                         due_dt_unix=f[3],
                         stability_int=f[4],
                         difficulty_int=f[5],
@@ -188,7 +196,8 @@ class CardRepo:
                         lapses=f[9],
                         state=f[10],
                         last_review_dt_unix=f[11],
-                        is_disabled=f[12]
+                        card_content=MULTI_WORD_CONTENT_MAP.get((CardType(f[1]),ReviewType(f[2])), SingleAnswerCardContent).model_validate_json(f[12]),
+                        is_disabled=f[13]
                     )
                     cards.append(card)
                 return cards
@@ -202,15 +211,15 @@ class CardRepo:
         try:
             async with conn.cursor() as cur:
                 await cur.execute(
-                    'SELECT card_id, word_id, card_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, is_disabled FROM card_tab WHERE is_disabled=false AND due_dt_unix <= UNIX_TIMESTAMP()'
+                    'SELECT card_id, card_type, review_type, due_dt_unix, stability, difficulty, elapsed_days, scheduled_days, reps, lapses, card_state, last_review_dt_unix, card_content_json, is_disabled FROM card_tab WHERE is_disabled=false AND due_dt_unix <= UNIX_TIMESTAMP()'
                 )
                 fetched = await cur.fetchall()
                 cards = []
                 for f in fetched:
                     card = CardModel(
                         card_id=f[0],
-                        word_id=f[1],
-                        card_type=f[2],
+                        card_type=f[1],
+                        review_type=f[2],
                         due_dt_unix=f[3],
                         stability_int=f[4],
                         difficulty_int=f[5],
@@ -220,7 +229,8 @@ class CardRepo:
                         lapses=f[9],
                         state=f[10],
                         last_review_dt_unix=f[11],
-                        is_disabled=f[12]
+                        card_content=MULTI_WORD_CONTENT_MAP.get((CardType(f[1]),ReviewType(f[2])), SingleAnswerCardContent).model_validate_json(f[12]),
+                        is_disabled=f[13]
                     )
                     cards.append(card)
                 return cards

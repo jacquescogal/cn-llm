@@ -1,53 +1,26 @@
 import { TiTick, TiTickOutline } from "react-icons/ti";
-import { CardType, ReadCardDTO, WordDTO } from '../../types/dto';
-import { RiPinyinInput } from "react-icons/ri";
-import { FaCheckDouble } from "react-icons/fa";
-import {  MdOutlineQuestionMark } from "react-icons/md";
+import { CardType, ReadCardDTO, ReviewType, WordDTO } from '../../types/dto';
+import { CardTypeIconMap } from "../../constants/IconMapper";
+import { useState } from "react";
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
-interface CardOption {
-  name: string;
-  type: CardType;
-  icon?: React.ReactNode;
-}
+// interface CardOption {
+//   name: string;
+//   type: CardType;
+//   reviewTypes: ReviewType[];
+//   icon?: React.ReactNode;
+// }
 
-const CardOptions: CardOption[] = [
-  {
-    name: "Meaning",
-    type: CardType.Meaning,
-    icon: <MdOutlineQuestionMark/>,
-
-  },
-  {
-    name: "Pinyin",
-    type: CardType.Pinyin,
-    icon: <RiPinyinInput />,
-  },
-  {
-    name: "Hanzi",
-    type: CardType.Hanzi,
-    icon: "中",
-  },
-  {
-    name: "MCQ",
-    type: CardType.MCQ,
-    icon: <FaCheckDouble/>,
-  },
-  // {
-  //   name: "Draw",
-  //   checked: false,
-  //   icon: <MdDraw/>,
-  // },
-];
-
-const WordFocusForm = (props: { word:WordDTO, readCardDto: (ReadCardDTO), getReadCardDto: ()=>void, addCardType: (cardType:CardType)=>void, addCardTypeAll: ()=>void, removeCardType:(cardType:CardType)=>void}) => {
+const WordFocusForm = (props: { word:WordDTO, readCardDto: ReadCardDTO, getReadCardDto: ()=>void, addCardType: (cardType:CardType, reviewType:ReviewType)=>void, addCardTypeAll: ()=>void, removeCardType:(cardType:CardType, reviewType:ReviewType)=>void}) => {
   const word = props.word;
+  const [openOption, setOpenOption] = useState<number>(-1);
+  console.log(props.readCardDto)
 
-
-  const onCheckboxChange = (cardType: CardType, checked: boolean) => {
+  const onCheckboxChange = (cardType: CardType, reviewType:ReviewType, checked: boolean) => {
     if (checked) {
-      props.addCardType(cardType)
+      props.addCardType(cardType, reviewType)
     }else{
-      props.removeCardType(cardType)
+      props.removeCardType(cardType, reviewType)
     }
   }
 
@@ -70,28 +43,48 @@ const WordFocusForm = (props: { word:WordDTO, readCardDto: (ReadCardDTO), getRea
 
       <div className="relative w-full flex-1  flex flex-col m-4">
         {
-          props.readCardDto.card.length === 0 && <><div className="absolute bg-black opacity-70 top-0 left-0 h-full w-full"/>
+          props.readCardDto.card.length === 0 && <><div className="absolute bg-slate-700 top-0 left-0 h-full w-full"/>
           <div className="absolute  top-0 left-0 h-full w-full flex justify-center content-center items-center">
           <button className="bg-base-100 rounded-md py-1 px-4 m-2 text-base-content text-center select-none" onClick={()=>{props.addCardTypeAll()}}>Learn</button>
           </div></>
         }
         
-        <div className="rounded-md w-full h-fit flex flex-col  text-left">
+        <div className="rounded-md w-full h-56 flex flex-col  text-left">
           <label>Cards:</label>
-          <div className="flex flex-col bg-base-200 p-1 my-2 h-fit rounded-md">
-            {CardOptions.map((option) => (
-              <label key={option.name} className="label cursor-pointer bg-base-100 border rounded-md h-8 mb-1">
-                <span className="label-text flex flex-row text-lg">
-                  {option.icon}
-                </span>
-                <span className="label-text flex flex-row text-lg w-full">
-                  {option.name}
-                </span>
-                <input type="checkbox" className="checkbox" onChange={e=>{onCheckboxChange(option.type, e.target.checked)}}
-                checked={props.readCardDto.card.some(card=>card.card_type === option.type && card.is_disabled === false) }
-                />
-              </label>
-            ))}
+          <div className="flex flex-col bg-slate-200 p-1 my-2 h-40 rounded-md overflow-y-scroll">
+            {
+              [...new Set(props.readCardDto.card.map(card=>card.card_type))].map((cardType, index) => (
+                <div className="flex flex-col mb-1">
+                <label key={cardType} className="label bg-base-100 border rounded-md h-8 cursor-pointer" onClick={()=>{setOpenOption(openOption=>openOption===index?-1:index)}}>
+                    <span className="label-text flex flex-row text-xl items-center">
+                      {CardTypeIconMap({cardType: cardType})}
+                      {CardType[cardType]}
+                      {props.readCardDto.card.filter(card => card.card_type === cardType).map((card) =>(
+                        <>
+                        {card.is_disabled === false?<TiTick className="text-2xl"/>:<TiTickOutline className="text-2xl"/>}
+                        </>
+                      ))
+                    }
+                    </span>
+
+                {openOption!==index?<MdKeyboardArrowDown/>:<MdKeyboardArrowUp/>}
+                </label>
+                <div className={`overflow-y-hidden ${openOption == index?"h-fit":"h-0"}`}>
+                    {
+                [...new Set(props.readCardDto.card.filter(card=>card.card_type === cardType).map(card=>card.review_type))].map((reviewType) => (
+                  <div className="flex flex-row bg-slate-100 items-center rounded select-none" >
+                    <input key={cardType+reviewType} type="checkbox" className="checkbox mx-2 my-1" onChange={e=>{onCheckboxChange(cardType, reviewType, e.target.checked)}}
+                    checked={props.readCardDto.card.some(card=>card.card_type === cardType && card.review_type === reviewType && card.is_disabled === false) }
+                    />
+                    {ReviewType[reviewType]}
+                    </div>
+                ))
+              }
+              </div>
+                </div>
+              ))
+            }
+            
           </div>
         </div>
         <div className="bg-blue-100 w-full h-full"></div>
