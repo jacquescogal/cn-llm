@@ -6,20 +6,24 @@ from typing import List, Tuple
 card_router = APIRouter()
 
 @card_router.get("/card/word/{word_id}", tags=["card"])
-async def read_card(word_id: int) -> Optional[ReadCardDto]:
-    return await card_controller.get_card(word_id)
+async def get_cards_for_word(word_id: int) -> Optional[ReadCardDto]:
+    return await card_controller.get_cards_for_word(word_id)
 
 @card_router.post("/card/word/{word_id}", tags=["card"])
-async def create_card_all(word_id: int) -> Optional[ReadCardDto]:
-    return await card_controller.create_card_all(word_id)
+async def create_card_all_for_word(word_id: int) -> Optional[ReadCardDto]:
+    return await card_controller.create_card_all_for_word(word_id)
 
 @card_router.post("/card/word/{word_id}/type/{card_type}", tags=["card"])
-async def create_card(word_id: int, card_type: int) -> Optional[ReadCardDto]:
-    return await card_controller.create_card(word_id, CardType(card_type))
+async def create_card_of_word_card_type(word_id: int, card_type: int) -> Optional[ReadCardDto]:
+    return await card_controller.create_card_of_word_card_type(word_id, CardType(card_type))
 
 @card_router.delete("/card/word/{word_id}/type/{card_type}", tags=["card"])
-async def delete_card(word_id: int, card_type: int) -> Optional[ReadCardDto]:
-    return await card_controller.delete_card(word_id, CardType(card_type))
+async def delete_card_of_word_card_type(word_id: int, card_type: int) -> Optional[ReadCardDto]:
+    return await card_controller.delete_card_of_word_card_type(word_id, CardType(card_type))
+
+@card_router.delete("/card/{card_id}", tags=["card"])
+async def delete_card(card_id: int) -> Optional[ReadCardDto]:
+    return await card_controller.delete_card(card_id=card_id)
 
 # @card_router.put("/card/{id}", tags=["card"])
 # async def update_card_on_review(id: int, rating_dto: RatingDto)-> bool:

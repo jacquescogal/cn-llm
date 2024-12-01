@@ -18,13 +18,14 @@ class CardController:
         card.review(self.fsrs, rating)
         return await self.card_repo.update_card(card)
     
-    async def get_card(self, word_id: int) -> ReadCardDto:
+    async def get_cards_for_word(self, word_id: int) -> ReadCardDto:
         cards: List[CardModel] = await self.card_repo.read_card_list_by_word_id(word_id=word_id)
         if cards is None:
             return None
         card_list: List[CardDto] = []
         for card in cards:
             card_list.append(CardDto(
+                card_id=card.card_id,
                 fsrs = card.get_fsrs_card_model(),
                 card_type=card.card_type,
                 is_disabled=card.is_disabled
@@ -32,9 +33,14 @@ class CardController:
         word: WordModel = await self.word_repo.read_word_by_id(word_id)
         return ReadCardDto(word=word, card=card_list)
     
-    async def create_card_all(self, word_id: int) -> ReadCardDto:
-        cards: List[CardModel] = []
+    async def create_card_all_for_word(self, word_id: int) -> ReadCardDto:
+        # read cards for word_id, check if type has been created before proceeding
+        created_card_list = await self.card_repo.read_card_list_by_word_id(word_id=word_id)
+        card_type_set = set([card.card_type for card in created_card_list])
+        cards: List[CardModel] = created_card_list
         for card_type in CardType:
+            if card_type in card_type_set:
+                continue
             fsrs_card = Card()
             fsrs_card_model = FSRSCardModel.from_fsrs_card(fsrs_card)
             card = CardModel.make_card_template(word_id=word_id, card_type=card_type)
@@ -43,6 +49,7 @@ class CardController:
         card_list: List[CardDto] = []
         for card in cards:
             card_list.append(CardDto(
+                card_id=card.card_id,
                 fsrs = card.get_fsrs_card_model(),
                 card_type=card.card_type,
                 is_disabled=card.is_disabled
@@ -50,7 +57,7 @@ class CardController:
         word: WordModel = await self.word_repo.read_word_by_id(card.get_word_id())
         return ReadCardDto(word=word, card=card_list)
     
-    async def create_card(self, word_id: int, card_type: CardType) -> ReadCardDto:
+    async def create_card_of_word_card_type(self, word_id: int, card_type: CardType) -> ReadCardDto:
         card: CardModel = await self.card_repo.read_card_of_type(word_id=word_id, card_type=card_type)
         if card is not None:
             # enable the card
@@ -58,25 +65,35 @@ class CardController:
                 card.is_disabled = False
                 await self.card_repo.update_card(card)
             word: WordModel = await self.word_repo.read_word_by_id(word_id)
-            return ReadCardDto(word=word, card=[CardDto(fsrs=card.get_fsrs_card_model(), card_type=card.card_type, is_disabled=card.is_disabled)])
+            return ReadCardDto(word=word, card=[CardDto(card_id=card.card_id,fsrs=card.get_fsrs_card_model(), card_type=card.card_type, is_disabled=card.is_disabled)])
         fsrs_card = Card()
         fsrs_card_model = FSRSCardModel.from_fsrs_card(fsrs_card)
         card = CardModel.make_card_template(word_id=word_id, card_type=card_type)
         card.inject_fsrs(fsrs_card_model)
-        is_created =  await self.card_repo.create_card(card)
-        if is_created:
+        created_card =  await self.card_repo.create_card(card)
+        if created_card:
             word: WordModel = await self.word_repo.read_word_by_id(word_id)
-            return ReadCardDto(word=word, card=[CardDto(fsrs=fsrs_card_model, card_type=card.card_type, is_disabled=card.is_disabled)])
+            return ReadCardDto(word=word, card=[CardDto(card_id=created_card.card_id, fsrs=fsrs_card_model, card_type=card.card_type, is_disabled=card.is_disabled)])
         return None
     
-    async def delete_card(self, word_id: int, card_type: CardType) -> ReadCardDto:
+    async def delete_card(self, card_id: int) ->ReadCardDto:
+        card: CardModel = await self.card_repo.read_card_by_id(card_id=card_id)
+        if card is not None:
+            if not card.is_disabled:
+                card.is_disabled = True
+                await self.card_repo.update_card(card)
+            word: WordModel = await self.word_repo.read_word_by_id(card.get_word_id())
+            return ReadCardDto(word=word, card=[CardDto(card_id=card.card_id, fsrs=card.get_fsrs_card_model(), card_type=card.card_type, is_disabled=card.is_disabled)])
+        return None
+
+    async def delete_card_of_word_card_type(self, word_id: int, card_type: CardType) -> ReadCardDto:
         card: CardModel = await self.card_repo.read_card_of_type(word_id=word_id, card_type=card_type)
         if card is not None:
             if not card.is_disabled:
                 card.is_disabled = True
                 await self.card_repo.update_card(card)
             word: WordModel = await self.word_repo.read_word_by_id(word_id)
-            return ReadCardDto(word=word, card=[CardDto(fsrs=card.get_fsrs_card_model(), card_type=card.card_type, is_disabled=card.is_disabled)])
+            return ReadCardDto(word=word, card=[CardDto(card_id=card.card_id, fsrs=card.get_fsrs_card_model(), card_type=card.card_type, is_disabled=card.is_disabled)])
         return None
 
     # async def get_scheduled_card_list(self, limit: int) -> list[StudyCardDto]:

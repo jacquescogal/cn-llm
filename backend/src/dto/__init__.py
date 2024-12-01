@@ -1,2 +1,2 @@
-from src.dto.card_dto import *
-from src.dto.page_dto import *
+from .card_dto import *
+from .page_dto import *

@@ -4,7 +4,7 @@ import { IoIosAddCircle, IoIosRemoveCircle } from "react-icons/io";
 import { TiTick, TiTickOutline } from "react-icons/ti";
 import Modal from "../common/modal/Modal";
 import WordFocusForm from "./WordFocusForm";
-import { createCard, createCardAll, deleteCard, getCardById } from "../../services/card-api";
+import { createCard, createCardAll, deleteCardOfWordCardType, getCardById } from "../../services/card-api";
 
 
 const ExploreCard = (props: { word: WordDTO; searchQuery: string}) => {
@@ -62,7 +62,7 @@ const ExploreCard = (props: { word: WordDTO; searchQuery: string}) => {
 
   const removeCardType = async (cardType: number) => {
     try {
-      const response: ReadCardDTO = await deleteCard(word.word_id, cardType);
+      const response: ReadCardDTO = await deleteCardOfWordCardType(word.word_id, cardType);
       const currentCardList = readCardDto.card;
       for (const cardDto of response.card){
         // replace the card if it already exists else add it

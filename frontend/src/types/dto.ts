@@ -48,6 +48,7 @@ export interface FSRSCardDTO {
 }
 
 export interface CardDTO {
+    card_id: number;
     fsrs: FSRSCardDTO;
     card_type: CardType;
     is_disabled: boolean;

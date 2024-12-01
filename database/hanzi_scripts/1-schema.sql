@@ -29,6 +29,7 @@ CREATE TABLE IF NOT EXISTS word_map_tab (
 
 -- Create card_tab table
 CREATE TABLE IF NOT EXISTS card_tab (
+    card_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     word_id INT UNSIGNED NOT NULL,
     card_type INT UNSIGNED NOT NULL, 
     due_dt_unix BIGINT,
@@ -41,9 +42,9 @@ CREATE TABLE IF NOT EXISTS card_tab (
     card_state INT UNSIGNED NOT NULL, -- 0: new, 1: learning, 2: reviewing, 3: relearning
     last_review_dt_unix BIGINT ,
     is_disabled BOOLEAN NOT NULL, 
-    PRIMARY KEY (word_id, card_type), -- Composite primary key
     FOREIGN KEY (word_id) REFERENCES word_tab(word_id) ON DELETE CASCADE
 ); -- card_tab
 
 CREATE INDEX idx_due_dt_unix ON card_tab(due_dt_unix);
+CREATE INDEX idx_word_id_card_type ON card_tab(word_id, card_type);
 

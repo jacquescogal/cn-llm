@@ -28,7 +28,7 @@ export const createCardAll = async (word_id: number): Promise<ReadCardDTO> => {
 };
 
 // Delete card
-export const deleteCard = async (word_id: number, card_type: CardType): Promise<ReadCardDTO> => {
+export const deleteCardOfWordCardType = async (word_id: number, card_type: CardType): Promise<ReadCardDTO> => {
   const response = await api.delete<ReadCardDTO>(`/card/word/${word_id}/type/${card_type}`);
   return response.data;
 };

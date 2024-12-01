@@ -46,6 +46,7 @@ class FSRSCardModel(BaseModel):
         )
     
 class CardModel(BaseModel):
+    card_id: Optional[int] = Field(default=0)
     word_id: int
     card_type: CardType
     due_dt_unix: Optional[int] = Field(default=None)
@@ -75,7 +76,9 @@ class CardModel(BaseModel):
             last_review_dt_unix=None,
             is_disabled=False,
         )
-    
+    def get_card_id(self) -> int:
+        return self.card_id
+
     def get_word_id(self) -> int:
         return self.word_id
     
