@@ -1,4 +1,4 @@
-import { WordDTO } from '../../../types/dto';
+import { WordDTO } from '../../types/dto';
 type HTMLElementModal = HTMLElement & {
   showModal: () => void;
   close: () => void;

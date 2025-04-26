@@ -1,6 +1,6 @@
 from src.db.mysql_db import Database
 from src.model.word_model import WordModel
-from src.dto import *
+from src.model.dto import *
 from typing import List, Tuple
 from aiomysql import Connection, Cursor
 
@@ -8,6 +8,7 @@ class WordRepo:
     instance = None
     def __init__(self, database: Database):
         self.database = database
+        self.population_size = None
     
     async def read_word_by_id(self, id: int) -> WordModel:
         conn:Connection = await self.database.get_conn()

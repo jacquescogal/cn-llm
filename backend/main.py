@@ -5,6 +5,7 @@ app = FastAPI()
 
 app.include_router(word_router)
 app.include_router(card_router)
+app.include_router(review_router)
 
 # add cors  
 app.add_middleware(

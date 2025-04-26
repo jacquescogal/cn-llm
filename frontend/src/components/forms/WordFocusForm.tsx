@@ -4,12 +4,6 @@ import { CardTypeIconMap } from "../../constants/IconMapper";
 import { useState } from "react";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
-// interface CardOption {
-//   name: string;
-//   type: CardType;
-//   reviewTypes: ReviewType[];
-//   icon?: React.ReactNode;
-// }
 
 const WordFocusForm = (props: { word:WordDTO, readCardDto: ReadCardDTO, getReadCardDto: ()=>void, addCardType: (cardType:CardType, reviewType:ReviewType)=>void, addCardTypeAll: ()=>void, removeCardType:(cardType:CardType, reviewType:ReviewType)=>void}) => {
   const word = props.word;

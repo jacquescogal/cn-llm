@@ -2,7 +2,7 @@ from src.db.mysql_db import Database
 from src.model import *
 from typing import List
 from aiomysql import Connection, Cursor
-from src.dto import *
+from src.model.dto import *
 from typing import List, Tuple
 
 class CardWordMapRepo:

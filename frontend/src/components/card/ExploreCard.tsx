@@ -2,8 +2,8 @@ import {  useEffect, useState } from "react";
 import { ReadCardDTO, WordDTO } from '../../types/dto';
 import { IoIosAddCircle, IoIosRemoveCircle } from "react-icons/io";
 import { TiTick, TiTickOutline } from "react-icons/ti";
-import Modal from "../common/modal/Modal";
-import WordFocusForm from "./WordFocusForm";
+import Modal from "../modal/Modal";
+import WordFocusForm from "../forms/WordFocusForm";
 import { createCard, createCardAll, deleteCardOfWordCardTypeReviewType, getCardById } from "../../services/card-api";
 
 

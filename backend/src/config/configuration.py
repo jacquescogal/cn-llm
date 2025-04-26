@@ -8,3 +8,5 @@ class Config:
         self.db_user = os.getenv('DB_USER')
         self.db_name = os.getenv('DB_NAME')
         self.db_password = os.getenv('DB_PASSWORD')
+        self.openai_api_key = os.getenv('OPENAI_API_KEY')
+        self.openai_model = os.getenv('OPENAI_MODEL')

@@ -3,8 +3,8 @@ from fsrs import Card as fsrsCard, State, FSRS, Rating, ReviewLog
 from datetime import datetime, timezone
 from src.model.word_model import WordModel
 from src.enums import *
-from typing import Optional, List
-import json
+from typing import Optional, List,Dict
+from .review_content import ReviewContent
 
 
 class FSRSCardModel(BaseModel):
@@ -45,17 +45,6 @@ class FSRSCardModel(BaseModel):
             last_review=card.to_dict().get('last_review', None)
         )
 
-class CardContent(BaseModel):
-    question: str
-
-    def get_json(self):
-        return json.dumps(self.dict())
-
-class SingleAnswerCardContent(CardContent):
-    answer: str
-
-class OrderedAnswerCardContent(CardContent):
-    answer_list: List[str]
 
 class CardModel(BaseModel):
     card_id: Optional[int] = Field(default=0)
@@ -70,7 +59,7 @@ class CardModel(BaseModel):
     lapses: Optional[int] = Field(default=None)
     state: Optional[State] = Field(default=None)
     last_review_dt_unix: Optional[int] = Field(default=None)
-    card_content: Optional[CardContent] = Field(default=None)
+    card_content: Optional[ReviewContent] = Field(default=None)
     is_disabled: Optional[bool] = Field(default=False)
     
     @classmethod

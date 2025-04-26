@@ -30,8 +30,7 @@ export enum CardType {
 export enum ReviewType {
     OpenEnded = 1,
     MCQ = 2,
-    OCR = 3,
-    DRAG_AND_DROP = 4
+    DRAG_AND_DROP = 3
 }
 
 export interface WordDTO{
@@ -64,12 +63,7 @@ export interface CardDTO {
     is_disabled: boolean;
 }
 
-export interface ReviewDTO {
-    card_id: number;
-    card_type: CardType;
-    review_type: ReviewType;
-    card_content_json: string; // decoded JSON string
-}
+
 
 export interface ReadCardDTO {
     word: WordDTO;
@@ -94,4 +88,15 @@ export interface WordPageDTO{
 export interface WordSearchFilter {
     hsk?: number[];
     learnt?: boolean; 
+}
+
+export interface ReviewDTO{
+    card: CardDTO
+    question: string
+    hanzi?: string
+    pinyin?: string
+    toneless_pinyin?: string
+    meaning?:string
+    options?: string[]
+    map_to?: Map<string, string>
 }

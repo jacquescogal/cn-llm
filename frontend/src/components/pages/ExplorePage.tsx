@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { HSKLevel, PageMetaDTO, WordDTO, WordSearchFilter } from "../../types/dto";
 import { getWordList, getWordListBySearch } from "../../services/word-api";
-import ExploreCard from "./ExploreCard";
-import SearchBar from "./SearchBar";
+import ExploreCard from "../card/ExploreCard";
+import SearchBar from "../input/SearchBar";
 
 interface FilterCheck {
   label: string;

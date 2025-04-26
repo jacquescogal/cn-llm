@@ -1,5 +1,5 @@
 from src.repos.word_repo import WordRepo
-from src.dto import *
+from src.model.dto import *
 from typing import *
 class WordController:
     def __init__(self, word_repo: WordRepo):

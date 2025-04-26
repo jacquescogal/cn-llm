@@ -1,3 +1,4 @@
-from src.model.word_model import *
-from src.model.card_model import *
-from src.model.card_word_map_model import *
+from .word_model import *
+from .card_model import *
+from .card_word_map_model import *
+from .review_content import *

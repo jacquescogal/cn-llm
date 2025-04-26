@@ -1,7 +1,7 @@
 from src.routers import *
 from src.controllers import *
 from fastapi import APIRouter
-from src.dto import *
+from src.model.dto import *
 from typing import List, Tuple
 word_router = APIRouter()
 

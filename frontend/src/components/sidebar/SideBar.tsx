@@ -24,15 +24,15 @@ const SideBar = () => {
       name: "Collection",
       icon: <MdMenuBook />,
       children: [
-        {
-          name: "View/Edit",
-          icon: <BiEdit />,
-          link: "/collection",
-        },
+        // {
+        //   name: "View/Edit",
+        //   icon: <BiEdit />,
+        //   link: "/collection",
+        // },
         {
           name: "Review",
           icon: <HiMiniPencil />,
-          link: "/review-due",
+          link: "/test",
         },
       ],
     },

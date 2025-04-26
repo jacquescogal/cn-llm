@@ -1,0 +1,3 @@
+from .review_generator_factory import ReviewGeneratorFactory
+
+review_generator_factory = ReviewGeneratorFactory()
