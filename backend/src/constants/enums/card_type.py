@@ -6,3 +6,4 @@ class CardType(Enum):
     HANZI = 3
     TONE = 4
     PARAGRAPH = 5
+    SHORT_PARAGRAPH = 6

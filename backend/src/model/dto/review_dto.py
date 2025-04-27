@@ -1,6 +1,6 @@
 from pydantic import BaseModel, field_validator
 from typing import List, Optional
-from src.enums import *
+from src.constants.enums import *
 from src.model.dto.card_dto import *
 
 # review the card

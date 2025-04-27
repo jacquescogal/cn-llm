@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import List, Optional, Dict
-from src.enums import *
+from src.constants.enums import *
 
 class QuestionDTO(BaseModel):
     question: str

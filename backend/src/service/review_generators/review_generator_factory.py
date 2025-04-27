@@ -1,4 +1,4 @@
-from src.enums import *
+from src.constants.enums import *
 from src.model import *
 from src.service.bot import *
 from .review_generator_interface import ReviewGeneratorInterface
@@ -13,6 +13,7 @@ class ReviewGeneratorFactory:
     _mcq_meaning_review_generator: MCQMeaningReviewGenerator = MCQMeaningReviewGenerator(_gpt_client)
     _mcq_pinyin_review_generator: MCQPinyinReviewGenerator = MCQPinyinReviewGenerator(_gpt_client)
     _mcq_tone_review_generator: MCQToneReviewGenerator = MCQToneReviewGenerator(_gpt_client)
+    _mcq_short_review_generator: MCQShortReviewGenerator = MCQShortReviewGenerator(_gpt_client)
 
     _open_meaning_review_generator: OpenMeaningReviewGenerator = OpenMeaningReviewGenerator(_gpt_client)
     _open_pinyin_review_generator: OpenPinyinReviewGenerator = OpenPinyinReviewGenerator(_gpt_client)
@@ -33,6 +34,8 @@ class ReviewGeneratorFactory:
                 return cls._mcq_tone_review_generator
             case (CardType.HANZI, ReviewType.MCQ):
                 return cls._mcq_hanzi_review_generator
+            case (CardType.SHORT_PARAGRAPH, ReviewType.MCQ):
+                return cls._mcq_short_review_generator
             case (CardType.MEANING, ReviewType.OpenEnded):
                 return cls._open_meaning_review_generator
             case (CardType.PINYIN, ReviewType.OpenEnded):

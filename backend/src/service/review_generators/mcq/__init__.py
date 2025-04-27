@@ -2,3 +2,4 @@ from .mcq_tone_review_generator import MCQToneReviewGenerator
 from .mcq_meaning_review_generator import MCQMeaningReviewGenerator
 from .mcq_hanzi_review_generator import MCQHanziReviewGenerator
 from .mcq_pinyin_review_generator import MCQPinyinReviewGenerator
+from .mcq_short_review_generator import MCQShortReviewGenerator

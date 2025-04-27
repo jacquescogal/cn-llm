@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from src.routers import *
+from src.controllers import *
 app = FastAPI()
 
-app.include_router(word_router)
-app.include_router(card_router)
-app.include_router(review_router)
+app.include_router(word_controller)
+app.include_router(card_controller)
+app.include_router(review_controller)
 
 # add cors  
 app.add_middleware(

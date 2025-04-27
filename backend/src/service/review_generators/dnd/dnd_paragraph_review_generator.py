@@ -19,7 +19,7 @@ class DndParagraphReviewGenerator(ReviewGeneratorInterface):
         response = await self.client.responses.create(
             model=self.model,
             input=[
-                {"role": "system", "content": "Make a chinese cloze question paragraph"},
+                {"role": "system", "content": " paragraph"},
                 {"role": "user", "content": f"Make a paragraph with the following words: {', '.join(hanzi_list)}. The paragraph should be in Chinese and should have a cloze question for each word at least once. The word can be an answer for multiple cloze question boxes. The cloze question box should be in the format of %hanzi_word% meaning that the answer is contained in between the % symbols. The paragraph should be in Chinese and should be a coherent paragraph. The paragraph should be at least 3 sentences long. The paragraph should be simple and easy to understand."}
             ],
             text={

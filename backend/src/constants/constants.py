@@ -1,4 +1,4 @@
-from src.enums import *
+from src.constants.enums import *
 from src.model import *
 
 VALID_REVIEW_COMBINATIONS = {
@@ -7,6 +7,7 @@ VALID_REVIEW_COMBINATIONS = {
     CardType.HANZI: set([ReviewType.MCQ, ReviewType.DRAG_AND_DROP]),
     CardType.TONE: set([ReviewType.MCQ, ReviewType.DRAG_AND_DROP]),
     CardType.PARAGRAPH: set([ReviewType.DRAG_AND_DROP]),
+    CardType.SHORT_PARAGRAPH: set([ReviewType.MCQ]),
 }
 
 MULTI_WORD_CONTENT_MAP = {

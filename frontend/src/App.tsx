@@ -1,8 +1,8 @@
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Base from './components/Base';
+import Base from './components/pages/Base';
 import ExplorePage from './components/pages/ExplorePage';
-import TestPage from './components/TestPage';
+import TestPage from './components/pages/TestPage';
 
 function App() {
   return (

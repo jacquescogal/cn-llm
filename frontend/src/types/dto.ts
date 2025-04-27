@@ -24,7 +24,8 @@ export enum CardType {
     Pinyin = 2,
     Hanzi = 3,
     TONE = 4,
-    PARAGRAPH = 5
+    PARAGRAPH = 5,
+    SHORT_PARAGRAPH = 6,
 }
 
 export enum ReviewType {

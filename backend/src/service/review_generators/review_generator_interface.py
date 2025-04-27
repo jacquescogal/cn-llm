@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from src.enums import *
+from src.constants.enums import *
 from src.model import *
 from src.service.bot import GPTClient
 from src.model import *

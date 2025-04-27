@@ -1,4 +1,4 @@
-from src.db.mysql_db import Database
+from src.repos.db.mysql_db import Database
 from src.model.word_model import WordModel
 from src.model.dto import *
 from typing import List, Tuple

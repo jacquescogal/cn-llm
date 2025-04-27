@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from fsrs import Card as fsrsCard, State, FSRS, Rating, ReviewLog
 from datetime import datetime, timezone
 from src.model.word_model import WordModel
-from src.enums import *
+from src.constants.enums import *
 from typing import Optional, List,Dict
 from .review_content import ReviewContent
 

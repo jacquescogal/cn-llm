@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from src.enums import *
+from src.constants.enums import *
 from typing import Optional
 
 class CardWordMapModel(BaseModel):
